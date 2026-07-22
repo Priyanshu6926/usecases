@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heatwave Watch - Real-Time AWS Monitoring</title>
+  <meta name="description" content="Live monitoring portal for IoT-enabled Automated Weather Stations validating regional heatwave forecasts against ground observations.">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus Jakarta Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <i class="fa-solid fa-temperature-arrow-up"></i>
+        <div class="sidebar-brand-text">HEATAWARE AI</div>
+      </div>
+      <ul class="sidebar-menu">
+        <li class="sidebar-menu-item">
+          <a href="index.html">
+            <i class="fa-solid fa-house-chimney"></i>
+            <span>Overview</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="dashboard.html">
+            <i class="fa-solid fa-chart-column"></i>
+            <span>Forecast Watch</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item active">
+          <a href="monitoring.html">
+            <i class="fa-solid fa-tower-broadcast"></i>
+            <span>Live Monitoring</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="advisories.html">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <span>Alerts & Advisories</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="research.html">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Data & Research</span>
+          </a>
+        </li>
+      </ul>
+      <div class="sidebar-footer">
+        <p>Collaborator: <strong>IMD Pune</strong></p>
+        <p>© 2026 Somaiya Vidyavihar</p>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Mobile Navigation Topbar -->
+      <header class="top-navbar">
+        <button class="mobile-menu-btn" aria-label="Open Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="sidebar-brand-text">HEATAWARE AI</div>
+        <div class="system-status">
+          <div class="status-dot"></div>
+          <span>LIVE</span>
+        </div>
+      </header>
+
+      <!-- Page Header -->
+      <header class="page-header">
+        <div class="page-title">
+          <h1>IoT Weather Station Network</h1>
+          <p>Real-Time Ground-Truth Observations & AI Model Calibration</p>
+        </div>
+        <div class="system-status">
+          <div class="status-dot"></div>
+          <span>Live AWS Feeds Active</span>
+        </div>
+      </header>
+
+      <!-- Section: Calibration / Validation Score Card -->
+      <section class="glass-card validation-card">
+        <div class="section-title-wrap">
+          <h3 class="section-title">Phase IV: Forecast Validation Engine</h3>
+          <p class="section-subtitle">Comparing AI model predictions with local weather station observations in real time</p>
+        </div>
+        <div class="validation-metrics">
+          <div class="validation-score">
+            <div class="validation-circle">97%</div>
+            <div class="validation-info-block">
+              <h4>System-wide Correlation</h4>
+              <p>Validation match rating across all active AWS sensor nodes.</p>
+            </div>
+          </div>
+          <div class="validation-score" style="border-left: 1px solid var(--border-color); padding-left: 32px;">
+            <div class="validation-circle" style="border-color: var(--accent-orange); color: var(--accent-orange); box-shadow: 0 0 10px rgba(249, 115, 22, 0.2);">0.3°</div>
+            <div class="validation-info-block">
+              <h4>Mean Absolute Error (MAE)</h4>
+              <p>Average variance between model predictions & actual readings.</p>
+            </div>
+          </div>
+          <div class="validation-score" style="border-left: 1px solid var(--border-color); padding-left: 32px;">
+            <div class="validation-circle" style="border-color: var(--accent-purple); color: var(--accent-purple); box-shadow: 0 0 10px rgba(139, 92, 246, 0.2);">0.45</div>
+            <div class="validation-info-block">
+              <h4>Root Mean Squared Error (RMSE)</h4>
+              <p>Error standard deviation highlighting edge variance spikes.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: AWS Grid -->
+      <section class="monitoring-header">
+        <div class="section-title-wrap">
+          <h3 class="section-title">Automated Weather Stations (AWS)</h3>
+          <p class="section-subtitle">Real-time local climate sensors streaming data packets (simulated updates every 4s)</p>
+        </div>
+      </section>
+
+      <section class="station-grid" id="aws-stations-container">
+        <!-- Stations will be dynamically rendered and updated here by monitoring.js -->
+        <div style="grid-column: 1 / -1; text-align: center; padding: 40px; color: var(--text-muted);">
+          <i class="fa-solid fa-circle-notch fa-spin" style="font-size: 24px; margin-bottom: 12px;"></i>
+          <p>Connecting to AWS IoT stream...</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- JavaScript Files -->
+  <script src="js/app.js"></script>
+  <script src="js/monitoring.js"></script>
+</body>
+</html>

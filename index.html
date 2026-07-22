@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heatwave Watch - Climate Intelligence & Early Warning</title>
+  <meta name="description" content="AI and IoT-driven climate intelligence system for heatwave forecasting, monitoring, and early warning in collaboration with IMD and Somaiya Vidyavihar University.">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus Jakarta Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <i class="fa-solid fa-temperature-arrow-up"></i>
+        <div class="sidebar-brand-text">HEATAWARE AI</div>
+      </div>
+      <ul class="sidebar-menu">
+        <li class="sidebar-menu-item active">
+          <a href="index.html">
+            <i class="fa-solid fa-house-chimney"></i>
+            <span>Overview</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="dashboard.html">
+            <i class="fa-solid fa-chart-column"></i>
+            <span>Forecast Watch</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="monitoring.html">
+            <i class="fa-solid fa-tower-broadcast"></i>
+            <span>Live Monitoring</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="advisories.html">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <span>Alerts & Advisories</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="research.html">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Data & Research</span>
+          </a>
+        </li>
+      </ul>
+      <div class="sidebar-footer">
+        <p>Collaborator: <strong>IMD Pune</strong></p>
+        <p>© 2026 Somaiya Vidyavihar</p>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Mobile Navigation Topbar -->
+      <header class="top-navbar">
+        <button class="mobile-menu-btn" aria-label="Open Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="sidebar-brand-text">HEATAWARE AI</div>
+        <div class="system-status">
+          <div class="status-dot"></div>
+          <span>LIVE</span>
+        </div>
+      </header>
+
+      <!-- Page Header -->
+      <header class="page-header">
+        <div class="page-title">
+          <h1>Climate Intelligence Platform</h1>
+          <p>Heatwave Monitoring, Prediction, and Early Warning System</p>
+        </div>
+        <div class="system-status">
+          <div class="status-dot"></div>
+          <span>System Active | UTC <span class="system-time-val">--:--</span></span>
+        </div>
+      </header>
+
+      <!-- Hero Banner -->
+      <section class="hero-banner">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span>AI + IoT Climatic Action Plan</span>
+          </div>
+          <h2 class="hero-title">Predicting Heat Stress, Protecting Communities.</h2>
+          <p class="hero-description">
+            Combining long-term meteorological models from the India Meteorological Department (IMD) with IoT-based Automated Weather Stations (AWS) to deliver real-time localized validations and automated, stakeholder-specific emergency advisories.
+          </p>
+          <div class="hero-buttons">
+            <a href="dashboard.html" class="btn btn-primary">
+              <i class="fa-solid fa-gauge-high"></i>
+              <span>Launch Dashboard</span>
+            </a>
+            <a href="advisories.html" class="btn btn-secondary">
+              <i class="fa-solid fa-bell"></i>
+              <span>View Advisories</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Grid: Problem statement & Framework -->
+      <section class="content-grid-2x">
+        <!-- Problem Statement -->
+        <article class="glass-card">
+          <div class="section-title-wrap">
+            <h3 class="section-title">The Challenge</h3>
+            <p class="section-subtitle">Understanding heat vulnerability</p>
+          </div>
+          <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 16px;">
+            Heatwaves are among the most lethal extreme weather events, increasing in frequency, intensity, and duration due to global warming and rapid urban micro-climate changes. Prolonged heat exposure severely degrades public health, drains agricultural productivity, stresses municipal grids, and threatens livelihoods.
+          </p>
+          <p style="font-size: 14px; color: var(--text-secondary);">
+            Because heatwave onset and severity vary highly across regions due to local topography and urban heat islands, generic forecasts fall short. Precise prediction requires integrating macro-scale meteorological data with ground-level real-time sensing.
+          </p>
+        </article>
+
+        <!-- Solution Approach -->
+        <article class="glass-card">
+          <div class="section-title-wrap">
+            <h3 class="section-title">The Architecture</h3>
+            <p class="section-subtitle">Integration of AI models & IoT sensing</p>
+          </div>
+          <div class="schema-timeline">
+            <!-- Step 1 -->
+            <div class="schema-step">
+              <div class="schema-badge">1</div>
+              <div class="schema-content">
+                <h4 class="schema-step-title">Data Acquisition Layer <span class="schema-layer-lbl">Data</span></h4>
+                <p class="schema-desc">Acquiring long-term IMD historical meteorological datasets (GRD) alongside real-time feeds from deployed AWS grids.</p>
+              </div>
+            </div>
+            <!-- Step 2 -->
+            <div class="schema-step">
+              <div class="schema-badge">2</div>
+              <div class="schema-content">
+                <h4 class="schema-step-title">Analytics & Intelligence Layer <span class="schema-layer-lbl">AI Models</span></h4>
+                <p class="schema-desc">Executing spatio-temporal predictions, forecasting maximum temperatures, and classifying severity grades.</p>
+              </div>
+            </div>
+            <!-- Step 3 -->
+            <div class="schema-step">
+              <div class="schema-badge">3</div>
+              <div class="schema-content">
+                <h4 class="schema-step-title">Validation & Decision Support <span class="schema-layer-lbl">UI & LLM</span></h4>
+                <p class="schema-desc">Validating predictions using local AWS readings and deploying LLM models to generate context-specific advisories.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- Beneficiaries Grid -->
+      <section class="section-title-wrap">
+        <h3 class="section-title">Target Beneficiaries</h3>
+        <p class="section-subtitle">Empowering stakeholders with actionable climate intelligence</p>
+      </section>
+
+      <section class="content-grid-3x">
+        <!-- Beneficiary 1 -->
+        <div class="glass-card beneficiary-card">
+          <div class="beneficiary-icon">
+            <i class="fa-solid fa-building-shield"></i>
+          </div>
+          <div class="beneficiary-info">
+            <h4>Disaster Authorities</h4>
+            <p>Providing State & Municipal Disaster Management (SDMA) with hotspot warnings to allocate resources and open cooling centers.</p>
+          </div>
+        </div>
+
+        <!-- Beneficiary 2 -->
+        <div class="glass-card beneficiary-card">
+          <div class="beneficiary-icon">
+            <i class="fa-solid fa-wheat-awn"></i>
+          </div>
+          <div class="beneficiary-info">
+            <h4>Agricultural Agencies</h4>
+            <p>Distributing localized predictions to protect livestock, adjust irrigation cycles, and safeguard field laborers.</p>
+          </div>
+        </div>
+
+        <!-- Beneficiary 3 -->
+        <div class="glass-card beneficiary-card">
+          <div class="beneficiary-icon">
+            <i class="fa-solid fa-hospital-user"></i>
+          </div>
+          <div class="beneficiary-info">
+            <h4>Public Health & Citizens</h4>
+            <p>Alerting hospitals of impending heatstroke surges and warning high-risk demographics with direct advisories.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/app.js"></script>
+</body>
+</html>

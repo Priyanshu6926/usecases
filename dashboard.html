@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heatwave Watch - Forecast Dashboard</title>
+  <meta name="description" content="Interactive dashboard visualising temperature forecasts, heatwave hotspots, and regional heatwave severity levels across India.">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus Jakarta Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <i class="fa-solid fa-temperature-arrow-up"></i>
+        <div class="sidebar-brand-text">HEATAWARE AI</div>
+      </div>
+      <ul class="sidebar-menu">
+        <li class="sidebar-menu-item">
+          <a href="index.html">
+            <i class="fa-solid fa-house-chimney"></i>
+            <span>Overview</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item active">
+          <a href="dashboard.html">
+            <i class="fa-solid fa-chart-column"></i>
+            <span>Forecast Watch</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="monitoring.html">
+            <i class="fa-solid fa-tower-broadcast"></i>
+            <span>Live Monitoring</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="advisories.html">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <span>Alerts & Advisories</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="research.html">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Data & Research</span>
+          </a>
+        </li>
+      </ul>
+      <div class="sidebar-footer">
+        <p>Collaborator: <strong>IMD Pune</strong></p>
+        <p>© 2026 Somaiya Vidyavihar</p>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Mobile Navigation Topbar -->
+      <header class="top-navbar">
+        <button class="mobile-menu-btn" aria-label="Open Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="sidebar-brand-text">HEATAWARE AI</div>
+        <div class="system-status">
+          <div class="status-dot"></div>
+          <span>LIVE</span>
+        </div>
+      </header>
+
+      <!-- Page Header -->
+      <header class="page-header">
+        <div class="page-title">
+          <h1>Heatwave Watch Dashboard</h1>
+          <p>Region-wise Maximum Temperature Forecast & Severity Classifications</p>
+        </div>
+        <div class="system-status">
+          <div class="status-dot"></div>
+          <span>System Active | UTC <span class="system-time-val">--:--</span></span>
+        </div>
+      </header>
+
+      <!-- Statistics Row -->
+      <section class="stats-grid">
+        <!-- Stat 1: Max Temp -->
+        <div class="glass-card stat-card alert">
+          <div class="stat-header">
+            <span class="stat-title">Max Forecasted Temp</span>
+            <i class="fa-solid fa-temperature-high stat-icon"></i>
+          </div>
+          <div class="stat-value">44.8°C</div>
+          <div class="stat-change up">
+            <i class="fa-solid fa-arrow-trend-up"></i>
+            <span>+1.5°C from last week</span>
+          </div>
+        </div>
+
+        <!-- Stat 2: Active Warnings -->
+        <div class="glass-card stat-card alert">
+          <div class="stat-header">
+            <span class="stat-title">Active Warnings</span>
+            <i class="fa-solid fa-triangle-exclamation stat-icon"></i>
+          </div>
+          <div class="stat-value">5 Regions</div>
+          <div class="stat-change up">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <span>3 Red Alerts active</span>
+          </div>
+        </div>
+
+        <!-- Stat 3: Avg Temp Anomaly -->
+        <div class="glass-card stat-card normal">
+          <div class="stat-header">
+            <span class="stat-title">Avg Temp Anomaly</span>
+            <i class="fa-solid fa-chart-line stat-icon"></i>
+          </div>
+          <div class="stat-value">+3.4°C</div>
+          <div class="stat-change up">
+            <span>Severe deviation detected</span>
+          </div>
+        </div>
+
+        <!-- Stat 4: Deployed AWS -->
+        <div class="glass-card stat-card cyan">
+          <div class="stat-header">
+            <span class="stat-title">Active Station Nodes</span>
+            <i class="fa-solid fa-tower-broadcast stat-icon"></i>
+          </div>
+          <div class="stat-value">12 / 12</div>
+          <div class="stat-change down">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>All systems streaming</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Map and Regional Detail Section -->
+      <section class="dashboard-grid">
+        <!-- India Regional SVG Map -->
+        <article class="glass-card map-card-container">
+          <div class="section-title-wrap">
+            <h3 class="section-title">National Temperature Risk Map</h3>
+            <p class="section-subtitle">Select a region to load spatial intelligence parameters</p>
+          </div>
+          <div class="map-visualizer">
+            <!-- Stylized India Regional Map -->
+            <svg viewBox="0 0 400 450" class="map-svg-element">
+              <!-- North Region -->
+              <path d="M 170 50 L 220 50 L 250 110 L 210 160 L 160 140 Z" class="map-region-path severity-extreme" data-region="north" title="North India"></path>
+              <!-- Northwest Region -->
+              <path d="M 110 110 L 160 140 L 175 200 L 110 200 L 90 140 Z" class="map-region-path severity-extreme" data-region="northwest" title="Northwest India"></path>
+              <!-- West Region -->
+              <path d="M 70 200 L 120 200 L 160 220 L 150 280 L 100 300 L 70 260 Z" class="map-region-path severity-high" data-region="west" title="West India"></path>
+              <!-- Central Region -->
+              <path d="M 160 140 L 210 160 L 250 220 L 230 290 L 160 270 L 175 200 Z" class="map-region-path severity-high" data-region="central" title="Central India"></path>
+              <!-- East Region -->
+              <path d="M 250 220 L 300 220 L 320 280 L 270 310 L 230 290 Z" class="map-region-path severity-low" data-region="east" title="East India"></path>
+              <!-- Northeast Region -->
+              <path d="M 310 130 L 360 110 L 380 150 L 350 200 L 310 190 Z" class="map-region-path severity-none" data-region="northeast" title="Northeast India"></path>
+              <!-- South Region -->
+              <path d="M 160 270 L 230 290 L 240 360 L 200 420 L 170 370 L 150 280 Z" class="map-region-path severity-low" data-region="south" title="South India"></path>
+
+              <!-- Stylized boundaries labels -->
+              <text x="180" y="90" fill="#fff" font-size="10" font-family="Outfit" text-anchor="middle" pointer-events="none">NORTH</text>
+              <text x="120" y="160" fill="#fff" font-size="10" font-family="Outfit" text-anchor="middle" pointer-events="none">N. WEST</text>
+              <text x="110" y="250" fill="#fff" font-size="10" font-family="Outfit" text-anchor="middle" pointer-events="none">WEST</text>
+              <text x="195" y="210" fill="#fff" font-size="10" font-family="Outfit" text-anchor="middle" pointer-events="none">CENTRAL</text>
+              <text x="275" y="260" fill="#fff" font-size="10" font-family="Outfit" text-anchor="middle" pointer-events="none">EAST</text>
+              <text x="340" y="150" fill="#fff" font-size="10" font-family="Outfit" text-anchor="middle" pointer-events="none">N. EAST</text>
+              <text x="195" y="340" fill="#fff" font-size="10" font-family="Outfit" text-anchor="middle" pointer-events="none">SOUTH</text>
+            </svg>
+          </div>
+          <div class="map-legend">
+            <div class="legend-item">
+              <span class="legend-color normal"></span>
+              <span>Normal (< 37°C)</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-color low"></span>
+              <span>Mild Heat (37 - 40°C)</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-color high"></span>
+              <span>Severe Heat (40 - 43°C)</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-color extreme"></span>
+              <span>Extreme Heatwave (> 43°C)</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Selected Region Forecast Details -->
+        <article class="glass-card regional-details-card">
+          <div>
+            <div class="region-detail-header">
+              <h3 class="region-detail-title" id="selected-region-name">Northwest India</h3>
+              <span class="region-detail-badge badge-extreme" id="selected-region-status">Extreme Alert</span>
+            </div>
+            <div class="region-details-list">
+              <div class="detail-row">
+                <span class="detail-lbl">Average Temp Forecast</span>
+                <span class="detail-val" id="selected-region-temp">44.5°C</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-lbl">Deviation (Anomaly)</span>
+                <span class="detail-val" id="selected-region-anomaly">+5.2°C</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-lbl">Confidence Level</span>
+                <span class="detail-val" id="selected-region-confidence">94.6%</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-lbl">Primary AI Model</span>
+                <span class="detail-val">LSTM-Spatial-V3</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-lbl">Top Risk Hotspots</span>
+                <span class="detail-val" id="selected-region-hotspots">Jaipur, Jodhpur, Bikaner</span>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--border-color);">
+            <a href="advisories.html" class="btn btn-primary btn-block">
+              <i class="fa-solid fa-bullhorn"></i>
+              <span>Generate Region Advisories</span>
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <!-- Forecast Trends & Spatial Analysis Charts -->
+      <section class="charts-grid">
+        <!-- Line Chart: Spatio-temporal Forecast -->
+        <article class="glass-card">
+          <div class="section-title-wrap">
+            <h3 class="section-title">7-Day Maximum Temp Projection</h3>
+            <p class="section-subtitle">Forecast values generated by AI-driven predictive models</p>
+          </div>
+          <div class="chart-container">
+            <canvas id="tempProjectionChart"></canvas>
+          </div>
+        </article>
+
+        <!-- Bar Chart: Historic Heatwave Days -->
+        <article class="glass-card">
+          <div class="section-title-wrap">
+            <h3 class="section-title">Annual Extreme Heatwave Days</h3>
+            <p class="section-subtitle">Historical trend showing rising duration of severe heat cycles (IMD Data)</p>
+          </div>
+          <div class="chart-container">
+            <canvas id="heatwaveDaysChart"></canvas>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- JavaScript Files -->
+  <script src="js/app.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

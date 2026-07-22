@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heatwave Watch - Advisories & Alerts Portal</title>
+  <meta name="description" content="AI-assisted heatwave advisory generator translating meteorological telemetry into stakeholder warnings for farmers, health officials, and citizens.">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus Jakarta Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <i class="fa-solid fa-temperature-arrow-up"></i>
+        <div class="sidebar-brand-text">HEATAWARE AI</div>
+      </div>
+      <ul class="sidebar-menu">
+        <li class="sidebar-menu-item">
+          <a href="index.html">
+            <i class="fa-solid fa-house-chimney"></i>
+            <span>Overview</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="dashboard.html">
+            <i class="fa-solid fa-chart-column"></i>
+            <span>Forecast Watch</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="monitoring.html">
+            <i class="fa-solid fa-tower-broadcast"></i>
+            <span>Live Monitoring</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item active">
+          <a href="advisories.html">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <span>Alerts & Advisories</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="research.html">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Data & Research</span>
+          </a>
+        </li>
+      </ul>
+      <div class="sidebar-footer">
+        <p>Collaborator: <strong>IMD Pune</strong></p>
+        <p>© 2026 Somaiya Vidyavihar</p>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Mobile Navigation Topbar -->
+      <header class="top-navbar">
+        <button class="mobile-menu-btn" aria-label="Open Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="sidebar-brand-text">HEATAWARE AI</div>
+        <div class="system-status">
+          <div class="status-dot"></div>
+          <span>LIVE</span>
+        </div>
+      </header>
+
+      <!-- Page Header -->
+      <header class="page-header">
+        <div class="page-title">
+          <h1>Advisories & Alerts Portal</h1>
+          <p>Translate Raw Meteorological Projections into Actionable Stakeholder Advisory Warnings</p>
+        </div>
+        <div class="system-status">
+          <div class="status-dot"></div>
+          <span>Dissemination Ready</span>
+        </div>
+      </header>
+
+      <!-- Section: LLM Simulator Advisory Generator -->
+      <section class="section-title-wrap">
+        <h3 class="section-title">AI Advisory Generator</h3>
+        <p class="section-subtitle">Simulate Large Language Model (LLM) translation of technical forecast indexes into emergency action items</p>
+      </section>
+
+      <section class="advisory-selector-container">
+        <!-- Input Form -->
+        <article class="glass-card">
+          <h3 style="font-size: 18px; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px;">Configuration Input</h3>
+          <form id="advisory-form">
+            <!-- Target Stakeholder -->
+            <div class="form-group">
+              <label for="stakeholder">Target Stakeholder / Beneficiary</label>
+              <select id="stakeholder" class="form-control">
+                <option value="farmers">Farmers & Agricultural Agencies</option>
+                <option value="health">Public Health Departments & Hospitals</option>
+                <option value="municipal">Municipal Corporations (Cities)</option>
+                <option value="citizens">General Citizens & Outdoor Workers</option>
+              </select>
+            </div>
+
+            <!-- Affected Region -->
+            <div class="form-group">
+              <label for="region">Affected Climatic Region</label>
+              <select id="region" class="form-control">
+                <option value="Northwest India">Northwest India (Rajasthan/Punjab)</option>
+                <option value="North India">North India (Delhi/UP/Haryana)</option>
+                <option value="West India">West India (Gujarat/Maharashtra)</option>
+                <option value="Central India">Central India (MP/Chhattisgarh)</option>
+                <option value="South India">South India (Telangana/Andhra Pradesh)</option>
+                <option value="East India">East India (Bengal/Bihar)</option>
+              </select>
+            </div>
+
+            <!-- Severity level -->
+            <div class="form-group">
+              <label for="severity">Forecasted Severity Category</label>
+              <select id="severity" class="form-control">
+                <option value="extreme">Extreme Heatwave (Red Alert, > 43°C)</option>
+                <option value="severe">Severe Heatwave (Orange Alert, 40°C - 43°C)</option>
+                <option value="mild">Mild Heatwave (Yellow Alert, 37°C - 40°C)</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="generate-btn">
+              <i class="fa-solid fa-robot"></i>
+              <span>Generate LLM Advisory</span>
+            </button>
+          </form>
+        </article>
+
+        <!-- Output Card -->
+        <article class="glass-card advisory-output-card">
+          <div class="advisory-output-header">
+            <h3 class="advisory-output-title">LLM Advisory Transcript</h3>
+            <span id="advisory-status-badge"></span>
+          </div>
+          <div class="advisory-output-body" id="advisory-output">
+            <div class="advisory-placeholder">
+              <i class="fa-solid fa-comment-dots"></i>
+              <p>Configure parameters on the left and trigger "Generate LLM Advisory" to translate weather data into readable instructions.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- Section: Active Warning Logs -->
+      <section class="section-title-wrap">
+        <h3 class="section-title">Active Alerts Bulletin</h3>
+        <p class="section-subtitle">Real-time alerts broadcasted to state agencies and citizens</p>
+      </section>
+
+      <section class="alerts-list">
+        <!-- Alert 1 -->
+        <div class="alert-row critical">
+          <div class="alert-icon-wrap">
+            <i class="fa-solid fa-skull-crossbones"></i>
+          </div>
+          <div class="alert-meta">
+            <h4 style="display: flex; align-items: center; gap: 12px;">
+              <span>Extreme Heatwave Alert (Red Warning)</span>
+              <span class="alert-badge-lbl">Critical</span>
+            </h4>
+            <p>Northwest region maximum forecast is 45.0°C. High risk of sunstroke. Crop water stress warnings issued.</p>
+          </div>
+          <div class="alert-timestamp">Just Now</div>
+        </div>
+
+        <!-- Alert 2 -->
+        <div class="alert-row warning">
+          <div class="alert-icon-wrap">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+          </div>
+          <div class="alert-meta">
+            <h4 style="display: flex; align-items: center; gap: 12px;">
+              <span>Severe Heatwave Alert (Orange Warning)</span>
+              <span class="alert-badge-lbl">Warning</span>
+            </h4>
+            <p>Central India (Bhopal, Jhansi) expected to observe temperatures of 42.8°C. Power grid warnings deployed.</p>
+          </div>
+          <div class="alert-timestamp">12 mins ago</div>
+        </div>
+
+        <!-- Alert 3 -->
+        <div class="alert-row info">
+          <div class="alert-icon-wrap">
+            <i class="fa-solid fa-info"></i>
+          </div>
+          <div class="alert-meta">
+            <h4 style="display: flex; align-items: center; gap: 12px;">
+              <span>High Humidity Heat Warning (Yellow Warning)</span>
+              <span class="alert-badge-lbl">Advisory</span>
+            </h4>
+            <p>East India (Kolkata) observations show elevated relative humidity (58%). Heat Index values nearing 41.5°C.</p>
+          </div>
+          <div class="alert-timestamp">1 hr ago</div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- JavaScript Files -->
+  <script src="js/app.js"></script>
+  <script src="js/advisories.js"></script>
+</body>
+</html>
