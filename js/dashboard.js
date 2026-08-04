@@ -216,6 +216,17 @@ function updateRegionDisplay(regionKey) {
   // Reset status badges
   statusEl.className = 'region-detail-badge ' + data.badgeClass;
 
+  // Update advisory button link URL params
+  const advisoryBtn = document.getElementById('region-advisory-btn');
+  if (advisoryBtn) {
+    let severityParam = 'extreme';
+    if (data.status === 'Severe Heat') severityParam = 'severe';
+    else if (data.status === 'Mild Heat') severityParam = 'mild';
+    else if (data.status === 'Normal Risk') severityParam = 'mild';
+    
+    advisoryBtn.href = `advisories.html?region=${regionKey}&severity=${severityParam}`;
+  }
+
   // Update chart data
   if (projectionChart) {
     projectionChart.data.datasets[0].data = data.forecast;

@@ -124,6 +124,24 @@ document.addEventListener('DOMContentLoaded', () => {
   if (form) {
     form.addEventListener('submit', handleFormSubmit);
   }
+
+  // Parse URL parameters (e.g. ?region=west&severity=severe)
+  const urlParams = new URLSearchParams(window.location.search);
+  const regionParam = urlParams.get('region');
+  const severityParam = urlParams.get('severity');
+
+  const regionSelect = document.getElementById('region');
+  const severitySelect = document.getElementById('severity');
+
+  if (regionParam && regionSelect) {
+    const matchedOpt = Array.from(regionSelect.options).find(opt => opt.value === regionParam);
+    if (matchedOpt) regionSelect.value = regionParam;
+  }
+
+  if (severityParam && severitySelect) {
+    const matchedOpt = Array.from(severitySelect.options).find(opt => opt.value === severityParam);
+    if (matchedOpt) severitySelect.value = severityParam;
+  }
 });
 
 /**
