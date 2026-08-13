@@ -230,7 +230,6 @@ To add basic page tracking to a website:
 3. Successfully integrated the global site tag (`gtag.js`) into a multi-page web application.
 4. Verified real-time user tracking, pageviews, and network event logging using browser developer tools and Google Analytics Realtime Dashboard.
 
-
 10. CONCLUSION
 --------------------------------------------------------------------------------
 The setup of Google Analytics for the website was successfully completed and verified. 

@@ -1,0 +1,37 @@
+# ================================================================================
+# ROBOTS.TXT FOR HEATAWARE AI - CLIMATE INTELLIGENCE PLATFORM
+# Somaiya Vidyavihar University & IMD Pune Project
+# ================================================================================
+
+# Global Crawler Rules (Googlebot, Bingbot, Slurp, DuckDuckBot, etc.)
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /dashboard.html
+Allow: /monitoring.html
+Allow: /advisories.html
+Allow: /research.html
+Allow: /css/
+Allow: /js/
+
+# Disallow Internal Directories, Build Artifacts, and Test Suites
+Disallow: /mutants/
+Disallow: /tests/
+Disallow: /.pytest_cache/
+Disallow: /__pycache__/
+Disallow: /.git/
+Disallow: /mutation_runner.py
+Disallow: /weather_analytics.py
+Disallow: /conftest.py
+Disallow: /pytest.ini
+Disallow: /setup.cfg
+
+# Specific Crawler Directives & Rate Limiting
+User-agent: BadBot
+Disallow: /
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+# XML Sitemap Specification
+Sitemap: https://priyanshu.github.io/usecases/sitemap.xml
