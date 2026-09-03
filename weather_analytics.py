@@ -11,8 +11,9 @@ def calculate_temperature_anomaly(current_temp: float, baseline_temp: float) -> 
     Calculates the temperature anomaly against baseline climate averages.
     Returns anomaly rounded to 1 decimal place.
     """
-    if not isinstance(current_temp, (int, float)) or not isinstance(baseline_temp, (int, float)):
-        raise TypeError("Temperature values must be numeric (int or float).")
+    if not isinstance(current_temp, (int, float)) or isinstance(current_temp, bool) or \
+       not isinstance(baseline_temp, (int, float)) or isinstance(baseline_temp, bool):
+        raise TypeError("Temperature values must be numeric (int or float) and not boolean.")
     return round(float(current_temp) - float(baseline_temp), 1)
 
 

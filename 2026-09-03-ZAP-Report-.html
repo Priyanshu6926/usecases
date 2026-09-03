@@ -1,0 +1,3470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZAP by Checkmarx Scanning Report</title>
+<link
+	href="2026-09-03-ZAP-Report-/normalize/normalize.css" rel="stylesheet">
+<link
+	href="2026-09-03-ZAP-Report-/themes/original/main.css" rel="stylesheet">
+<link
+	href="2026-09-03-ZAP-Report-/themes/original/colors.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>ZAP by Checkmarx Scanning Report</h1>
+		<p>
+			<span>Generated with</span> <a href="https://zaproxy.org"><img
+				src="2026-09-03-ZAP-Report-/zap32x32.png" alt="The ZAP logo" class="zap-logo">ZAP</a>
+			<span>on Thu 3 Sept 2026, at 13:22:19</span>
+		</p>
+		<p>ZAP Version: 2.17.0</p>
+		<p>
+			ZAP by <a href="https://checkmarx.com/">Checkmarx</a>
+		</p>
+	</header>
+
+	<main>
+
+		<section id="contents" class="contents">
+			<h2>Contents</h2>
+			<nav>
+				<ol>
+					<li><a
+						href="#about-this-report">About This Report</a>
+						<ol>
+							
+							<li><a
+								href="#report-parameters">Report Parameters</a></li>
+						</ol></li>
+					<data-th-block>
+					<li><a
+						href="#summaries">Summaries</a>
+						<ol>
+							<li><a
+								href="#risk-confidence-counts">Alert Counts by Risk and Confidence</a></li>
+							<li><a
+								href="#site-risk-counts">Alert Counts by Site and Risk</a></li>
+							<li><a
+								href="#alert-type-counts">Alert Counts by Alert Type</a></li>
+							<li><a
+								href="#insights">Insights</a></li>
+						</ol></li>
+					<li><a
+						href="#alerts">Alerts</a>
+						<ol>
+							
+							 
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-2-confidence-3"><span>Risk</span>=<span
+									class="risk-level">Medium</span>, <span>Confidence</span>=<span
+									class="confidence-level">High</span> <span>(3)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-2-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Medium</span>, <span>Confidence</span>=<span
+									class="confidence-level">Medium</span> <span>(1)</span></a></li>
+							
+							
+							  
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-1-confidence-3"><span>Risk</span>=<span
+									class="risk-level">Low</span>, <span>Confidence</span>=<span
+									class="confidence-level">High</span> <span>(1)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-1-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Low</span>, <span>Confidence</span>=<span
+									class="confidence-level">Medium</span> <span>(2)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-1-confidence-1"><span>Risk</span>=<span
+									class="risk-level">Low</span>, <span>Confidence</span>=<span
+									class="confidence-level">Low</span> <span>(1)</span></a></li>
+							  
+							
+							
+							
+							
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-0-confidence-1"><span>Risk</span>=<span
+									class="risk-level">Informational</span>, <span>Confidence</span>=<span
+									class="confidence-level">Low</span> <span>(2)</span></a></li>
+							  
+						</ol></li>
+					<li><a
+						href="#appendix">Appendix</a>
+						<ol>
+							<li><a
+								href="#alert-types">Alert Types</a></li>
+						</ol></li>
+					</data-th-block>
+				</ol>
+			</nav>
+		</section>
+
+		<section
+			id="about-this-report" class="about-this-report">
+			<h2>About This Report</h2>
+
+			
+
+			<section
+				id="report-parameters">
+				<h3>Report Parameters</h3>
+				<div class="report-parameters--container">
+					<h4>Contexts</h4>
+					
+					
+					<p>No contexts were selected, so all contexts were included by default.</p>
+					  
+
+					<h4>Sites</h4>
+					
+					<p>The following sites were included:</p>
+					<ul class="sites-list">
+						<li><span class="site">http://localhost:8000</span></li>
+					</ul>
+					
+					<p>(If no sites were selected, all sites were included by default.)</p>
+					<p>An included site must also be within one of the included contexts for its data to be included in the report.</p>
+
+					<h4>Risk levels</h4>
+					<p>
+						<span>Included</span>:
+						 
+						<span class="included-risk-codes"><span class="risk-level">High</span>, <span class="risk-level">Medium</span>, <span class="risk-level">Low</span>, <span class="risk-level">Informational</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						 <span>None</span>
+						
+					</p>
+
+					<h4>Confidence levels</h4>
+					<p>
+						<span>Included</span>:
+						
+						
+						<span class="included-confidence-codes"><span class="confidence-level">User Confirmed</span>, <span class="confidence-level">High</span>, <span class="confidence-level">Medium</span>, <span class="confidence-level">Low</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						
+						
+						<span class="included-confidence-codes"> <span class="confidence-level">User Confirmed</span>, <span class="confidence-level">High</span>, <span class="confidence-level">Medium</span>, <span class="confidence-level">Low</span>, <span class="confidence-level">False Positive</span></span>
+					</p>
+				</div>
+			</section>
+		</section>
+
+		
+		<section>
+			
+		</section>
+		
+		<section id="summaries" class="summaries">
+			<h2>Summaries</h2>
+
+			<section
+				id="risk-confidence-counts">
+				<h3>Alert Counts by Risk and Confidence</h3>
+				<table class="risk-confidence-counts-table">
+					<caption>
+						<p>This table shows the number of alerts for each level of risk and confidence included in the report.</p>
+						<p>(The percentages in brackets represent the count as a percentage of the total number of alerts included in the report, rounded to one decimal place.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%">
+						<col style="width: 14.0%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup"
+								colspan="5">Confidence</th>
+						</tr>
+						<tr>
+							<th scope="col">User Confirmed</th>
+							<th scope="col">High</th>
+							<th scope="col">Medium</th>
+							<th scope="col">Low</th>
+							<th scope="col">Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="5">Risk</th>
+							<th scope="row">High</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Medium</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(30.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(10.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>4</span><br> <span class="additional-info-percentages">(40.0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Low</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(10.0%)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(20.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(10.0%)</span></td>
+							<td><span>4</span><br> <span class="additional-info-percentages">(40.0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Informational</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(20.0%)</span></td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(20.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row">Total</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(40.0%)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(30.0%)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(30.0%)</span></td>
+							<td><span>10</span><br> <span
+								class="additional-info-percentages">(100%)</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="site-risk-counts">
+				<h3>Alert Counts by Site and Risk</h3>
+				<table class="site-risk-counts-table">
+					<caption>
+						<p>This table shows, for each site for which one or more alerts were raised, the number of alerts raised at each risk level.</p>
+						<p>Alerts with a confidence level of &quot;False Positive&quot; have been excluded from these counts.</p>
+						<p>(The numbers in brackets are the number of alerts raised for the site at or above that risk level.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup" colspan="4">Risk</th>
+						</tr>
+						<tr>
+							<th scope="col">
+								<span>High</span><br>  <span
+									class="additional-info-percentages">(= High)</span>  
+							</th>
+							<th scope="col">
+								<span>Medium</span><br>   <span
+									class="additional-info-percentages">(&gt;= Medium)</span> 
+							</th>
+							<th scope="col">
+								<span>Low</span><br>   <span
+									class="additional-info-percentages">(&gt;= Low)</span> 
+							</th>
+							<th scope="col">
+								<span>Informational</span><br>   <span
+									class="additional-info-percentages">(&gt;= Informational)</span> 
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="1">Site</th>
+							<th scope="row">http://localhost:8000</th>
+							
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0)</span></td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(4)</span></td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(8)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(10)</span></td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="alert-type-counts">
+				<h3>Alert Counts by Alert Type</h3>
+				<table class="alert-type-counts-table">
+					<caption>
+						<p>This table shows the number of alerts of each alert type, together with the alert type&#39;s risk level.</p>
+						<p>(The percentages in brackets represent each count as a percentage, rounded to one decimal place, of the total number of alerts included in this report.)</p>
+					</caption>
+					<thead>
+						<tr>
+							<th scope="col">Alert type</th>
+							<th scope="col">Risk</th>
+							<th scope="col">Count</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-0">Content Security Policy (CSP) Header Not Set</a></th>
+							<td class="risk-level">Medium</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(50.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-1">Hidden File Found</a></th>
+							<td class="risk-level">Medium</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(10.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-2">Missing Anti-clickjacking Header</a></th>
+							<td class="risk-level">Medium</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(50.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-3">Sub Resource Integrity Attribute Missing</a></th>
+							<td class="risk-level">Medium</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(50.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-4">Cross-Domain JavaScript Source File Inclusion</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(50.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-5">Server Leaks Version Information via &quot;Server&quot; HTTP Response Header Field</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(50.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-6">Timestamp Disclosure - Unix</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(50.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-7">X-Content-Type-Options Header Missing</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(50.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-8">Information Disclosure - Suspicious Comments</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(30.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-9">User Controllable HTML Element Attribute (Potential XSS)</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(20.0%)</span></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th scope="row">Total</th>
+							<td></td>
+							<td>10</td>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+			
+			<section
+				id="insights">
+				<h3 class="left-header">Insights</h3>
+				<table class="insights-table">
+						<caption>
+						<p>This table shows information that is likely to be very relevant to you, but which is not related to vulnerabilities, or potentially even related to the application in question.</p>
+					</caption>
+					<thead>
+					<tr>
+						<th scope="col">Level</th>
+						<th scope="col">Reason</th>
+						<th scope="col">Site</th>
+						<th scope="col">Description</th>
+						<th scope="col">Statistic</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+						<td class="risk-1">
+							<div>Low</div>
+						</td>
+						<td>
+							<div>Warning</div>
+						</td>
+						<td>
+							<div></div>
+						</td>
+						<td>
+							<div>ZAP warnings logged - see the zap.log file for details</div>
+						</td>
+						<td align="center">
+							<div>1   </div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>http://localhost:8000</div>
+						</td>
+						<td>
+							<div>Percentage of responses with status code 2xx</div>
+						</td>
+						<td align="center">
+							<div>49 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>http://localhost:8000</div>
+						</td>
+						<td>
+							<div>Percentage of responses with status code 4xx</div>
+						</td>
+						<td align="center">
+							<div>49 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>http://localhost:8000</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type application/octet-stream</div>
+						</td>
+						<td align="center">
+							<div>44 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>http://localhost:8000</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type application/x-python-code</div>
+						</td>
+						<td align="center">
+							<div>5 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>http://localhost:8000</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type text/html</div>
+						</td>
+						<td align="center">
+							<div>41 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>http://localhost:8000</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type text/javascript</div>
+						</td>
+						<td align="center">
+							<div>1 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>http://localhost:8000</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type text/x-python</div>
+						</td>
+						<td align="center">
+							<div>4 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>http://localhost:8000</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with method GET</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Info</div>
+						</td>
+						<td>
+							<div>Informational</div>
+						</td>
+						<td>
+							<div>http://localhost:8000</div>
+						</td>
+						<td>
+							<div>Count of total endpoints</div>
+						</td>
+						<td align="center">
+							<div>241   </div>
+						</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</section>
+		</section>
+
+		<section id="alerts" class="alerts">
+			<h2>Alerts</h2>
+			<ol>
+				
+				 
+				 
+				
+				
+				<li id="alerts--risk-2-confidence-3">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Medium</span>, <span>Confidence</span>=<span
+							class="confidence-level">High</span> <span>(3)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8000</span> <span>(3)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-0">Content Security Policy (CSP) Header Not Set</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8000/css/</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (276 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8000/css/ HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://localhost:8000/robots.txt
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (155 bytes)</summary>
+				
+				<pre><code>HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.14.5
+Date: Thu, 03 Sep 2026 07:46:06 GMT
+Content-type: text/html; charset=utf-8
+Content-Length: 307
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (307 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE HTML&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+:root {
+color-scheme: light dark;
+}
+&lt;/style&gt;
+&lt;title&gt;Directory listing for /css/&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Directory listing for /css/&lt;/h1&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;style.css&quot;&gt;style.css&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-1">Hidden File Found</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8000/.git/config</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_FULL = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/538.html">CWE-538</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/05-Enumerate_Infrastructure_and_Application_Admin_Interfaces">WSTG-v42-CONF-05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>A sensitive file was identified as accessible or available. This may leak administrative, configuration, or credential information which can be leveraged by a malicious individual to further attack the system or conduct social engineering efforts.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>git_dir</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (240 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8000/.git/config HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (201 bytes)</summary>
+				
+				<pre><code>HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.14.5
+Date: Thu, 03 Sep 2026 07:46:12 GMT
+Content-type: application/octet-stream
+Content-Length: 344
+Last-Modified: Thu, 23 Jul 2026 08:19:14 GMT
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (344 bytes)</summary>
+				
+				<pre><code>[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote &quot;origin&quot;]
+	url = https://github.com/Priyanshu6926/usecases.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch &quot;main&quot;]
+	remote = origin
+	merge = refs/heads/main
+	vscode-merge-base = origin/main
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>HTTP/1.0 200 OK</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Consider whether or not the component is actually required in production, if it isn&#39;t then disable it. If it is then ensure access to it requires appropriate authentication and authorization, or limit exposure to internal systems or specific source IPs, etc.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-3">Sub Resource Integrity Attribute Missing</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8000/monitoring.html</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/345.html">CWE-345</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_DEV_STD = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (287 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8000/monitoring.html HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://localhost:8000/robots.txt
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (187 bytes)</summary>
+				
+				<pre><code>HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.14.5
+Date: Thu, 03 Sep 2026 07:46:06 GMT
+Content-type: text/html
+Content-Length: 6729
+Last-Modified: Thu, 13 Aug 2026 09:00:53 GMT
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (6729 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Heatwave Watch - Real-Time AWS Monitoring&lt;/title&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;Live monitoring portal for IoT-enabled Automated Weather Stations validating regional heatwave forecasts against ground observations.&quot;&gt;
+  &lt;link rel=&quot;canonical&quot; href=&quot;https://priyanshu.github.io/usecases/monitoring.html&quot;&gt;
+  &lt;link rel=&quot;sitemap&quot; type=&quot;application/xml&quot; title=&quot;Sitemap&quot; href=&quot;sitemap.xml&quot;&gt;
+  &lt;!-- Google Fonts --&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;
+  &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Plus Jakarta Sans:wght@400;500;600;700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;!-- FontAwesome Icons --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css&quot;&gt;
+  &lt;!-- Custom Styles --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
+  &lt;!-- Google Analytics GA4 Tracking Tag (gtag.js) --&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-3TN6PC8751&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-3TN6PC8751&#39;, {
+      &#39;cookie_domain&#39;: &#39;auto&#39;,
+      &#39;cookie_flags&#39;: &#39;SameSite=None;Secure&#39;
+    });
+    
+    // Send explicit page_view event (supports file:// &amp; localhost)
+    gtag(&#39;event&#39;, &#39;page_view&#39;, {
+      &#39;page_title&#39;: document.title,
+      &#39;page_location&#39;: window.location.href,
+      &#39;page_path&#39;: window.location.pathname
+    });
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;app-container&quot;&gt;
+    &lt;!-- Sidebar Navigation --&gt;
+    &lt;aside class=&quot;sidebar&quot;&gt;
+      &lt;div class=&quot;sidebar-brand&quot;&gt;
+        &lt;i class=&quot;fa-solid fa-temperature-arrow-up&quot;&gt;&lt;/i&gt;
+        &lt;div class=&quot;sidebar-brand-text&quot;&gt;HEATAWARE AI&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;ul class=&quot;sidebar-menu&quot;&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;index.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-house-chimney&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Overview&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;dashboard.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-chart-column&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Forecast Watch&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item active&quot;&gt;
+          &lt;a href=&quot;monitoring.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-tower-broadcast&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Live Monitoring&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;advisories.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-triangle-exclamation&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Alerts &amp; Advisories&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;research.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-graduation-cap&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Data &amp; Research&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;div class=&quot;sidebar-footer&quot;&gt;
+        &lt;p&gt;Collaborator: &lt;strong&gt;IMD Pune&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;© 2026 Somaiya Vidyavihar&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/aside&gt;
+
+    &lt;!-- Main Content Area --&gt;
+    &lt;main class=&quot;main-content&quot;&gt;
+      &lt;!-- Mobile Navigation Topbar --&gt;
+      &lt;header class=&quot;top-navbar&quot;&gt;
+        &lt;button class=&quot;mobile-menu-btn&quot; aria-label=&quot;Open Menu&quot;&gt;
+          &lt;i class=&quot;fa-solid fa-bars&quot;&gt;&lt;/i&gt;
+        &lt;/button&gt;
+        &lt;div class=&quot;sidebar-brand-text&quot;&gt;HEATAWARE AI&lt;/div&gt;
+        &lt;div class=&quot;system-status&quot;&gt;
+          &lt;div class=&quot;status-dot&quot;&gt;&lt;/div&gt;
+          &lt;span&gt;LIVE&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/header&gt;
+
+      &lt;!-- Page Header --&gt;
+      &lt;header class=&quot;page-header&quot;&gt;
+        &lt;div class=&quot;page-title&quot;&gt;
+          &lt;h1&gt;IoT Weather Station Network&lt;/h1&gt;
+          &lt;p&gt;Real-Time Ground-Truth Observations &amp; AI Model Calibration&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;system-status&quot;&gt;
+          &lt;div class=&quot;status-dot&quot;&gt;&lt;/div&gt;
+          &lt;span&gt;Live AWS Feeds Active&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/header&gt;
+
+      &lt;!-- Section: Calibration / Validation Score Card --&gt;
+      &lt;section class=&quot;glass-card validation-card&quot;&gt;
+        &lt;div class=&quot;section-title-wrap&quot;&gt;
+          &lt;h3 class=&quot;section-title&quot;&gt;Phase IV: Forecast Validation Engine&lt;/h3&gt;
+          &lt;p class=&quot;section-subtitle&quot;&gt;Comparing AI model predictions with local weather station observations in real time&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;validation-metrics&quot;&gt;
+          &lt;div class=&quot;validation-score&quot;&gt;
+            &lt;div class=&quot;validation-circle&quot;&gt;97%&lt;/div&gt;
+            &lt;div class=&quot;validation-info-block&quot;&gt;
+              &lt;h4&gt;System-wide Correlation&lt;/h4&gt;
+              &lt;p&gt;Validation match rating across all active AWS sensor nodes.&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;validation-score&quot; style=&quot;border-left: 1px solid var(--border-color); padding-left: 32px;&quot;&gt;
+            &lt;div class=&quot;validation-circle&quot; style=&quot;border-color: var(--accent-orange); color: var(--accent-orange); box-shadow: 0 0 10px rgba(249, 115, 22, 0.2);&quot;&gt;0.3°&lt;/div&gt;
+            &lt;div class=&quot;validation-info-block&quot;&gt;
+              &lt;h4&gt;Mean Absolute Error (MAE)&lt;/h4&gt;
+              &lt;p&gt;Average variance between model predictions &amp; actual readings.&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;validation-score&quot; style=&quot;border-left: 1px solid var(--border-color); padding-left: 32px;&quot;&gt;
+            &lt;div class=&quot;validation-circle&quot; style=&quot;border-color: var(--accent-purple); color: var(--accent-purple); box-shadow: 0 0 10px rgba(139, 92, 246, 0.2);&quot;&gt;0.45&lt;/div&gt;
+            &lt;div class=&quot;validation-info-block&quot;&gt;
+              &lt;h4&gt;Root Mean Squared Error (RMSE)&lt;/h4&gt;
+              &lt;p&gt;Error standard deviation highlighting edge variance spikes.&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+
+      &lt;!-- Section: AWS Grid --&gt;
+      &lt;section class=&quot;monitoring-header&quot;&gt;
+        &lt;div class=&quot;section-title-wrap&quot;&gt;
+          &lt;h3 class=&quot;section-title&quot;&gt;Automated Weather Stations (AWS)&lt;/h3&gt;
+          &lt;p class=&quot;section-subtitle&quot;&gt;Real-time local climate sensors streaming data packets (simulated updates every 4s)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+
+      &lt;section class=&quot;station-grid&quot; id=&quot;aws-stations-container&quot;&gt;
+        &lt;!-- Stations will be dynamically rendered and updated here by monitoring.js --&gt;
+        &lt;div style=&quot;grid-column: 1 / -1; text-align: center; padding: 40px; color: var(--text-muted);&quot;&gt;
+          &lt;i class=&quot;fa-solid fa-circle-notch fa-spin&quot; style=&quot;font-size: 24px; margin-bottom: 12px;&quot;&gt;&lt;/i&gt;
+          &lt;p&gt;Connecting to AWS IoT stream...&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+    &lt;/main&gt;
+  &lt;/div&gt;
+
+  &lt;!-- JavaScript Files --&gt;
+  &lt;script src=&quot;js/app.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;js/monitoring.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Plus Jakarta Sans:wght@400;500;600;700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Provide a valid integrity attribute to the tag.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-2-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Medium</span>, <span>Confidence</span>=<span
+							class="confidence-level">Medium</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8000</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-2">Missing Anti-clickjacking Header</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8000/dashboard.html</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/1021.html">CWE-1021</a></span> 
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/11-Client-side_Testing/09-Testing_for_Clickjacking">WSTG-v42-CLNT-09</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The response does not protect against &#39;ClickJacking&#39; attacks. It should include either Content-Security-Policy with &#39;frame-ancestors&#39; directive or X-Frame-Options.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (286 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8000/dashboard.html HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://localhost:8000/robots.txt
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (188 bytes)</summary>
+				
+				<pre><code>HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.14.5
+Date: Thu, 03 Sep 2026 07:46:06 GMT
+Content-type: text/html
+Content-Length: 13073
+Last-Modified: Thu, 13 Aug 2026 09:00:45 GMT
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (13073 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Heatwave Watch - Forecast Dashboard&lt;/title&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;Interactive dashboard visualising temperature forecasts, heatwave hotspots, and regional heatwave severity levels across India.&quot;&gt;
+  &lt;link rel=&quot;canonical&quot; href=&quot;https://priyanshu.github.io/usecases/dashboard.html&quot;&gt;
+  &lt;link rel=&quot;sitemap&quot; type=&quot;application/xml&quot; title=&quot;Sitemap&quot; href=&quot;sitemap.xml&quot;&gt;
+  &lt;!-- Google Fonts --&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;
+  &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Plus Jakarta Sans:wght@400;500;600;700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;!-- FontAwesome Icons --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css&quot;&gt;
+  &lt;!-- Custom Styles --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
+  &lt;!-- Google Analytics GA4 Tracking Tag (gtag.js) --&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-3TN6PC8751&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-3TN6PC8751&#39;, {
+      &#39;cookie_domain&#39;: &#39;auto&#39;,
+      &#39;cookie_flags&#39;: &#39;SameSite=None;Secure&#39;
+    });
+    
+    // Send explicit page_view event (supports file:// &amp; localhost)
+    gtag(&#39;event&#39;, &#39;page_view&#39;, {
+      &#39;page_title&#39;: document.title,
+      &#39;page_location&#39;: window.location.href,
+      &#39;page_path&#39;: window.location.pathname
+    });
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;app-container&quot;&gt;
+    &lt;!-- Sidebar Navigation --&gt;
+    &lt;aside class=&quot;sidebar&quot;&gt;
+      &lt;div class=&quot;sidebar-brand&quot;&gt;
+        &lt;i class=&quot;fa-solid fa-temperature-arrow-up&quot;&gt;&lt;/i&gt;
+        &lt;div class=&quot;sidebar-brand-text&quot;&gt;HEATAWARE AI&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;ul class=&quot;sidebar-menu&quot;&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;index.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-house-chimney&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Overview&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item active&quot;&gt;
+          &lt;a href=&quot;dashboard.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-chart-column&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Forecast Watch&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;monitoring.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-tower-broadcast&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Live Monitoring&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;advisories.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-triangle-exclamation&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Alerts &amp; Advisories&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;research.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-graduation-cap&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Data &amp; Research&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;div class=&quot;sidebar-footer&quot;&gt;
+        &lt;p&gt;Collaborator: &lt;strong&gt;IMD Pune&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;© 2026 Somaiya Vidyavihar&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/aside&gt;
+
+    &lt;!-- Main Content Area --&gt;
+    &lt;main class=&quot;main-content&quot;&gt;
+      &lt;!-- Mobile Navigation Topbar --&gt;
+      &lt;header class=&quot;top-navbar&quot;&gt;
+        &lt;button class=&quot;mobile-menu-btn&quot; aria-label=&quot;Open Menu&quot;&gt;
+          &lt;i class=&quot;fa-solid fa-bars&quot;&gt;&lt;/i&gt;
+        &lt;/button&gt;
+        &lt;div class=&quot;sidebar-brand-text&quot;&gt;HEATAWARE AI&lt;/div&gt;
+        &lt;div class=&quot;system-status&quot;&gt;
+          &lt;div class=&quot;status-dot&quot;&gt;&lt;/div&gt;
+          &lt;span&gt;LIVE&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/header&gt;
+
+      &lt;!-- Page Header --&gt;
+      &lt;header class=&quot;page-header&quot;&gt;
+        &lt;div class=&quot;page-title&quot;&gt;
+          &lt;h1&gt;Heatwave Watch Dashboard&lt;/h1&gt;
+          &lt;p&gt;Region-wise Maximum Temperature Forecast &amp; Severity Classifications&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;system-status&quot;&gt;
+          &lt;div class=&quot;status-dot&quot;&gt;&lt;/div&gt;
+          &lt;span&gt;System Active | UTC &lt;span class=&quot;system-time-val&quot;&gt;--:--&lt;/span&gt;&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/header&gt;
+
+      &lt;!-- Statistics Row --&gt;
+      &lt;section class=&quot;stats-grid&quot;&gt;
+        &lt;!-- Stat 1: Max Temp --&gt;
+        &lt;div class=&quot;glass-card stat-card alert&quot;&gt;
+          &lt;div class=&quot;stat-header&quot;&gt;
+            &lt;span class=&quot;stat-title&quot;&gt;Max Forecasted Temp&lt;/span&gt;
+            &lt;i class=&quot;fa-solid fa-temperature-high stat-icon&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;stat-value&quot;&gt;44.8°C&lt;/div&gt;
+          &lt;div class=&quot;stat-change up&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-arrow-trend-up&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;+1.5°C from last week&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Stat 2: Active Warnings --&gt;
+        &lt;div class=&quot;glass-card stat-card alert&quot;&gt;
+          &lt;div class=&quot;stat-header&quot;&gt;
+            &lt;span class=&quot;stat-title&quot;&gt;Active Warnings&lt;/span&gt;
+            &lt;i class=&quot;fa-solid fa-triangle-exclamation stat-icon&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;stat-value&quot;&gt;5 Regions&lt;/div&gt;
+          &lt;div class=&quot;stat-change up&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-circle-exclamation&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;3 Red Alerts active&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Stat 3: Avg Temp Anomaly --&gt;
+        &lt;div class=&quot;glass-card stat-card normal&quot;&gt;
+          &lt;div class=&quot;stat-header&quot;&gt;
+            &lt;span class=&quot;stat-title&quot;&gt;Avg Temp Anomaly&lt;/span&gt;
+            &lt;i class=&quot;fa-solid fa-chart-line stat-icon&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;stat-value&quot;&gt;+3.4°C&lt;/div&gt;
+          &lt;div class=&quot;stat-change up&quot;&gt;
+            &lt;span&gt;Severe deviation detected&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Stat 4: Deployed AWS --&gt;
+        &lt;div class=&quot;glass-card stat-card cyan&quot;&gt;
+          &lt;div class=&quot;stat-header&quot;&gt;
+            &lt;span class=&quot;stat-title&quot;&gt;Active Station Nodes&lt;/span&gt;
+            &lt;i class=&quot;fa-solid fa-tower-broadcast stat-icon&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;stat-value&quot;&gt;12 / 12&lt;/div&gt;
+          &lt;div class=&quot;stat-change down&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-circle-check&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;All systems streaming&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+
+      &lt;!-- Map and Regional Detail Section --&gt;
+      &lt;section class=&quot;dashboard-grid&quot;&gt;
+        &lt;!-- India Regional SVG Map --&gt;
+        &lt;article class=&quot;glass-card map-card-container&quot;&gt;
+          &lt;div class=&quot;section-title-wrap&quot;&gt;
+            &lt;h3 class=&quot;section-title&quot;&gt;National Temperature Risk Map&lt;/h3&gt;
+            &lt;p class=&quot;section-subtitle&quot;&gt;Select a region to load spatial intelligence parameters&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;map-visualizer&quot;&gt;
+            &lt;!-- Stylized India Regional Map --&gt;
+            &lt;svg viewBox=&quot;0 0 400 450&quot; class=&quot;map-svg-element&quot;&gt;
+              &lt;!-- North Region --&gt;
+              &lt;path d=&quot;M 170 50 L 220 50 L 250 110 L 210 160 L 160 140 Z&quot; class=&quot;map-region-path severity-extreme&quot; data-region=&quot;north&quot; title=&quot;North India&quot;&gt;&lt;/path&gt;
+              &lt;!-- Northwest Region --&gt;
+              &lt;path d=&quot;M 110 110 L 160 140 L 175 200 L 110 200 L 90 140 Z&quot; class=&quot;map-region-path severity-extreme&quot; data-region=&quot;northwest&quot; title=&quot;Northwest India&quot;&gt;&lt;/path&gt;
+              &lt;!-- West Region --&gt;
+              &lt;path d=&quot;M 70 200 L 120 200 L 160 220 L 150 280 L 100 300 L 70 260 Z&quot; class=&quot;map-region-path severity-high&quot; data-region=&quot;west&quot; title=&quot;West India&quot;&gt;&lt;/path&gt;
+              &lt;!-- Central Region --&gt;
+              &lt;path d=&quot;M 160 140 L 210 160 L 250 220 L 230 290 L 160 270 L 175 200 Z&quot; class=&quot;map-region-path severity-high&quot; data-region=&quot;central&quot; title=&quot;Central India&quot;&gt;&lt;/path&gt;
+              &lt;!-- East Region --&gt;
+              &lt;path d=&quot;M 250 220 L 300 220 L 320 280 L 270 310 L 230 290 Z&quot; class=&quot;map-region-path severity-low&quot; data-region=&quot;east&quot; title=&quot;East India&quot;&gt;&lt;/path&gt;
+              &lt;!-- Northeast Region --&gt;
+              &lt;path d=&quot;M 310 130 L 360 110 L 380 150 L 350 200 L 310 190 Z&quot; class=&quot;map-region-path severity-none&quot; data-region=&quot;northeast&quot; title=&quot;Northeast India&quot;&gt;&lt;/path&gt;
+              &lt;!-- South Region --&gt;
+              &lt;path d=&quot;M 160 270 L 230 290 L 240 360 L 200 420 L 170 370 L 150 280 Z&quot; class=&quot;map-region-path severity-low&quot; data-region=&quot;south&quot; title=&quot;South India&quot;&gt;&lt;/path&gt;
+
+              &lt;!-- Stylized boundaries labels --&gt;
+              &lt;text x=&quot;180&quot; y=&quot;90&quot; fill=&quot;#fff&quot; font-size=&quot;10&quot; font-family=&quot;Outfit&quot; text-anchor=&quot;middle&quot; pointer-events=&quot;none&quot;&gt;NORTH&lt;/text&gt;
+              &lt;text x=&quot;120&quot; y=&quot;160&quot; fill=&quot;#fff&quot; font-size=&quot;10&quot; font-family=&quot;Outfit&quot; text-anchor=&quot;middle&quot; pointer-events=&quot;none&quot;&gt;N. WEST&lt;/text&gt;
+              &lt;text x=&quot;110&quot; y=&quot;250&quot; fill=&quot;#fff&quot; font-size=&quot;10&quot; font-family=&quot;Outfit&quot; text-anchor=&quot;middle&quot; pointer-events=&quot;none&quot;&gt;WEST&lt;/text&gt;
+              &lt;text x=&quot;195&quot; y=&quot;210&quot; fill=&quot;#fff&quot; font-size=&quot;10&quot; font-family=&quot;Outfit&quot; text-anchor=&quot;middle&quot; pointer-events=&quot;none&quot;&gt;CENTRAL&lt;/text&gt;
+              &lt;text x=&quot;275&quot; y=&quot;260&quot; fill=&quot;#fff&quot; font-size=&quot;10&quot; font-family=&quot;Outfit&quot; text-anchor=&quot;middle&quot; pointer-events=&quot;none&quot;&gt;EAST&lt;/text&gt;
+              &lt;text x=&quot;340&quot; y=&quot;150&quot; fill=&quot;#fff&quot; font-size=&quot;10&quot; font-family=&quot;Outfit&quot; text-anchor=&quot;middle&quot; pointer-events=&quot;none&quot;&gt;N. EAST&lt;/text&gt;
+              &lt;text x=&quot;195&quot; y=&quot;340&quot; fill=&quot;#fff&quot; font-size=&quot;10&quot; font-family=&quot;Outfit&quot; text-anchor=&quot;middle&quot; pointer-events=&quot;none&quot;&gt;SOUTH&lt;/text&gt;
+            &lt;/svg&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;map-legend&quot;&gt;
+            &lt;div class=&quot;legend-item&quot;&gt;
+              &lt;span class=&quot;legend-color normal&quot;&gt;&lt;/span&gt;
+              &lt;span&gt;Normal (&lt; 37°C)&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;legend-item&quot;&gt;
+              &lt;span class=&quot;legend-color low&quot;&gt;&lt;/span&gt;
+              &lt;span&gt;Mild Heat (37 - 40°C)&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;legend-item&quot;&gt;
+              &lt;span class=&quot;legend-color high&quot;&gt;&lt;/span&gt;
+              &lt;span&gt;Severe Heat (40 - 43°C)&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;legend-item&quot;&gt;
+              &lt;span class=&quot;legend-color extreme&quot;&gt;&lt;/span&gt;
+              &lt;span&gt;Extreme Heatwave (&gt; 43°C)&lt;/span&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/article&gt;
+
+        &lt;!-- Selected Region Forecast Details --&gt;
+        &lt;article class=&quot;glass-card regional-details-card&quot;&gt;
+          &lt;div&gt;
+            &lt;div class=&quot;region-detail-header&quot;&gt;
+              &lt;h3 class=&quot;region-detail-title&quot; id=&quot;selected-region-name&quot;&gt;Northwest India&lt;/h3&gt;
+              &lt;span class=&quot;region-detail-badge badge-extreme&quot; id=&quot;selected-region-status&quot;&gt;Extreme Alert&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;region-details-list&quot;&gt;
+              &lt;div class=&quot;detail-row&quot;&gt;
+                &lt;span class=&quot;detail-lbl&quot;&gt;Average Temp Forecast&lt;/span&gt;
+                &lt;span class=&quot;detail-val&quot; id=&quot;selected-region-temp&quot;&gt;44.5°C&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;detail-row&quot;&gt;
+                &lt;span class=&quot;detail-lbl&quot;&gt;Deviation (Anomaly)&lt;/span&gt;
+                &lt;span class=&quot;detail-val&quot; id=&quot;selected-region-anomaly&quot;&gt;+5.2°C&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;detail-row&quot;&gt;
+                &lt;span class=&quot;detail-lbl&quot;&gt;Confidence Level&lt;/span&gt;
+                &lt;span class=&quot;detail-val&quot; id=&quot;selected-region-confidence&quot;&gt;94.6%&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;detail-row&quot;&gt;
+                &lt;span class=&quot;detail-lbl&quot;&gt;Primary AI Model&lt;/span&gt;
+                &lt;span class=&quot;detail-val&quot;&gt;LSTM-Spatial-V3&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;detail-row&quot;&gt;
+                &lt;span class=&quot;detail-lbl&quot;&gt;Top Risk Hotspots&lt;/span&gt;
+                &lt;span class=&quot;detail-val&quot; id=&quot;selected-region-hotspots&quot;&gt;Jaipur, Jodhpur, Bikaner&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div style=&quot;margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--border-color);&quot;&gt;
+            &lt;a href=&quot;advisories.html?region=northwest&amp;severity=extreme&quot; class=&quot;btn btn-primary btn-block&quot; id=&quot;region-advisory-btn&quot;&gt;
+              &lt;i class=&quot;fa-solid fa-bullhorn&quot;&gt;&lt;/i&gt;
+              &lt;span&gt;Generate Region Advisories&lt;/span&gt;
+            &lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/article&gt;
+      &lt;/section&gt;
+
+      &lt;!-- Forecast Trends &amp; Spatial Analysis Charts --&gt;
+      &lt;section class=&quot;charts-grid&quot;&gt;
+        &lt;!-- Line Chart: Spatio-temporal Forecast --&gt;
+        &lt;article class=&quot;glass-card&quot;&gt;
+          &lt;div class=&quot;section-title-wrap&quot;&gt;
+            &lt;h3 class=&quot;section-title&quot;&gt;7-Day Maximum Temp Projection&lt;/h3&gt;
+            &lt;p class=&quot;section-subtitle&quot;&gt;Forecast values generated by AI-driven predictive models&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;chart-container&quot;&gt;
+            &lt;canvas id=&quot;tempProjectionChart&quot;&gt;&lt;/canvas&gt;
+          &lt;/div&gt;
+        &lt;/article&gt;
+
+        &lt;!-- Bar Chart: Historic Heatwave Days --&gt;
+        &lt;article class=&quot;glass-card&quot;&gt;
+          &lt;div class=&quot;section-title-wrap&quot;&gt;
+            &lt;h3 class=&quot;section-title&quot;&gt;Annual Extreme Heatwave Days&lt;/h3&gt;
+            &lt;p class=&quot;section-subtitle&quot;&gt;Historical trend showing rising duration of severe heat cycles (IMD Data)&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;chart-container&quot;&gt;
+            &lt;canvas id=&quot;heatwaveDaysChart&quot;&gt;&lt;/canvas&gt;
+          &lt;/div&gt;
+        &lt;/article&gt;
+      &lt;/section&gt;
+    &lt;/main&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Chart.js CDN --&gt;
+  &lt;script src=&quot;https://cdn.jsdelivr.net/npm/chart.js&quot;&gt;&lt;/script&gt;
+  &lt;!-- JavaScript Files --&gt;
+  &lt;script src=&quot;js/app.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;js/dashboard.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>x-frame-options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p>
+
+<p>If you expect the page to be framed only by pages on your server (e.g. it&#39;s part of a FRAMESET) then you&#39;ll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy&#39;s &quot;frame-ancestors&quot; directive.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+				 
+				
+				
+				<li id="alerts--risk-1-confidence-3">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Low</span>, <span>Confidence</span>=<span
+							class="confidence-level">High</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8000</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-5">Server Leaks Version Information via &quot;Server&quot; HTTP Response Header Field</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8000/robots.txt</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server">WSTG-v42-INFO-02</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/497.html">CWE-497</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The web/application server is leaking version information via the &quot;Server&quot; HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (239 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8000/robots.txt HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (188 bytes)</summary>
+				
+				<pre><code>HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.14.5
+Date: Thu, 03 Sep 2026 07:46:06 GMT
+Content-type: text/plain
+Content-Length: 1014
+Last-Modified: Thu, 13 Aug 2026 09:00:19 GMT
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1014 bytes)</summary>
+				
+				<pre><code># ================================================================================
+# ROBOTS.TXT FOR HEATAWARE AI - CLIMATE INTELLIGENCE PLATFORM
+# Somaiya Vidyavihar University &amp; IMD Pune Project
+# ================================================================================
+
+# Global Crawler Rules (Googlebot, Bingbot, Slurp, DuckDuckBot, etc.)
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /dashboard.html
+Allow: /monitoring.html
+Allow: /advisories.html
+Allow: /research.html
+Allow: /css/
+Allow: /js/
+
+# Disallow Internal Directories, Build Artifacts, and Test Suites
+Disallow: /mutants/
+Disallow: /tests/
+Disallow: /.pytest_cache/
+Disallow: /__pycache__/
+Disallow: /.git/
+Disallow: /mutation_runner.py
+Disallow: /weather_analytics.py
+Disallow: /conftest.py
+Disallow: /pytest.ini
+Disallow: /setup.cfg
+
+# Specific Crawler Directives &amp; Rate Limiting
+User-agent: BadBot
+Disallow: /
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+# XML Sitemap Specification
+Sitemap: https://priyanshu.github.io/usecases/sitemap.xml
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>SimpleHTTP/0.6 Python/3.14.5</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is configured to suppress the &quot;Server&quot; header or provide generic details.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-1-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Low</span>, <span>Confidence</span>=<span
+							class="confidence-level">Medium</span> <span>(2)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8000</span> <span>(2)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-4">Cross-Domain JavaScript Source File Inclusion</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8000/monitoring.html</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/">OWASP_2021_A08</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/829.html">CWE-829</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_DEV_STD = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The page includes one or more script files from a third-party domain.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (287 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8000/monitoring.html HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://localhost:8000/robots.txt
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (187 bytes)</summary>
+				
+				<pre><code>HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.14.5
+Date: Thu, 03 Sep 2026 07:46:06 GMT
+Content-type: text/html
+Content-Length: 6729
+Last-Modified: Thu, 13 Aug 2026 09:00:53 GMT
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (6729 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Heatwave Watch - Real-Time AWS Monitoring&lt;/title&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;Live monitoring portal for IoT-enabled Automated Weather Stations validating regional heatwave forecasts against ground observations.&quot;&gt;
+  &lt;link rel=&quot;canonical&quot; href=&quot;https://priyanshu.github.io/usecases/monitoring.html&quot;&gt;
+  &lt;link rel=&quot;sitemap&quot; type=&quot;application/xml&quot; title=&quot;Sitemap&quot; href=&quot;sitemap.xml&quot;&gt;
+  &lt;!-- Google Fonts --&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;
+  &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Plus Jakarta Sans:wght@400;500;600;700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;!-- FontAwesome Icons --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css&quot;&gt;
+  &lt;!-- Custom Styles --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
+  &lt;!-- Google Analytics GA4 Tracking Tag (gtag.js) --&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-3TN6PC8751&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-3TN6PC8751&#39;, {
+      &#39;cookie_domain&#39;: &#39;auto&#39;,
+      &#39;cookie_flags&#39;: &#39;SameSite=None;Secure&#39;
+    });
+    
+    // Send explicit page_view event (supports file:// &amp; localhost)
+    gtag(&#39;event&#39;, &#39;page_view&#39;, {
+      &#39;page_title&#39;: document.title,
+      &#39;page_location&#39;: window.location.href,
+      &#39;page_path&#39;: window.location.pathname
+    });
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;app-container&quot;&gt;
+    &lt;!-- Sidebar Navigation --&gt;
+    &lt;aside class=&quot;sidebar&quot;&gt;
+      &lt;div class=&quot;sidebar-brand&quot;&gt;
+        &lt;i class=&quot;fa-solid fa-temperature-arrow-up&quot;&gt;&lt;/i&gt;
+        &lt;div class=&quot;sidebar-brand-text&quot;&gt;HEATAWARE AI&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;ul class=&quot;sidebar-menu&quot;&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;index.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-house-chimney&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Overview&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;dashboard.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-chart-column&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Forecast Watch&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item active&quot;&gt;
+          &lt;a href=&quot;monitoring.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-tower-broadcast&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Live Monitoring&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;advisories.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-triangle-exclamation&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Alerts &amp; Advisories&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;research.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-graduation-cap&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Data &amp; Research&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;div class=&quot;sidebar-footer&quot;&gt;
+        &lt;p&gt;Collaborator: &lt;strong&gt;IMD Pune&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;© 2026 Somaiya Vidyavihar&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/aside&gt;
+
+    &lt;!-- Main Content Area --&gt;
+    &lt;main class=&quot;main-content&quot;&gt;
+      &lt;!-- Mobile Navigation Topbar --&gt;
+      &lt;header class=&quot;top-navbar&quot;&gt;
+        &lt;button class=&quot;mobile-menu-btn&quot; aria-label=&quot;Open Menu&quot;&gt;
+          &lt;i class=&quot;fa-solid fa-bars&quot;&gt;&lt;/i&gt;
+        &lt;/button&gt;
+        &lt;div class=&quot;sidebar-brand-text&quot;&gt;HEATAWARE AI&lt;/div&gt;
+        &lt;div class=&quot;system-status&quot;&gt;
+          &lt;div class=&quot;status-dot&quot;&gt;&lt;/div&gt;
+          &lt;span&gt;LIVE&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/header&gt;
+
+      &lt;!-- Page Header --&gt;
+      &lt;header class=&quot;page-header&quot;&gt;
+        &lt;div class=&quot;page-title&quot;&gt;
+          &lt;h1&gt;IoT Weather Station Network&lt;/h1&gt;
+          &lt;p&gt;Real-Time Ground-Truth Observations &amp; AI Model Calibration&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;system-status&quot;&gt;
+          &lt;div class=&quot;status-dot&quot;&gt;&lt;/div&gt;
+          &lt;span&gt;Live AWS Feeds Active&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/header&gt;
+
+      &lt;!-- Section: Calibration / Validation Score Card --&gt;
+      &lt;section class=&quot;glass-card validation-card&quot;&gt;
+        &lt;div class=&quot;section-title-wrap&quot;&gt;
+          &lt;h3 class=&quot;section-title&quot;&gt;Phase IV: Forecast Validation Engine&lt;/h3&gt;
+          &lt;p class=&quot;section-subtitle&quot;&gt;Comparing AI model predictions with local weather station observations in real time&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;validation-metrics&quot;&gt;
+          &lt;div class=&quot;validation-score&quot;&gt;
+            &lt;div class=&quot;validation-circle&quot;&gt;97%&lt;/div&gt;
+            &lt;div class=&quot;validation-info-block&quot;&gt;
+              &lt;h4&gt;System-wide Correlation&lt;/h4&gt;
+              &lt;p&gt;Validation match rating across all active AWS sensor nodes.&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;validation-score&quot; style=&quot;border-left: 1px solid var(--border-color); padding-left: 32px;&quot;&gt;
+            &lt;div class=&quot;validation-circle&quot; style=&quot;border-color: var(--accent-orange); color: var(--accent-orange); box-shadow: 0 0 10px rgba(249, 115, 22, 0.2);&quot;&gt;0.3°&lt;/div&gt;
+            &lt;div class=&quot;validation-info-block&quot;&gt;
+              &lt;h4&gt;Mean Absolute Error (MAE)&lt;/h4&gt;
+              &lt;p&gt;Average variance between model predictions &amp; actual readings.&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;validation-score&quot; style=&quot;border-left: 1px solid var(--border-color); padding-left: 32px;&quot;&gt;
+            &lt;div class=&quot;validation-circle&quot; style=&quot;border-color: var(--accent-purple); color: var(--accent-purple); box-shadow: 0 0 10px rgba(139, 92, 246, 0.2);&quot;&gt;0.45&lt;/div&gt;
+            &lt;div class=&quot;validation-info-block&quot;&gt;
+              &lt;h4&gt;Root Mean Squared Error (RMSE)&lt;/h4&gt;
+              &lt;p&gt;Error standard deviation highlighting edge variance spikes.&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+
+      &lt;!-- Section: AWS Grid --&gt;
+      &lt;section class=&quot;monitoring-header&quot;&gt;
+        &lt;div class=&quot;section-title-wrap&quot;&gt;
+          &lt;h3 class=&quot;section-title&quot;&gt;Automated Weather Stations (AWS)&lt;/h3&gt;
+          &lt;p class=&quot;section-subtitle&quot;&gt;Real-time local climate sensors streaming data packets (simulated updates every 4s)&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+
+      &lt;section class=&quot;station-grid&quot; id=&quot;aws-stations-container&quot;&gt;
+        &lt;!-- Stations will be dynamically rendered and updated here by monitoring.js --&gt;
+        &lt;div style=&quot;grid-column: 1 / -1; text-align: center; padding: 40px; color: var(--text-muted);&quot;&gt;
+          &lt;i class=&quot;fa-solid fa-circle-notch fa-spin&quot; style=&quot;font-size: 24px; margin-bottom: 12px;&quot;&gt;&lt;/i&gt;
+          &lt;p&gt;Connecting to AWS IoT stream...&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+    &lt;/main&gt;
+  &lt;/div&gt;
+
+  &lt;!-- JavaScript Files --&gt;
+  &lt;script src=&quot;js/app.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;js/monitoring.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>https://www.googletagmanager.com/gtag/js?id=G-3TN6PC8751</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-3TN6PC8751&quot;&gt;&lt;/script&gt;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can&#39;t be controlled by end users of the application.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-7">X-Content-Type-Options Header Missing</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8000/robots.txt</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to &#39;nosniff&#39;. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p>
+
+<p>At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (239 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8000/robots.txt HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (188 bytes)</summary>
+				
+				<pre><code>HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.14.5
+Date: Thu, 03 Sep 2026 07:46:06 GMT
+Content-type: text/plain
+Content-Length: 1014
+Last-Modified: Thu, 13 Aug 2026 09:00:19 GMT
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1014 bytes)</summary>
+				
+				<pre><code># ================================================================================
+# ROBOTS.TXT FOR HEATAWARE AI - CLIMATE INTELLIGENCE PLATFORM
+# Somaiya Vidyavihar University &amp; IMD Pune Project
+# ================================================================================
+
+# Global Crawler Rules (Googlebot, Bingbot, Slurp, DuckDuckBot, etc.)
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /dashboard.html
+Allow: /monitoring.html
+Allow: /advisories.html
+Allow: /research.html
+Allow: /css/
+Allow: /js/
+
+# Disallow Internal Directories, Build Artifacts, and Test Suites
+Disallow: /mutants/
+Disallow: /tests/
+Disallow: /.pytest_cache/
+Disallow: /__pycache__/
+Disallow: /.git/
+Disallow: /mutation_runner.py
+Disallow: /weather_analytics.py
+Disallow: /conftest.py
+Disallow: /pytest.ini
+Disallow: /setup.cfg
+
+# Specific Crawler Directives &amp; Rate Limiting
+User-agent: BadBot
+Disallow: /
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+# XML Sitemap Specification
+Sitemap: https://priyanshu.github.io/usecases/sitemap.xml
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>x-content-type-options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to &#39;nosniff&#39; for all web pages.</p>
+
+<p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-1-confidence-1">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Low</span>, <span>Confidence</span>=<span
+							class="confidence-level">Low</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8000</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-6">Timestamp Disclosure - Unix</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8000/.git/logs/HEAD</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/497.html">CWE-497</a></span> 
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>A timestamp was disclosed by the application/web server. - Unix</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>1784707112, which evaluates to: 2026-07-22 13:28:32.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (286 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8000/.git/logs/HEAD HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://localhost:8000/.git/logs/
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (201 bytes)</summary>
+				
+				<pre><code>HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.14.5
+Date: Thu, 03 Sep 2026 07:46:06 GMT
+Content-type: application/octet-stream
+Content-Length: 982
+Last-Modified: Thu, 13 Aug 2026 09:08:59 GMT
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (982 bytes)</summary>
+				
+				<pre><code>0000000000000000000000000000000000000000 e520f597284c239d1db25b00d0036119254dbf07 Priyanshu6926 &lt;priyanshushingole@gmail.com&gt; 1784707112 +0530	commit (initial): Initial commit with Heatwave Watch project and documentation
+e520f597284c239d1db25b00d0036119254dbf07 0000000000000000000000000000000000000000 Priyanshu6926 &lt;priyanshushingole@gmail.com&gt; 1784707117 +0530	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 e520f597284c239d1db25b00d0036119254dbf07 Priyanshu6926 &lt;priyanshushingole@gmail.com&gt; 1784707117 +0530	Branch: renamed refs/heads/master to refs/heads/main
+e520f597284c239d1db25b00d0036119254dbf07 7890a1b02fbb366edfeb1da52f897bc4fa96a6cd Priyanshu6926 &lt;priyanshushingole@gmail.com&gt; 1785827959 +0530	commit: Add Google Analytics tracking tag and experiment report
+7890a1b02fbb366edfeb1da52f897bc4fa96a6cd 9ffe405e74315cc6d009f346aedd22f976a3187d Priyanshu6926 &lt;priyanshushingole@gmail.com&gt; 1786612139 +0530	commit: dim exp 4
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>1784707112</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				  
+				 
+				
+				
+				
+				
+				
+				
+				<li id="alerts--risk-0-confidence-1">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Informational</span>, <span>Confidence</span>=<span
+							class="confidence-level">Low</span> <span>(2)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8000</span> <span>(2)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-8">Information Disclosure - Suspicious Comments</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8000/js/advisories.js</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage">WSTG-v42-INFO-05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/615.html">CWE-615</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The response appears to contain suspicious comments which may help an attacker.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>The following pattern was used: \bFROM\b and was detected in likely comment: &quot;// Clean empty tags from double brs&quot;, see evidence field for the suspicious comment/snippet.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (281 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8000/js/advisories.js HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://localhost:8000/js/
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (194 bytes)</summary>
+				
+				<pre><code>HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.14.5
+Date: Thu, 03 Sep 2026 07:46:06 GMT
+Content-type: text/javascript
+Content-Length: 12827
+Last-Modified: Tue, 04 Aug 2026 07:11:33 GMT
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (12827 bytes)</summary>
+				
+				<pre><code>/**
+ * LLM Advisory Generator Simulator
+ * Emulates high-fidelity LLM response streaming based on input criteria.
+ */
+
+// Advisory Database Templates
+const advisoryTemplates = {
+  farmers: {
+    extreme: `### 🚨 EMERGENCY AGRICULTURAL DIRECTIVE
+**Region:** [REGION]
+**Target:** Crop Protection &amp; Livestock Systems
+**Severity:** RED ALERT (Extreme Heat stress forecasted)
+
+1. **Evaporative Transpiration Defense:** Apply micro-sprinklers or drip systems strictly during nocturnal window (8 PM - 11 PM) or early morning (3:30 AM - 5:30 AM) to minimize water losses. Maintain 2-inch straw mulch covers on crops.
+2. **Livestock Hydration &amp; Cooling:** Shelter dairy cows, goats, and poultry in heavily thatched sheds. Mix potassium carbonate (electrolyte) and cool water in reservoirs. Apply water misting to cows during peak hours (12 PM - 3 PM).
+3. **Field Labor Split-Shifts:** Suspend all physical labor in fields between 11:00 AM and 4:00 PM. Establish temporary hydration stations with ORS and drinking water under tree canopies.
+4. **Foliar Protection:** Spray a 5% kaolin clay suspension on orchard leaves to form a solar-reflective barrier, minimizing leaf scald and moisture loss.`,
+    severe: `### ⚠️ SEVERE AGRICULTURAL ADVISORY
+**Region:** [REGION]
+**Target:** Crop Protection &amp; Livestock Systems
+**Severity:** ORANGE ALERT (High heat stress)
+
+1. **Irrigation Frequency:** Increase watering intervals for shallow-rooted vegetable crops to once every 24-36 hours. Avoid heavy noon watering.
+2. **Livestock Heat Management:** Maintain maximum ventilation. Keep feed troughs shaded. Provide ad-libitum clean drinking water.
+3. **Labor Precautions:** Restrict manual activities during peak noon (12 PM - 3 PM). Ensure workers take 15-minute hydration breaks every hour.
+4. **Soil Moisture Control:** Implement light hoeing to create soil dust mulch, breaking capillary tubes to conserve soil humidity.`,
+    mild: `### ℹ️ GENERAL AGRICULTURAL ADVISORY
+**Region:** [REGION]
+**Target:** Crop Protection &amp; Livestock Systems
+**Severity:** YELLOW ALERT (Moderate heat)
+
+1. **Monitoring Crop Turgor:** Check leaves for wilting in the late afternoon. Schedule regular watering cycles.
+2. **Ventilation in Animal Barns:** Keep ceiling fans and exhaust systems active in cattle barns and poultry coops.
+3. **Hydration:** Ensure workers have access to clean drinking water and shades.`
+  },
+  health: {
+    extreme: `### 🚨 PUBLIC HEALTH SYSTEM EMERGENCY BULLETIN
+**Region:** [REGION]
+**Target:** Hospital Networks &amp; Community Health Teams
+**Severity:** RED ALERT (Critical heatstroke surge risk)
+
+1. **Activation of Cold Wards:** Declare a &#39;Heat Emergency State&#39; across all district hospitals. Prepare dedicated cooling beds equipped with ice-packs and cooling blankets.
+2. **Medical Supplies Reserves:** Stockpile intravenous saline solutions, oral rehydration packets (ORS), and core temperature measuring equipment.
+3. **Community Care outreach:** Dispatch health workers to perform daily wellness checks on high-risk demographics, including elderly citizens living alone and roofless individuals.
+4. **Symptom Telemetry:** Enforce daily reporting of heat-related illness admissions from all outpatient clinics to monitor hotspot trends.`,
+    severe: `### ⚠️ PUBLIC HEALTH SYSTEM WARNING
+**Region:** [REGION]
+**Target:** Primary Healthcare Providers
+**Severity:** ORANGE ALERT (Elevated risk of heat stress)
+
+1. **ORS Corner Setup:** Establish active ORS distribution points in all government clinics and public buildings.
+2. **Awareness Dissemination:** Distribute educational flyers detailing symptoms of heat exhaustion versus heatstroke to local schools and workplaces.
+3. **Vulnerable Protection:** Coordinate with shelters to ensure adequate ventilation and drinking water access.
+4. **Emergency Services Readiness:** Ensure ambulance fleets have working AC units and passive cooling materials.`,
+    mild: `### ℹ️ HEALTH &amp; WELLNESS ADVISORY
+**Region:** [REGION]
+**Target:** Local Clinics &amp; Wellness Centers
+**Severity:** YELLOW ALERT (Mild to moderate risk)
+
+1. **Hydration Alerts:** Send SMS alerts warning citizens to drink water regularly.
+2. **Clinic Audits:** Verify that local pharmacies maintain adequate ORS inventories.
+3. **Vulnerability Advice:** Advise elderly and pediatric outpatient cases to avoid midday outdoor activities.`
+  },
+  municipal: {
+    extreme: `### 🚨 MUNICIPAL MOBILISATION DIRECTIVE
+**Region:** [REGION]
+**Target:** Urban Development &amp; Utility Agencies
+**Severity:** RED ALERT (Urban Heat Island crisis)
+
+1. **Opening Public Cooling Hubs:** Repurpose government offices, community halls, and parks into public &#39;Cooling Shelters&#39; with running AC and drinking water.
+2. **Emergency Water Supply:** Coordinate tank routes to high-density slums facing grid pipe shortages. Ensure public drinking taps are operational.
+3. **Power Grid Load Auditing:** Restrict scheduled power shutdowns. Scan distribution transformers in high-load heat pockets using thermal cameras.
+4. **Cool Roof Initiative:** Deploy temporary canvas canopy coverings over busy market streets and apply solar-reflective white coatings to slum roofs.`,
+    severe: `### ⚠️ MUNICIPAL CORP MITIGATION ORDER
+**Region:** [REGION]
+**Target:** City Management Teams
+**Severity:** ORANGE ALERT (Heatwave mitigation active)
+
+1. **Transit Shelter Shade:** Install green mesh shade sails over major traffic intersections and bus stands.
+2. **Water Resource Mobilization:** Fill urban fountains and activate roadside misting booths in dense commercial zones.
+3. **Energy Management:** Ask corporate offices to calibrate AC settings to 24°C to avoid power grid overloads.
+4. **Waste Management Safety:** Reschedule sanitation worker shifts to end before 11:30 AM to protect crews.`,
+    mild: `### ℹ️ URBAN HEAT ADVISORY
+**Region:** [REGION]
+**Target:** Ward Offices &amp; Public Spaces
+**Severity:** YELLOW ALERT (General monitoring)
+
+1. **Public Parks Access:** Keep public parks open during early afternoon hours to offer shaded refuge.
+2. **Hydration Stations:** Encourage NGOs to set up drinking water stalls near main transport terminals.
+3. **Routine Checks:** Monitor water pressure and grid load levels.`
+  },
+  citizens: {
+    extreme: `### 🚨 URGENT CITIZEN SAFETY PROTOCOL
+**Region:** [REGION]
+**Target:** Citizens, Commuters, &amp; Outdoor Workers
+**Severity:** RED ALERT (Extreme heat index warning)
+
+1. **Outdoor Activity Bans:** Strictly avoid going outdoors between 11:00 AM and 4:00 PM. Do not perform heavy workouts or manual tasks under direct sunlight.
+2. **Forced Hydration Schedule:** Drink 3.5 to 5 liters of water daily. Consume buttermilk, lemon juice, or ORS water regularly, even if not feeling thirsty. Avoid caffeinated beverages.
+3. **Emergency Symptom Watch:** Monitor yourself and others for heatstroke signs: sudden dry hot skin, rapid heartbeat, confusion, nausea, and throbbing headaches. Call 108 immediately.
+4. **Protection of Dependents:** Keep young children, pregnant women, elderly relatives, and domestic animals inside cool, ventilated rooms. Never leave anyone in locked, parked cars.`,
+    severe: `### ⚠️ CITIZEN SAFETY GUIDELINES
+**Region:** [REGION]
+**Target:** General Public &amp; Transit Commuters
+**Severity:** ORANGE ALERT (High temperatures warning)
+
+1. **Clothing &amp; Gear:** Wear lightweight, light-colored, loose cotton clothes. Carry an umbrella, hat, and water bottle whenever outdoors.
+2. **Home Cooling:** Use damp curtains, night ventilation, and air coolers. Avoid using heat-generating appliances during the hottest hours.
+3. **Hydration Habits:** Consume fresh fruits with high water content (watermelon, cucumber, oranges). Keep oral rehydration salts handy.
+4. **Pet Safety:** Ensure pets are kept in shaded areas with plenty of fresh water.`,
+    mild: `### ℹ️ GENERAL CITIZEN SAFETY TIP
+**Region:** [REGION]
+**Target:** General Public
+**Severity:** YELLOW ALERT (Warm weather precautions)
+
+1. **Sun Exposure:** Wear sunglasses and sunscreen when going outdoors.
+2. **Water Intake:** Drink water at regular intervals. Avoid drinking ice-cold water immediately after coming from hot sun.
+3. **Pet Advice:** Do not walk dogs on hot asphalt during midday.`
+  }
+};
+
+document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; {
+  const form = document.getElementById(&#39;advisory-form&#39;);
+  if (form) {
+    form.addEventListener(&#39;submit&#39;, handleFormSubmit);
+  }
+
+  // Parse URL parameters (e.g. ?region=west&amp;severity=severe)
+  const urlParams = new URLSearchParams(window.location.search);
+  const regionParam = urlParams.get(&#39;region&#39;);
+  const severityParam = urlParams.get(&#39;severity&#39;);
+
+  const regionSelect = document.getElementById(&#39;region&#39;);
+  const severitySelect = document.getElementById(&#39;severity&#39;);
+
+  if (regionParam &amp;&amp; regionSelect) {
+    const matchedOpt = Array.from(regionSelect.options).find(opt =&gt; opt.value === regionParam);
+    if (matchedOpt) regionSelect.value = regionParam;
+  }
+
+  if (severityParam &amp;&amp; severitySelect) {
+    const matchedOpt = Array.from(severitySelect.options).find(opt =&gt; opt.value === severityParam);
+    if (matchedOpt) severitySelect.value = severityParam;
+  }
+});
+
+/**
+ * Handles the advisory generation form submission.
+ */
+function handleFormSubmit(e) {
+  e.preventDefault();
+
+  const stakeholder = document.getElementById(&#39;stakeholder&#39;).value;
+  const region = document.getElementById(&#39;region&#39;).value;
+  const severity = document.getElementById(&#39;severity&#39;).value;
+  const generateBtn = document.getElementById(&#39;generate-btn&#39;);
+
+  // Load template
+  let advisoryText = advisoryTemplates[stakeholder]?.[severity] || &#39;Advisory template not found.&#39;;
+  advisoryText = advisoryText.replace(&#39;[REGION]&#39;, region.toUpperCase());
+
+  // Show typing state
+  const outputContainer = document.getElementById(&#39;advisory-output&#39;);
+  const badgeContainer = document.getElementById(&#39;advisory-status-badge&#39;);
+  
+  if (!outputContainer) return;
+
+  // Disable button
+  generateBtn.disabled = true;
+  generateBtn.querySelector(&#39;span&#39;).textContent = &#39;Generating advisory...&#39;;
+  
+  // Set status badge style
+  badgeContainer.textContent = severity.toUpperCase() + &#39; ALERT&#39;;
+  if (severity === &#39;extreme&#39;) {
+    badgeContainer.className = &#39;region-detail-badge badge-extreme&#39;;
+  } else if (severity === &#39;severe&#39;) {
+    badgeContainer.className = &#39;region-detail-badge badge-high&#39;;
+  } else {
+    badgeContainer.className = &#39;region-detail-badge badge-low&#39;;
+  }
+
+  // Clear output and add typing class
+  outputContainer.innerHTML = &#39;&#39;;
+  outputContainer.classList.add(&#39;typing&#39;);
+
+  // Simulate streaming text (typing animation)
+  let index = 0;
+  // Increase character increment rate to speed up typing of long text blocks
+  const speed = 10; // ms
+  const charsPerTick = 4; // type 4 characters at a time to look natural but fast
+
+  function streamText() {
+    if (index &lt; advisoryText.length) {
+      const nextChunk = advisoryText.substring(0, index + charsPerTick);
+      // Simple markdown preview parser for bold and lists in typing
+      outputContainer.innerHTML = parseMarkdownSimple(nextChunk);
+      index += charsPerTick;
+      outputContainer.scrollTop = outputContainer.scrollHeight;
+      setTimeout(streamText, speed);
+    } else {
+      // Completed typing
+      outputContainer.innerHTML = parseMarkdownSimple(advisoryText);
+      outputContainer.classList.remove(&#39;typing&#39;);
+      generateBtn.disabled = false;
+      generateBtn.querySelector(&#39;span&#39;).textContent = &#39;Generate LLM Advisory&#39;;
+    }
+  }
+
+  streamText();
+}
+
+/**
+ * High-fidelity lightweight parser to turn basic markdown into stylized HTML in the output window.
+ */
+function parseMarkdownSimple(text) {
+  let html = text;
+  
+  // Escape HTML
+  html = html
+    .replace(/&amp;/g, &quot;&amp;amp;&quot;)
+    .replace(/&lt;/g, &quot;&amp;lt;&quot;)
+    .replace(/&gt;/g, &quot;&amp;gt;&quot;);
+
+  // Bold headings (### Title)
+  html = html.replace(/^### (.*$)/gim, &#39;&lt;h4 style=&quot;font-size: 16px; color: #ffffff; margin: 16px 0 8px 0; border-left: 3px solid var(--accent-orange); padding-left: 10px;&quot;&gt;$1&lt;/h4&gt;&#39;);
+  
+  // Bold text (**text**)
+  html = html.replace(/\*\*(.*?)\*\*/g, &#39;&lt;strong style=&quot;color: #ffffff;&quot;&gt;$1&lt;/strong&gt;&#39;);
+
+  // Bullet items (1. Text or - Text)
+  html = html.replace(/^\d+\.\s(.*$)/gim, &#39;&lt;div style=&quot;margin-left: 16px; margin-bottom: 8px; display: flex; gap: 8px;&quot;&gt;&lt;span style=&quot;color: var(--accent-orange); font-weight: bold;&quot;&gt;•&lt;/span&gt;&lt;span&gt;$1&lt;/span&gt;&lt;/div&gt;&#39;);
+  html = html.replace(/^-\s(.*$)/gim, &#39;&lt;div style=&quot;margin-left: 16px; margin-bottom: 8px; display: flex; gap: 8px;&quot;&gt;&lt;span style=&quot;color: var(--accent-cyan); font-weight: bold;&quot;&gt;-&lt;/span&gt;&lt;span&gt;$1&lt;/span&gt;&lt;/div&gt;&#39;);
+
+  // Convert line breaks to &lt;br&gt; (but not if already block tags)
+  html = html.replace(/(?:\r\n|\r|\n)/g, &#39;&lt;br&gt;&#39;);
+
+  // Clean empty tags from double brs
+  html = html.replace(/(&lt;br&gt;){2,}/g, &#39;&lt;br&gt;&lt;br&gt;&#39;);
+
+  return html;
+}
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>from</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-9">User Controllable HTML Element Attribute (Potential XSS)</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8000/advisories.html?region=northwest&amp;severity=extreme</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A1_2017-Injection.html">OWASP_2017_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A03_2021-Injection/">OWASP_2021_A03</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/20.html">CWE-20</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p>
+
+<p>http://localhost:8000/advisories.html?region=northwest&amp;severity=extreme</p>
+
+<p>appears to include user input in:</p>
+
+<p>a(n) [option] tag [value] attribute</p>
+
+<p>The user input found was:</p>
+
+<p>region=northwest</p>
+
+<p>The user-controlled value was:</p>
+
+<p>northwest india</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (325 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8000/advisories.html?region=northwest&amp;severity=extreme HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://localhost:8000/dashboard.html
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (187 bytes)</summary>
+				
+				<pre><code>HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.14.5
+Date: Thu, 03 Sep 2026 07:46:06 GMT
+Content-type: text/html
+Content-Length: 9873
+Last-Modified: Thu, 13 Aug 2026 09:01:00 GMT
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (9873 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Heatwave Watch - Advisories &amp; Alerts Portal&lt;/title&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;AI-assisted heatwave advisory generator translating meteorological telemetry into stakeholder warnings for farmers, health officials, and citizens.&quot;&gt;
+  &lt;link rel=&quot;canonical&quot; href=&quot;https://priyanshu.github.io/usecases/advisories.html&quot;&gt;
+  &lt;link rel=&quot;sitemap&quot; type=&quot;application/xml&quot; title=&quot;Sitemap&quot; href=&quot;sitemap.xml&quot;&gt;
+  &lt;!-- Google Fonts --&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;
+  &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Plus Jakarta Sans:wght@400;500;600;700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;!-- FontAwesome Icons --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css&quot;&gt;
+  &lt;!-- Custom Styles --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
+  &lt;!-- Google Analytics GA4 Tracking Tag (gtag.js) --&gt;
+  &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-3TN6PC8751&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag(&#39;js&#39;, new Date());
+
+    gtag(&#39;config&#39;, &#39;G-3TN6PC8751&#39;, {
+      &#39;cookie_domain&#39;: &#39;auto&#39;,
+      &#39;cookie_flags&#39;: &#39;SameSite=None;Secure&#39;
+    });
+    
+    // Send explicit page_view event (supports file:// &amp; localhost)
+    gtag(&#39;event&#39;, &#39;page_view&#39;, {
+      &#39;page_title&#39;: document.title,
+      &#39;page_location&#39;: window.location.href,
+      &#39;page_path&#39;: window.location.pathname
+    });
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;app-container&quot;&gt;
+    &lt;!-- Sidebar Navigation --&gt;
+    &lt;aside class=&quot;sidebar&quot;&gt;
+      &lt;div class=&quot;sidebar-brand&quot;&gt;
+        &lt;i class=&quot;fa-solid fa-temperature-arrow-up&quot;&gt;&lt;/i&gt;
+        &lt;div class=&quot;sidebar-brand-text&quot;&gt;HEATAWARE AI&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;ul class=&quot;sidebar-menu&quot;&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;index.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-house-chimney&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Overview&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;dashboard.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-chart-column&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Forecast Watch&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;monitoring.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-tower-broadcast&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Live Monitoring&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item active&quot;&gt;
+          &lt;a href=&quot;advisories.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-triangle-exclamation&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Alerts &amp; Advisories&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;sidebar-menu-item&quot;&gt;
+          &lt;a href=&quot;research.html&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-graduation-cap&quot;&gt;&lt;/i&gt;
+            &lt;span&gt;Data &amp; Research&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;div class=&quot;sidebar-footer&quot;&gt;
+        &lt;p&gt;Collaborator: &lt;strong&gt;IMD Pune&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;© 2026 Somaiya Vidyavihar&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/aside&gt;
+
+    &lt;!-- Main Content Area --&gt;
+    &lt;main class=&quot;main-content&quot;&gt;
+      &lt;!-- Mobile Navigation Topbar --&gt;
+      &lt;header class=&quot;top-navbar&quot;&gt;
+        &lt;button class=&quot;mobile-menu-btn&quot; aria-label=&quot;Open Menu&quot;&gt;
+          &lt;i class=&quot;fa-solid fa-bars&quot;&gt;&lt;/i&gt;
+        &lt;/button&gt;
+        &lt;div class=&quot;sidebar-brand-text&quot;&gt;HEATAWARE AI&lt;/div&gt;
+        &lt;div class=&quot;system-status&quot;&gt;
+          &lt;div class=&quot;status-dot&quot;&gt;&lt;/div&gt;
+          &lt;span&gt;LIVE&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/header&gt;
+
+      &lt;!-- Page Header --&gt;
+      &lt;header class=&quot;page-header&quot;&gt;
+        &lt;div class=&quot;page-title&quot;&gt;
+          &lt;h1&gt;Advisories &amp; Alerts Portal&lt;/h1&gt;
+          &lt;p&gt;Translate Raw Meteorological Projections into Actionable Stakeholder Advisory Warnings&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;system-status&quot;&gt;
+          &lt;div class=&quot;status-dot&quot;&gt;&lt;/div&gt;
+          &lt;span&gt;Dissemination Ready&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/header&gt;
+
+      &lt;!-- Section: LLM Simulator Advisory Generator --&gt;
+      &lt;section class=&quot;section-title-wrap&quot;&gt;
+        &lt;h3 class=&quot;section-title&quot;&gt;AI Advisory Generator&lt;/h3&gt;
+        &lt;p class=&quot;section-subtitle&quot;&gt;Simulate Large Language Model (LLM) translation of technical forecast indexes into emergency action items&lt;/p&gt;
+      &lt;/section&gt;
+
+      &lt;section class=&quot;advisory-selector-container&quot;&gt;
+        &lt;!-- Input Form --&gt;
+        &lt;article class=&quot;glass-card&quot;&gt;
+          &lt;h3 style=&quot;font-size: 18px; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px;&quot;&gt;Configuration Input&lt;/h3&gt;
+          &lt;form id=&quot;advisory-form&quot;&gt;
+            &lt;!-- Target Stakeholder --&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;stakeholder&quot;&gt;Target Stakeholder / Beneficiary&lt;/label&gt;
+              &lt;select id=&quot;stakeholder&quot; class=&quot;form-control&quot;&gt;
+                &lt;option value=&quot;farmers&quot;&gt;Farmers &amp; Agricultural Agencies&lt;/option&gt;
+                &lt;option value=&quot;health&quot;&gt;Public Health Departments &amp; Hospitals&lt;/option&gt;
+                &lt;option value=&quot;municipal&quot;&gt;Municipal Corporations (Cities)&lt;/option&gt;
+                &lt;option value=&quot;citizens&quot;&gt;General Citizens &amp; Outdoor Workers&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/div&gt;
+
+            &lt;!-- Affected Region --&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;region&quot;&gt;Affected Climatic Region&lt;/label&gt;
+              &lt;select id=&quot;region&quot; class=&quot;form-control&quot;&gt;
+                &lt;option value=&quot;Northwest India&quot;&gt;Northwest India (Rajasthan/Punjab)&lt;/option&gt;
+                &lt;option value=&quot;North India&quot;&gt;North India (Delhi/UP/Haryana)&lt;/option&gt;
+                &lt;option value=&quot;West India&quot;&gt;West India (Gujarat/Maharashtra)&lt;/option&gt;
+                &lt;option value=&quot;Central India&quot;&gt;Central India (MP/Chhattisgarh)&lt;/option&gt;
+                &lt;option value=&quot;South India&quot;&gt;South India (Telangana/Andhra Pradesh)&lt;/option&gt;
+                &lt;option value=&quot;East India&quot;&gt;East India (Bengal/Bihar)&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/div&gt;
+
+            &lt;!-- Severity level --&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;severity&quot;&gt;Forecasted Severity Category&lt;/label&gt;
+              &lt;select id=&quot;severity&quot; class=&quot;form-control&quot;&gt;
+                &lt;option value=&quot;extreme&quot;&gt;Extreme Heatwave (Red Alert, &gt; 43°C)&lt;/option&gt;
+                &lt;option value=&quot;severe&quot;&gt;Severe Heatwave (Orange Alert, 40°C - 43°C)&lt;/option&gt;
+                &lt;option value=&quot;mild&quot;&gt;Mild Heatwave (Yellow Alert, 37°C - 40°C)&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/div&gt;
+
+            &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary btn-block&quot; id=&quot;generate-btn&quot;&gt;
+              &lt;i class=&quot;fa-solid fa-robot&quot;&gt;&lt;/i&gt;
+              &lt;span&gt;Generate LLM Advisory&lt;/span&gt;
+            &lt;/button&gt;
+          &lt;/form&gt;
+        &lt;/article&gt;
+
+        &lt;!-- Output Card --&gt;
+        &lt;article class=&quot;glass-card advisory-output-card&quot;&gt;
+          &lt;div class=&quot;advisory-output-header&quot;&gt;
+            &lt;h3 class=&quot;advisory-output-title&quot;&gt;LLM Advisory Transcript&lt;/h3&gt;
+            &lt;span id=&quot;advisory-status-badge&quot;&gt;&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;advisory-output-body&quot; id=&quot;advisory-output&quot;&gt;
+            &lt;div class=&quot;advisory-placeholder&quot;&gt;
+              &lt;i class=&quot;fa-solid fa-comment-dots&quot;&gt;&lt;/i&gt;
+              &lt;p&gt;Configure parameters on the left and trigger &quot;Generate LLM Advisory&quot; to translate weather data into readable instructions.&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/article&gt;
+      &lt;/section&gt;
+
+      &lt;!-- Section: Active Warning Logs --&gt;
+      &lt;section class=&quot;section-title-wrap&quot;&gt;
+        &lt;h3 class=&quot;section-title&quot;&gt;Active Alerts Bulletin&lt;/h3&gt;
+        &lt;p class=&quot;section-subtitle&quot;&gt;Real-time alerts broadcasted to state agencies and citizens&lt;/p&gt;
+      &lt;/section&gt;
+
+      &lt;section class=&quot;alerts-list&quot;&gt;
+        &lt;!-- Alert 1 --&gt;
+        &lt;div class=&quot;alert-row critical&quot;&gt;
+          &lt;div class=&quot;alert-icon-wrap&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-skull-crossbones&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;alert-meta&quot;&gt;
+            &lt;h4 style=&quot;display: flex; align-items: center; gap: 12px;&quot;&gt;
+              &lt;span&gt;Extreme Heatwave Alert (Red Warning)&lt;/span&gt;
+              &lt;span class=&quot;alert-badge-lbl&quot;&gt;Critical&lt;/span&gt;
+            &lt;/h4&gt;
+            &lt;p&gt;Northwest region maximum forecast is 45.0°C. High risk of sunstroke. Crop water stress warnings issued.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;alert-timestamp&quot;&gt;Just Now&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Alert 2 --&gt;
+        &lt;div class=&quot;alert-row warning&quot;&gt;
+          &lt;div class=&quot;alert-icon-wrap&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-triangle-exclamation&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;alert-meta&quot;&gt;
+            &lt;h4 style=&quot;display: flex; align-items: center; gap: 12px;&quot;&gt;
+              &lt;span&gt;Severe Heatwave Alert (Orange Warning)&lt;/span&gt;
+              &lt;span class=&quot;alert-badge-lbl&quot;&gt;Warning&lt;/span&gt;
+            &lt;/h4&gt;
+            &lt;p&gt;Central India (Bhopal, Jhansi) expected to observe temperatures of 42.8°C. Power grid warnings deployed.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;alert-timestamp&quot;&gt;12 mins ago&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Alert 3 --&gt;
+        &lt;div class=&quot;alert-row info&quot;&gt;
+          &lt;div class=&quot;alert-icon-wrap&quot;&gt;
+            &lt;i class=&quot;fa-solid fa-info&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;alert-meta&quot;&gt;
+            &lt;h4 style=&quot;display: flex; align-items: center; gap: 12px;&quot;&gt;
+              &lt;span&gt;High Humidity Heat Warning (Yellow Warning)&lt;/span&gt;
+              &lt;span class=&quot;alert-badge-lbl&quot;&gt;Advisory&lt;/span&gt;
+            &lt;/h4&gt;
+            &lt;p&gt;East India (Kolkata) observations show elevated relative humidity (58%). Heat Index values nearing 41.5°C.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;alert-timestamp&quot;&gt;1 hr ago&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+    &lt;/main&gt;
+  &lt;/div&gt;
+
+  &lt;!-- JavaScript Files --&gt;
+  &lt;script src=&quot;js/app.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;js/advisories.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>region</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Validate all input and sanitize output it before writing to any HTML attributes.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				  
+			</ol>
+		</section>
+
+		<section id="appendix" class="appendix">
+			<h2>Appendix</h2>
+
+			<section id="alert-types" class="alert-types">
+				<h3>Alert Types</h3>
+				<p class="alert-types-intro">This section contains additional information on the types of alerts in the report.</p>
+				<ol>
+					<li
+						id="alert-type-0">
+						<h4>Content Security Policy (CSP) Header Not Set</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10038/">Content Security Policy (CSP) Header Not Set</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP">https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</a></li>
+										<li><a
+											href="https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</a></li>
+										<li><a
+											href="https://www.w3.org/TR/CSP/">https://www.w3.org/TR/CSP/</a></li>
+										<li><a
+											href="https://w3c.github.io/webappsec-csp/">https://w3c.github.io/webappsec-csp/</a></li>
+										<li><a
+											href="https://web.dev/articles/csp">https://web.dev/articles/csp</a></li>
+										<li><a
+											href="https://caniuse.com/#feat=contentsecuritypolicy">https://caniuse.com/#feat=contentsecuritypolicy</a></li>
+										<li><a
+											href="https://content-security-policy.com/">https://content-security-policy.com/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-1">
+						<h4>Hidden File Found</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by an active scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/40035/">Hidden File Finder</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/538.html">538</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://blog.hboeck.de/archives/892-Introducing-Snallygaster-a-Tool-to-Scan-for-Secrets-on-Web-Servers.html">https://blog.hboeck.de/archives/892-Introducing-Snallygaster-a-Tool-to-Scan-for-Secrets-on-Web-Servers.html</a></li>
+										<li><a
+											href="https://git-scm.com/docs/git-config">https://git-scm.com/docs/git-config</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-2">
+						<h4>Missing Anti-clickjacking Header</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10020/">Anti-clickjacking Header</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/1021.html">1021</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options">https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-3">
+						<h4>Sub Resource Integrity Attribute Missing</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/90003/">Sub Resource Integrity Attribute Missing</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/345.html">345</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity">https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-4">
+						<h4>Cross-Domain JavaScript Source File Inclusion</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10017/">Cross-Domain JavaScript Source File Inclusion</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/829.html">829</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							
+						</table>
+					</li>
+					<li
+						id="alert-type-5">
+						<h4>Server Leaks Version Information via &quot;Server&quot; HTTP Response Header Field</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10036/">HTTP Server Response Header</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/497.html">497</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://httpd.apache.org/docs/current/mod/core.html#servertokens">https://httpd.apache.org/docs/current/mod/core.html#servertokens</a></li>
+										<li><a
+											href="https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648552(v=pandp.10)">https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648552(v=pandp.10)</a></li>
+										<li><a
+											href="https://www.troyhunt.com/shhh-dont-let-your-response-headers/">https://www.troyhunt.com/shhh-dont-let-your-response-headers/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-6">
+						<h4>Timestamp Disclosure - Unix</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10096/">Timestamp Disclosure</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/497.html">497</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://cwe.mitre.org/data/definitions/200.html">https://cwe.mitre.org/data/definitions/200.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-7">
+						<h4>X-Content-Type-Options Header Missing</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10021/">X-Content-Type-Options Header Missing</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)">https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</a></li>
+										<li><a
+											href="https://owasp.org/www-community/Security_Headers">https://owasp.org/www-community/Security_Headers</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-8">
+						<h4>Information Disclosure - Suspicious Comments</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10027/">Information Disclosure - Suspicious Comments</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/615.html">615</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							
+						</table>
+					</li>
+					<li
+						id="alert-type-9">
+						<h4>User Controllable HTML Element Attribute (Potential XSS)</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10031/">User Controllable HTML Element Attribute (Potential XSS)</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/20.html">20</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>20</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+				</ol>
+			</section>
+		</section>
+		 
+	</main>
+</body>
+</html>
+
+
+

@@ -1,0 +1,168 @@
+{
+  "timestamp": "2026-09-01T15:14:54.391394",
+  "target": "HeatAware AI Web Application",
+  "scanner": "Open-Source Web Security & DAST/SAST Testing Engine (ZAP / Bandit / OWASP compliant)",
+  "summary": {
+    "total_checks": 17,
+    "passed": 12,
+    "failed": 5,
+    "warnings": 0,
+    "risk_score": "HIGH"
+  },
+  "findings": [
+    {
+      "category": "Sensitive Data Exposure",
+      "test_id": "SEC-SDE-01",
+      "title": "Credential & Token Leakage Inspection",
+      "severity": "HIGH",
+      "status": "PASSED",
+      "details": "Zero hardcoded secrets, private keys, or plain-text credentials found across all HTML, JS, and Python modules.",
+      "remediation": "Continue using environment variables and external secret managers for production configurations."
+    },
+    {
+      "category": "Cross-Site Scripting (XSS)",
+      "test_id": "SEC-XSS-01",
+      "title": "DOM Sink Detected in js/monitoring.js:99",
+      "severity": "MEDIUM",
+      "status": "FAILED",
+      "details": "Detected pattern: Direct innerHTML Assignment (XSS Sink) -> Line 99: `container.innerHTML = ''; // Clear loading spinner...`",
+      "remediation": "Ensure user-supplied variables are sanitized with DOMPurify or use textContent / document.createElement for dynamic content."
+    },
+    {
+      "category": "Cross-Site Scripting (XSS)",
+      "test_id": "SEC-XSS-01",
+      "title": "DOM Sink Detected in js/monitoring.js:119",
+      "severity": "MEDIUM",
+      "status": "FAILED",
+      "details": "Detected pattern: Direct innerHTML Assignment (XSS Sink) -> Line 119: `card.innerHTML = `...`",
+      "remediation": "Ensure user-supplied variables are sanitized with DOMPurify or use textContent / document.createElement for dynamic content."
+    },
+    {
+      "category": "Cross-Site Scripting (XSS)",
+      "test_id": "SEC-XSS-01",
+      "title": "DOM Sink Detected in js/advisories.js:183",
+      "severity": "MEDIUM",
+      "status": "FAILED",
+      "details": "Detected pattern: Direct innerHTML Assignment (XSS Sink) -> Line 183: `outputContainer.innerHTML = '';...`",
+      "remediation": "Ensure user-supplied variables are sanitized with DOMPurify or use textContent / document.createElement for dynamic content."
+    },
+    {
+      "category": "Cross-Site Scripting (XSS)",
+      "test_id": "SEC-XSS-01",
+      "title": "DOM Sink Detected in js/advisories.js:196",
+      "severity": "MEDIUM",
+      "status": "FAILED",
+      "details": "Detected pattern: Direct innerHTML Assignment (XSS Sink) -> Line 196: `outputContainer.innerHTML = parseMarkdownSimple(nextChunk);...`",
+      "remediation": "Ensure user-supplied variables are sanitized with DOMPurify or use textContent / document.createElement for dynamic content."
+    },
+    {
+      "category": "Cross-Site Scripting (XSS)",
+      "test_id": "SEC-XSS-01",
+      "title": "DOM Sink Detected in js/advisories.js:202",
+      "severity": "MEDIUM",
+      "status": "FAILED",
+      "details": "Detected pattern: Direct innerHTML Assignment (XSS Sink) -> Line 202: `outputContainer.innerHTML = parseMarkdownSimple(advisoryText...`",
+      "remediation": "Ensure user-supplied variables are sanitized with DOMPurify or use textContent / document.createElement for dynamic content."
+    },
+    {
+      "category": "Security Headers & Meta",
+      "test_id": "SEC-HDR-01",
+      "title": "Explicit Charset Declaration (index.html)",
+      "severity": "LOW",
+      "status": "PASSED",
+      "details": "index.html enforces explicit UTF-8 character encoding preventing UTF-7 XSS bypasses.",
+      "remediation": "Maintain UTF-8 encoding across all templates."
+    },
+    {
+      "category": "Client-side Security",
+      "test_id": "SEC-CLI-01",
+      "title": "Viewport Protection (index.html)",
+      "severity": "LOW",
+      "status": "PASSED",
+      "details": "index.html includes standard responsive viewport configuration.",
+      "remediation": "N/A"
+    },
+    {
+      "category": "Security Headers & Meta",
+      "test_id": "SEC-HDR-01",
+      "title": "Explicit Charset Declaration (monitoring.html)",
+      "severity": "LOW",
+      "status": "PASSED",
+      "details": "monitoring.html enforces explicit UTF-8 character encoding preventing UTF-7 XSS bypasses.",
+      "remediation": "Maintain UTF-8 encoding across all templates."
+    },
+    {
+      "category": "Client-side Security",
+      "test_id": "SEC-CLI-01",
+      "title": "Viewport Protection (monitoring.html)",
+      "severity": "LOW",
+      "status": "PASSED",
+      "details": "monitoring.html includes standard responsive viewport configuration.",
+      "remediation": "N/A"
+    },
+    {
+      "category": "Security Headers & Meta",
+      "test_id": "SEC-HDR-01",
+      "title": "Explicit Charset Declaration (research.html)",
+      "severity": "LOW",
+      "status": "PASSED",
+      "details": "research.html enforces explicit UTF-8 character encoding preventing UTF-7 XSS bypasses.",
+      "remediation": "Maintain UTF-8 encoding across all templates."
+    },
+    {
+      "category": "Client-side Security",
+      "test_id": "SEC-CLI-01",
+      "title": "Viewport Protection (research.html)",
+      "severity": "LOW",
+      "status": "PASSED",
+      "details": "research.html includes standard responsive viewport configuration.",
+      "remediation": "N/A"
+    },
+    {
+      "category": "Security Headers & Meta",
+      "test_id": "SEC-HDR-01",
+      "title": "Explicit Charset Declaration (dashboard.html)",
+      "severity": "LOW",
+      "status": "PASSED",
+      "details": "dashboard.html enforces explicit UTF-8 character encoding preventing UTF-7 XSS bypasses.",
+      "remediation": "Maintain UTF-8 encoding across all templates."
+    },
+    {
+      "category": "Client-side Security",
+      "test_id": "SEC-CLI-01",
+      "title": "Viewport Protection (dashboard.html)",
+      "severity": "LOW",
+      "status": "PASSED",
+      "details": "dashboard.html includes standard responsive viewport configuration.",
+      "remediation": "N/A"
+    },
+    {
+      "category": "Security Headers & Meta",
+      "test_id": "SEC-HDR-01",
+      "title": "Explicit Charset Declaration (advisories.html)",
+      "severity": "LOW",
+      "status": "PASSED",
+      "details": "advisories.html enforces explicit UTF-8 character encoding preventing UTF-7 XSS bypasses.",
+      "remediation": "Maintain UTF-8 encoding across all templates."
+    },
+    {
+      "category": "Client-side Security",
+      "test_id": "SEC-CLI-01",
+      "title": "Viewport Protection (advisories.html)",
+      "severity": "LOW",
+      "status": "PASSED",
+      "details": "advisories.html includes standard responsive viewport configuration.",
+      "remediation": "N/A"
+    },
+    {
+      "category": "Input Validation & Type Safety",
+      "test_id": "SEC-INP-01",
+      "title": "Backend Defensive Type & Range Validation",
+      "severity": "HIGH",
+      "status": "PASSED",
+      "details": "weather_analytics.py strictly validates variable types (isinstance), raises explicit TypeError/ValueError, and prevents injection/unexpected operand state.",
+      "remediation": "Maintain comprehensive boundary condition checks across all math and data pipelines."
+    }
+  ],
+  "category_scores": {}
+}

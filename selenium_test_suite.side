@@ -1,0 +1,328 @@
+{
+  "id": "heataware-selenium-suite-2026",
+  "version": "2.0",
+  "name": "HeatAware_Selenium_STQA_Suite",
+  "url": "http://localhost:8000",
+  "tests": [
+    {
+      "id": "test-01-auto-scripting-playback",
+      "name": "01_Auto_Scripting_and_Playback",
+      "commands": [
+        {
+          "id": "cmd-1",
+          "comment": "Open the home page",
+          "command": "open",
+          "target": "/index.html",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "cmd-2",
+          "comment": "Set standard browser viewport",
+          "command": "setWindowSize",
+          "target": "1440x900",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "cmd-3",
+          "comment": "Navigate to Alerts & Advisories page via sidebar",
+          "command": "click",
+          "target": "linkText=Alerts & Advisories",
+          "targets": [
+            ["linkText=Alerts & Advisories", "linkText"],
+            ["css=.sidebar-menu-item:nth-child(4) > a", "css:finder"],
+            ["xpath=//a[contains(@href, 'advisories.html')]", "xpath:href"]
+          ],
+          "value": ""
+        },
+        {
+          "id": "cmd-4",
+          "comment": "Select Health Departments from dropdown",
+          "command": "select",
+          "target": "id=stakeholder",
+          "targets": [
+            ["id=stakeholder", "id"],
+            ["css=#stakeholder", "css:finder"]
+          ],
+          "value": "label=Public Health Departments & Hospitals"
+        },
+        {
+          "id": "cmd-5",
+          "comment": "Select Severity level Extreme Heatwave",
+          "command": "select",
+          "target": "id=severity",
+          "targets": [
+            ["id=severity", "id"],
+            ["css=#severity", "css:finder"]
+          ],
+          "value": "label=Extreme Heatwave (Red Alert, > 43°C)"
+        },
+        {
+          "id": "cmd-6",
+          "comment": "Click Generate LLM Advisory button",
+          "command": "click",
+          "target": "id=generate-btn",
+          "targets": [
+            ["id=generate-btn", "id"],
+            ["css=#generate-btn", "css:finder"],
+            ["xpath=//button[@id='generate-btn']", "xpath:attributes"]
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "test-02-verification",
+      "name": "02_Verification_Features",
+      "commands": [
+        {
+          "id": "cmd-v1",
+          "comment": "Open Advisories Portal directly",
+          "command": "open",
+          "target": "/advisories.html",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "cmd-v2",
+          "comment": "Verify Page Title (Soft Assertion - test continues on fail)",
+          "command": "verifyTitle",
+          "target": "Heatwave Watch - Advisories & Alerts Portal",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "cmd-v3",
+          "comment": "Verify header text matches expectation",
+          "command": "verifyText",
+          "target": "css=.page-title h1",
+          "targets": [
+            ["css=.page-title h1", "css:finder"],
+            ["xpath=//h1", "xpath:position"]
+          ],
+          "value": "Advisories & Alerts Portal"
+        },
+        {
+          "id": "cmd-v4",
+          "comment": "Verify that configuration form exists in the DOM",
+          "command": "verifyElementPresent",
+          "target": "id=advisory-form",
+          "targets": [
+            ["id=advisory-form", "id"],
+            ["css=#advisory-form", "css:finder"]
+          ],
+          "value": ""
+        },
+        {
+          "id": "cmd-v5",
+          "comment": "Verify generate button is displayed",
+          "command": "verifyElementPresent",
+          "target": "id=generate-btn",
+          "targets": [
+            ["id=generate-btn", "id"]
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "test-03-assertion",
+      "name": "03_Assertion_Features",
+      "commands": [
+        {
+          "id": "cmd-a1",
+          "comment": "Open the Advisories portal",
+          "command": "open",
+          "target": "/advisories.html",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "cmd-a2",
+          "comment": "Assert page title strictly (Hard Assertion - halts test on mismatch)",
+          "command": "assertTitle",
+          "target": "Heatwave Watch - Advisories & Alerts Portal",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "cmd-a3",
+          "comment": "Assert stakeholder dropdown is present before interacting",
+          "command": "assertElementPresent",
+          "target": "id=stakeholder",
+          "targets": [
+            ["id=stakeholder", "id"]
+          ],
+          "value": ""
+        },
+        {
+          "id": "cmd-a4",
+          "comment": "Choose Farmers option",
+          "command": "select",
+          "target": "id=stakeholder",
+          "targets": [
+            ["id=stakeholder", "id"]
+          ],
+          "value": "label=Farmers & Agricultural Agencies"
+        },
+        {
+          "id": "cmd-a5",
+          "comment": "Assert selected value is farmers",
+          "command": "assertSelectedValue",
+          "target": "id=stakeholder",
+          "targets": [
+            ["id=stakeholder", "id"]
+          ],
+          "value": "farmers"
+        },
+        {
+          "id": "cmd-a6",
+          "comment": "Trigger generation",
+          "command": "click",
+          "target": "id=generate-btn",
+          "targets": [
+            ["id=generate-btn", "id"]
+          ],
+          "value": ""
+        },
+        {
+          "id": "cmd-a7",
+          "comment": "Assert output transcript body is present",
+          "command": "assertElementPresent",
+          "target": "id=advisory-output",
+          "targets": [
+            ["id=advisory-output", "id"]
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "test-04-store-variables",
+      "name": "04_Store_Variables_Features",
+      "commands": [
+        {
+          "id": "cmd-s1",
+          "comment": "Open Advisories page",
+          "command": "open",
+          "target": "/advisories.html",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "cmd-s2",
+          "comment": "Store predefined target role into variable 'targetRole'",
+          "command": "store",
+          "target": "citizens",
+          "targets": [],
+          "value": "targetRole"
+        },
+        {
+          "id": "cmd-s3",
+          "comment": "Use stored variable to select dropdown option dynamically",
+          "command": "select",
+          "target": "id=stakeholder",
+          "targets": [
+            ["id=stakeholder", "id"]
+          ],
+          "value": "value=${targetRole}"
+        },
+        {
+          "id": "cmd-s4",
+          "comment": "Store the brand text from the UI into variable 'brandHeader'",
+          "command": "storeText",
+          "target": "css=.sidebar-brand-text",
+          "targets": [
+            ["css=.sidebar-brand-text", "css:finder"]
+          ],
+          "value": "brandHeader"
+        },
+        {
+          "id": "cmd-s5",
+          "comment": "Echo the extracted variable to test logs",
+          "command": "echo",
+          "target": "Extracted Brand Header: ${brandHeader}",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "cmd-s6",
+          "comment": "Assert that UI matches the stored brand variable",
+          "command": "assertText",
+          "target": "css=.sidebar-brand-text",
+          "targets": [
+            ["css=.sidebar-brand-text", "css:finder"]
+          ],
+          "value": "${brandHeader}"
+        }
+      ]
+    },
+    {
+      "id": "test-05-additional-feature",
+      "name": "05_Additional_Feature_ExecuteScript_and_Wait",
+      "commands": [
+        {
+          "id": "cmd-q1",
+          "comment": "Open the overview dashboard",
+          "command": "open",
+          "target": "/index.html",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "cmd-q2",
+          "comment": "Execute JavaScript to fetch document readyState",
+          "command": "executeScript",
+          "target": "return document.readyState;",
+          "targets": [],
+          "value": "pageReadyState"
+        },
+        {
+          "id": "cmd-q3",
+          "comment": "Assert page is completely loaded",
+          "command": "assert",
+          "target": "pageReadyState",
+          "targets": [],
+          "value": "complete"
+        },
+        {
+          "id": "cmd-q4",
+          "comment": "Execute JavaScript to count total navigation links",
+          "command": "executeScript",
+          "target": "return document.querySelectorAll('.sidebar-menu-item').length;",
+          "targets": [],
+          "value": "navCount"
+        },
+        {
+          "id": "cmd-q5",
+          "comment": "Log the evaluated count",
+          "command": "echo",
+          "target": "Navigation links count evaluated: ${navCount}",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "suite-full-stqa",
+      "name": "Somaiya_STQA_Experiment_03_Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [
+        "test-01-auto-scripting-playback",
+        "test-02-verification",
+        "test-03-assertion",
+        "test-04-store-variables",
+        "test-05-additional-feature"
+      ]
+    }
+  ],
+  "urls": [
+    "http://localhost:8000"
+  ],
+  "plugins": []
+}
