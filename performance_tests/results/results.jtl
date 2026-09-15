@@ -1,0 +1,351 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1789468183293,14,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-1,text,true,,10077,260,2,2,http://localhost:8000/index.html,11,0,8
+1789468183440,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-2,text,true,,10077,260,3,3,http://localhost:8000/index.html,1,0,0
+1789468183614,5,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-1,text,true,,13261,264,4,4,http://localhost:8000/dashboard.html,4,0,1
+1789468183641,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-3,text,true,,10077,260,4,4,http://localhost:8000/index.html,2,0,1
+1789468183747,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-2,text,true,,13261,264,5,5,http://localhost:8000/dashboard.html,1,0,1
+1789468183838,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-4,text,true,,10077,260,5,5,http://localhost:8000/index.html,2,0,1
+1789468183921,5,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-1,text,true,,6916,265,5,5,http://localhost:8000/monitoring.html,5,0,1
+1789468183949,3,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-3,text,true,,13261,264,6,6,http://localhost:8000/dashboard.html,3,0,1
+1789468184041,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-5,text,true,,10077,260,6,6,http://localhost:8000/index.html,2,0,1
+1789468184054,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-2,text,true,,6916,265,6,6,http://localhost:8000/monitoring.html,2,0,1
+1789468184147,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-4,text,true,,13261,264,7,7,http://localhost:8000/dashboard.html,2,0,0
+1789468184232,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-1,text,true,,6916,265,7,7,http://localhost:8000/monitoring.html,2,0,1
+1789468184240,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-6,text,true,,10077,260,7,7,http://localhost:8000/index.html,1,0,1
+1789468184257,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-3,text,true,,6916,265,7,7,http://localhost:8000/monitoring.html,2,0,1
+1789468184349,3,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-5,text,true,,13261,264,8,8,http://localhost:8000/dashboard.html,3,0,2
+1789468184362,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-2,text,true,,6916,265,8,8,http://localhost:8000/monitoring.html,2,0,1
+1789468184437,3,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-7,text,true,,10077,260,8,8,http://localhost:8000/index.html,3,0,1
+1789468184454,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-4,text,true,,6916,265,8,8,http://localhost:8000/monitoring.html,2,0,1
+1789468184539,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-1,text,true,,6916,265,9,9,http://localhost:8000/monitoring.html,2,0,1
+1789468184544,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-6,text,true,,13261,264,9,9,http://localhost:8000/dashboard.html,1,0,0
+1789468184565,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-3,text,true,,6916,265,9,9,http://localhost:8000/monitoring.html,1,0,0
+1789468184638,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-8,text,true,,10077,260,9,9,http://localhost:8000/index.html,2,0,0
+1789468184658,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-5,text,true,,6916,265,9,9,http://localhost:8000/monitoring.html,1,0,1
+1789468184667,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-2,text,true,,6916,265,9,9,http://localhost:8000/monitoring.html,1,0,0
+1789468184744,3,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-7,text,true,,13261,264,10,10,http://localhost:8000/dashboard.html,3,0,1
+1789468184761,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-4,text,true,,6916,265,10,10,http://localhost:8000/monitoring.html,2,0,1
+1789468184838,3,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-9,text,true,,10077,260,10,10,http://localhost:8000/index.html,3,0,2
+1789468184847,4,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-1,text,true,,10060,265,10,10,http://localhost:8000/advisories.html,4,0,1
+1789468184850,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-6,text,true,,6916,265,10,10,http://localhost:8000/monitoring.html,1,0,0
+1789468184869,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-3,text,true,,6916,265,10,10,http://localhost:8000/monitoring.html,1,0,0
+1789468184946,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-8,text,true,,13261,264,11,11,http://localhost:8000/dashboard.html,2,0,1
+1789468184961,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-5,text,true,,6916,265,11,11,http://localhost:8000/monitoring.html,1,0,1
+1789468184969,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-2,text,true,,10060,265,11,11,http://localhost:8000/advisories.html,1,0,0
+1789468185041,3,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-10,text,true,,10077,260,11,11,http://localhost:8000/index.html,2,0,1
+1789468185048,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-7,text,true,,6916,265,11,11,http://localhost:8000/monitoring.html,2,0,1
+1789468185069,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-4,text,true,,6916,265,11,11,http://localhost:8000/monitoring.html,1,0,0
+1789468185147,3,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-9,text,true,,13261,264,12,12,http://localhost:8000/dashboard.html,3,0,1
+1789468185156,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-6,text,true,,6916,265,12,12,http://localhost:8000/monitoring.html,2,0,1
+1789468185156,5,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-1,text,true,,12761,263,12,12,http://localhost:8000/research.html,5,0,1
+1789468185176,2,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-3,text,true,,10060,265,12,12,http://localhost:8000/advisories.html,2,0,1
+1789468185237,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-11,text,true,,10077,260,12,12,http://localhost:8000/index.html,1,0,0
+1789468185250,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-8,text,true,,6916,265,12,12,http://localhost:8000/monitoring.html,1,0,0
+1789468185268,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-5,text,true,,6916,265,12,12,http://localhost:8000/monitoring.html,1,0,0
+1789468185275,0,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-2,text,true,,12761,263,12,12,http://localhost:8000/research.html,0,0,0
+1789468185350,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-10,text,true,,13261,264,13,13,http://localhost:8000/dashboard.html,0,0,0
+1789468185353,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-7,text,true,,6916,265,13,13,http://localhost:8000/monitoring.html,1,0,1
+1789468185376,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-4,text,true,,10060,265,13,13,http://localhost:8000/advisories.html,1,0,0
+1789468185440,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-12,text,true,,10077,260,13,13,http://localhost:8000/index.html,1,0,0
+1789468185455,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-9,text,true,,6916,265,13,13,http://localhost:8000/monitoring.html,2,0,1
+1789468185464,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-6,text,true,,6916,265,13,13,http://localhost:8000/monitoring.html,1,0,1
+1789468185465,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-1,text,true,,10077,260,13,13,http://localhost:8000/index.html,1,0,0
+1789468185481,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-3,text,true,,12761,263,13,13,http://localhost:8000/research.html,2,0,1
+1789468185543,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-11,text,true,,13261,264,14,14,http://localhost:8000/dashboard.html,2,0,1
+1789468185556,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-8,text,true,,6916,265,14,14,http://localhost:8000/monitoring.html,2,0,1
+1789468185574,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-5,text,true,,10060,265,14,14,http://localhost:8000/advisories.html,1,0,1
+1789468185581,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-2,text,true,,10077,260,14,14,http://localhost:8000/index.html,1,0,0
+1789468185641,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-13,text,true,,10077,260,14,14,http://localhost:8000/index.html,2,0,1
+1789468185656,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-10,text,true,,6916,265,14,14,http://localhost:8000/monitoring.html,1,0,1
+1789468185659,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-7,text,true,,6916,265,14,14,http://localhost:8000/monitoring.html,1,0,1
+1789468185682,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-4,text,true,,12761,263,14,14,http://localhost:8000/research.html,1,0,1
+1789468185747,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-12,text,true,,13261,264,15,15,http://localhost:8000/dashboard.html,2,0,1
+1789468185763,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-9,text,true,,6916,265,15,15,http://localhost:8000/monitoring.html,1,0,0
+1789468185769,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-1,text,true,,13261,264,15,15,http://localhost:8000/dashboard.html,1,0,0
+1789468185769,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-6,text,true,,10060,265,15,15,http://localhost:8000/advisories.html,1,0,1
+1789468185784,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-3,text,true,,10077,260,15,15,http://localhost:8000/index.html,2,0,1
+1789468185834,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-14,text,true,,10077,260,15,15,http://localhost:8000/index.html,2,0,1
+1789468185850,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-11,text,true,,6916,265,15,15,http://localhost:8000/monitoring.html,1,0,0
+1789468185863,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-8,text,true,,6916,265,15,15,http://localhost:8000/monitoring.html,2,0,1
+1789468185880,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-5,text,true,,12761,263,15,15,http://localhost:8000/research.html,2,0,1
+1789468185888,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-2,text,true,,13261,264,15,15,http://localhost:8000/dashboard.html,1,0,0
+1789468185948,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-13,text,true,,13261,264,16,16,http://localhost:8000/dashboard.html,2,0,1
+1789468185964,2,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-7,text,true,,10060,265,16,16,http://localhost:8000/advisories.html,2,0,1
+1789468185963,3,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-10,text,true,,6916,265,16,16,http://localhost:8000/monitoring.html,3,0,1
+1789468185987,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-4,text,true,,10077,260,16,16,http://localhost:8000/index.html,2,0,1
+1789468186038,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-15,text,true,,10077,260,16,16,http://localhost:8000/index.html,1,0,0
+1789468186055,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-12,text,true,,6916,265,16,16,http://localhost:8000/monitoring.html,1,0,0
+1789468186068,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-9,text,true,,6916,265,16,16,http://localhost:8000/monitoring.html,1,0,0
+1789468186073,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-6,text,true,,12761,263,16,16,http://localhost:8000/research.html,1,0,0
+1789468186075,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-1,text,true,,6916,265,16,16,http://localhost:8000/monitoring.html,1,0,1
+1789468186091,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-3,text,true,,13261,264,16,16,http://localhost:8000/dashboard.html,1,0,1
+1789468186142,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-14,text,true,,13261,264,17,17,http://localhost:8000/dashboard.html,2,0,1
+1789468186156,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-11,text,true,,6916,265,17,17,http://localhost:8000/monitoring.html,1,0,0
+1789468186171,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-8,text,true,,10060,265,17,17,http://localhost:8000/advisories.html,1,0,0
+1789468186188,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-5,text,true,,10077,260,17,17,http://localhost:8000/index.html,1,0,0
+1789468186191,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-2,text,true,,6916,265,17,17,http://localhost:8000/monitoring.html,1,0,1
+1789468186234,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-16,text,true,,10077,260,17,17,http://localhost:8000/index.html,2,0,1
+1789468186252,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-13,text,true,,6916,265,17,17,http://localhost:8000/monitoring.html,1,0,0
+1789468186271,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-7,text,true,,12761,263,17,17,http://localhost:8000/research.html,2,0,1
+1789468186271,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-10,text,true,,6916,265,17,17,http://localhost:8000/monitoring.html,2,0,1
+1789468186292,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-4,text,true,,13261,264,17,17,http://localhost:8000/dashboard.html,1,0,0
+1789468186345,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-15,text,true,,13261,264,18,18,http://localhost:8000/dashboard.html,2,0,1
+1789468186362,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-12,text,true,,6916,265,18,18,http://localhost:8000/monitoring.html,1,0,0
+1789468186374,2,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-9,text,true,,10060,265,18,18,http://localhost:8000/advisories.html,2,0,1
+1789468186374,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-6,text,true,,10077,260,18,18,http://localhost:8000/index.html,2,0,1
+1789468186381,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-1,text,true,,6916,265,18,18,http://localhost:8000/monitoring.html,1,0,1
+1789468186397,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-3,text,true,,6916,265,18,18,http://localhost:8000/monitoring.html,2,0,1
+1789468186440,3,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-17,text,true,,10077,260,18,18,http://localhost:8000/index.html,3,0,1
+1789468186448,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-14,text,true,,6916,265,18,18,http://localhost:8000/monitoring.html,2,0,1
+1789468186463,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-11,text,true,,6916,265,18,18,http://localhost:8000/monitoring.html,2,0,1
+1789468186476,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-8,text,true,,12761,263,18,18,http://localhost:8000/research.html,2,0,1
+1789468186490,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-5,text,true,,13261,264,18,18,http://localhost:8000/dashboard.html,2,0,0
+1789468186497,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-2,text,true,,6916,265,18,18,http://localhost:8000/monitoring.html,1,0,1
+1789468186541,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-16,text,true,,13261,264,19,19,http://localhost:8000/dashboard.html,2,0,1
+1789468186559,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-13,text,true,,6916,265,19,19,http://localhost:8000/monitoring.html,1,0,0
+1789468186577,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-7,text,true,,10077,260,19,19,http://localhost:8000/index.html,1,0,1
+1789468186579,0,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-10,text,true,,10060,265,19,19,http://localhost:8000/advisories.html,0,0,0
+1789468186599,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-4,text,true,,6916,265,19,19,http://localhost:8000/monitoring.html,1,0,1
+1789468186641,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-18,text,true,,10077,260,19,19,http://localhost:8000/index.html,2,0,1
+1789468186653,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-15,text,true,,6916,265,19,19,http://localhost:8000/monitoring.html,1,0,0
+1789468186669,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-12,text,true,,6916,265,19,19,http://localhost:8000/monitoring.html,1,0,0
+1789468186681,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-9,text,true,,12761,263,19,19,http://localhost:8000/research.html,2,0,1
+1789468186681,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-6,text,true,,13261,264,19,19,http://localhost:8000/dashboard.html,2,0,1
+1789468186684,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-1,text,true,,6916,265,19,19,http://localhost:8000/monitoring.html,1,0,1
+1789468186704,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-3,text,true,,6916,265,19,19,http://localhost:8000/monitoring.html,1,0,0
+1789468186748,3,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-17,text,true,,13261,264,20,20,http://localhost:8000/dashboard.html,2,0,1
+1789468186756,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-14,text,true,,6916,265,20,20,http://localhost:8000/monitoring.html,1,0,0
+1789468186771,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-11,text,true,,10060,265,20,20,http://localhost:8000/advisories.html,1,0,0
+1789468186781,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-8,text,true,,10077,260,20,20,http://localhost:8000/index.html,2,0,1
+1789468186797,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-5,text,true,,6916,265,20,20,http://localhost:8000/monitoring.html,1,0,1
+1789468186804,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-2,text,true,,6916,265,20,20,http://localhost:8000/monitoring.html,1,0,0
+1789468186834,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-19,text,true,,10077,260,20,20,http://localhost:8000/index.html,2,0,1
+1789468186848,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-16,text,true,,6916,265,20,20,http://localhost:8000/monitoring.html,2,0,1
+1789468186866,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-13,text,true,,6916,265,20,20,http://localhost:8000/monitoring.html,1,0,1
+1789468186881,3,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-10,text,true,,12761,263,20,20,http://localhost:8000/research.html,3,0,1
+1789468186882,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-7,text,true,,13261,264,20,20,http://localhost:8000/dashboard.html,2,0,1
+1789468186904,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-4,text,true,,6916,265,20,20,http://localhost:8000/monitoring.html,1,0,0
+1789468186947,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-18,text,true,,13261,264,21,21,http://localhost:8000/dashboard.html,2,0,1
+1789468186959,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-15,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,2,0,1
+1789468186976,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-12,text,true,,10060,265,21,21,http://localhost:8000/advisories.html,1,0,0
+1789468186988,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-6,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,1
+1789468186988,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-9,text,true,,10077,260,21,21,http://localhost:8000/index.html,2,0,1
+1789468186989,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-1,text,true,,10060,265,21,21,http://localhost:8000/advisories.html,1,0,1
+1789468187006,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-3,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,0
+1789468187036,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-20,text,true,,10077,260,21,21,http://localhost:8000/index.html,1,0,0
+1789468187051,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-17,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,1
+1789468187062,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-14,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,1
+1789468187077,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-11,text,true,,12761,263,21,21,http://localhost:8000/research.html,1,0,0
+1789468187088,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-8,text,true,,13261,264,21,21,http://localhost:8000/dashboard.html,1,0,1
+1789468187103,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-5,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,1
+1789468187110,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-2,text,true,,10060,265,21,21,http://localhost:8000/advisories.html,1,0,1
+1789468187141,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-19,text,true,,13261,264,22,22,http://localhost:8000/dashboard.html,2,0,1
+1789468187156,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-16,text,true,,6916,265,22,22,http://localhost:8000/monitoring.html,1,0,0
+1789468187171,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-13,text,true,,10060,265,22,22,http://localhost:8000/advisories.html,1,0,0
+1789468187189,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-7,text,true,,6916,265,22,22,http://localhost:8000/monitoring.html,1,0,1
+1789468187189,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-10,text,true,,10077,260,22,22,http://localhost:8000/index.html,1,0,1
+1789468187207,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-4,text,true,,6916,265,22,22,http://localhost:8000/monitoring.html,1,0,1
+1789468187236,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-21,text,true,,10077,260,22,22,http://localhost:8000/index.html,1,0,0
+1789468187255,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-18,text,true,,6916,265,22,22,http://localhost:8000/monitoring.html,1,0,1
+1789468187265,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-15,text,true,,6916,265,22,22,http://localhost:8000/monitoring.html,1,0,0
+1789468187283,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-12,text,true,,12761,263,22,22,http://localhost:8000/research.html,1,0,1
+1789468187292,0,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-1,text,true,,12761,263,22,22,http://localhost:8000/research.html,0,0,0
+1789468187291,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-6,text,true,,6916,265,22,22,http://localhost:8000/monitoring.html,1,0,1
+1789468187295,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-9,text,true,,13261,264,21,21,http://localhost:8000/dashboard.html,1,0,0
+1789468187312,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-3,text,true,,10060,265,21,21,http://localhost:8000/advisories.html,1,0,1
+1789468187342,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-20,text,true,,13261,264,22,22,http://localhost:8000/dashboard.html,2,0,1
+1789468187356,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-17,text,true,,6916,265,22,22,http://localhost:8000/monitoring.html,2,0,1
+1789468187365,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-14,text,true,,10060,265,22,22,http://localhost:8000/advisories.html,1,0,0
+1789468187383,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-11,text,true,,10077,260,22,22,http://localhost:8000/index.html,1,0,0
+1789468187394,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-8,text,true,,6916,265,22,22,http://localhost:8000/monitoring.html,1,0,0
+1789468187405,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-5,text,true,,6916,265,22,22,http://localhost:8000/monitoring.html,1,0,1
+1789468187416,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-2,text,true,,12761,263,22,22,http://localhost:8000/research.html,1,0,1
+1789468187439,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-22,text,true,,10077,260,21,21,http://localhost:8000/index.html,1,0,0
+1789468187448,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-19,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,0
+1789468187462,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-16,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,1
+1789468187477,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-13,text,true,,12761,263,21,21,http://localhost:8000/research.html,1,0,0
+1789468187496,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-10,text,true,,13261,264,21,21,http://localhost:8000/dashboard.html,1,0,0
+1789468187496,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-7,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,0
+1789468187514,2,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-4,text,true,,10060,265,21,21,http://localhost:8000/advisories.html,2,0,1
+1789468187542,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-21,text,true,,13261,264,22,22,http://localhost:8000/dashboard.html,2,0,1
+1789468187562,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-18,text,true,,6916,265,22,22,http://localhost:8000/monitoring.html,1,0,0
+1789468187572,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-15,text,true,,10060,265,22,22,http://localhost:8000/advisories.html,1,0,0
+1789468187590,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-12,text,true,,10077,260,22,22,http://localhost:8000/index.html,2,0,1
+1789468187595,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-6,text,true,,6916,265,22,22,http://localhost:8000/monitoring.html,1,0,0
+1789468187599,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-9,text,true,,6916,265,22,22,http://localhost:8000/monitoring.html,1,0,0
+1789468187614,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-3,text,true,,12761,263,22,22,http://localhost:8000/research.html,2,0,1
+1789468187634,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-23,text,true,,10077,260,21,21,http://localhost:8000/index.html,1,0,1
+1789468187649,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-20,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,1
+1789468187660,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-17,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,1
+1789468187671,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-14,text,true,,12761,263,21,21,http://localhost:8000/research.html,1,0,0
+1789468187689,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-11,text,true,,13261,264,21,21,http://localhost:8000/dashboard.html,1,0,1
+1789468187700,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-8,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,0
+1789468187711,2,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-5,text,true,,10060,265,21,21,http://localhost:8000/advisories.html,2,0,1
+1789468187745,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-22,text,true,,13261,264,22,22,http://localhost:8000/dashboard.html,2,0,1
+1789468187754,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-19,text,true,,6916,265,22,22,http://localhost:8000/monitoring.html,1,0,0
+1789468187768,2,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-16,text,true,,10060,265,22,22,http://localhost:8000/advisories.html,2,0,1
+1789468187783,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-13,text,true,,10077,260,22,22,http://localhost:8000/index.html,2,0,1
+1789468187802,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-10,text,true,,6916,265,22,22,http://localhost:8000/monitoring.html,2,0,1
+1789468187802,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-7,text,true,,6916,265,22,22,http://localhost:8000/monitoring.html,2,0,1
+1789468187821,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-4,text,true,,12761,263,22,22,http://localhost:8000/research.html,1,0,0
+1789468187836,0,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-24,text,true,,10077,260,21,21,http://localhost:8000/index.html,0,0,0
+1789468187848,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-21,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,0
+1789468187868,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-18,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,1
+1789468187878,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-15,text,true,,12761,263,21,21,http://localhost:8000/research.html,2,0,1
+1789468187898,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-12,text,true,,13261,264,21,21,http://localhost:8000/dashboard.html,2,0,1
+1789468187898,2,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-6,text,true,,10060,265,21,21,http://localhost:8000/advisories.html,2,0,1
+1789468187905,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-9,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,2,0,1
+1789468187941,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-23,text,true,,13261,264,21,21,http://localhost:8000/dashboard.html,1,0,0
+1789468187956,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-20,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,0
+1789468187965,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-17,text,true,,10060,265,21,21,http://localhost:8000/advisories.html,1,0,0
+1789468187977,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-14,text,true,,10077,260,21,21,http://localhost:8000/index.html,1,0,0
+1789468187996,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-11,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,0
+1789468188003,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-8,text,true,,6916,265,21,21,http://localhost:8000/monitoring.html,1,0,0
+1789468188015,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-5,text,true,,12761,263,21,21,http://localhost:8000/research.html,1,0,0
+1789468188038,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-25,text,true,,10077,260,20,20,http://localhost:8000/index.html,1,0,1
+1789468188048,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-22,text,true,,6916,265,20,20,http://localhost:8000/monitoring.html,1,0,0
+1789468188060,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-19,text,true,,6916,265,20,20,http://localhost:8000/monitoring.html,1,0,0
+1789468188073,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-16,text,true,,12761,263,20,20,http://localhost:8000/research.html,2,0,1
+1789468188089,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-13,text,true,,13261,264,20,20,http://localhost:8000/dashboard.html,1,0,1
+1789468188109,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-7,text,true,,10060,265,20,20,http://localhost:8000/advisories.html,1,0,0
+1789468188109,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-10,text,true,,6916,265,20,20,http://localhost:8000/monitoring.html,1,0,0
+1789468188142,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-24,text,true,,13261,264,20,20,http://localhost:8000/dashboard.html,2,0,1
+1789468188154,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-21,text,true,,6916,265,20,20,http://localhost:8000/monitoring.html,1,0,0
+1789468188174,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-18,text,true,,10060,265,20,20,http://localhost:8000/advisories.html,1,0,1
+1789468188183,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-15,text,true,,10077,260,20,20,http://localhost:8000/index.html,1,0,0
+1789468188206,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-6,text,true,,12761,263,20,20,http://localhost:8000/research.html,1,0,0
+1789468188206,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-12,text,true,,6916,265,20,20,http://localhost:8000/monitoring.html,1,0,0
+1789468188212,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-9,text,true,,6916,265,19,19,http://localhost:8000/monitoring.html,1,0,0
+1789468188248,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-23,text,true,,6916,265,19,19,http://localhost:8000/monitoring.html,1,0,0
+1789468188263,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-20,text,true,,6916,265,19,19,http://localhost:8000/monitoring.html,1,0,0
+1789468188270,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-17,text,true,,12761,263,19,19,http://localhost:8000/research.html,1,0,1
+1789468188279,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-14,text,true,,13261,264,19,19,http://localhost:8000/dashboard.html,1,0,1
+1789468188303,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-11,text,true,,6916,265,19,19,http://localhost:8000/monitoring.html,1,0,0
+1789468188309,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-8,text,true,,10060,265,19,19,http://localhost:8000/advisories.html,1,0,0
+1789468188345,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-25,text,true,,13261,264,19,19,http://localhost:8000/dashboard.html,1,0,0
+1789468188350,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-22,text,true,,6916,265,19,19,http://localhost:8000/monitoring.html,1,0,0
+1789468188366,2,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-19,text,true,,10060,265,19,19,http://localhost:8000/advisories.html,2,0,1
+1789468188381,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-16,text,true,,10077,260,19,19,http://localhost:8000/index.html,1,0,0
+1789468188395,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-13,text,true,,6916,265,19,19,http://localhost:8000/monitoring.html,2,0,1
+1789468188414,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-10,text,true,,6916,265,19,19,http://localhost:8000/monitoring.html,0,0,0
+1789468188415,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-7,text,true,,12761,263,19,19,http://localhost:8000/research.html,1,0,1
+1789468188450,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-24,text,true,,6916,265,18,18,http://localhost:8000/monitoring.html,1,0,1
+1789468188460,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-21,text,true,,6916,265,18,18,http://localhost:8000/monitoring.html,2,0,1
+1789468188481,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-18,text,true,,12761,263,18,18,http://localhost:8000/research.html,1,0,0
+1789468188488,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-15,text,true,,13261,264,18,18,http://localhost:8000/dashboard.html,1,0,0
+1789468188513,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-12,text,true,,6916,265,18,18,http://localhost:8000/monitoring.html,2,0,1
+1789468188518,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-9,text,true,,10060,265,18,18,http://localhost:8000/advisories.html,1,0,1
+1789468188555,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-23,text,true,,6916,265,18,18,http://localhost:8000/monitoring.html,1,0,1
+1789468188569,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-20,text,true,,10060,265,18,18,http://localhost:8000/advisories.html,1,0,1
+1789468188572,1,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-17,text,true,,10077,260,18,18,http://localhost:8000/index.html,1,0,0
+1789468188585,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-14,text,true,,6916,265,18,18,http://localhost:8000/monitoring.html,1,0,0
+1789468188606,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-11,text,true,,6916,265,18,18,http://localhost:8000/monitoring.html,1,0,1
+1789468188612,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-8,text,true,,12761,263,18,18,http://localhost:8000/research.html,1,0,0
+1789468188652,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-25,text,true,,6916,265,17,17,http://localhost:8000/monitoring.html,1,0,0
+1789468188656,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-22,text,true,,6916,265,17,17,http://localhost:8000/monitoring.html,1,0,1
+1789468188674,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-19,text,true,,12761,263,17,17,http://localhost:8000/research.html,1,0,0
+1789468188685,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-16,text,true,,13261,264,17,17,http://localhost:8000/dashboard.html,1,0,1
+1789468188702,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-13,text,true,,6916,265,17,17,http://localhost:8000/monitoring.html,1,0,1
+1789468188719,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-10,text,true,,10060,265,17,17,http://localhost:8000/advisories.html,1,0,0
+1789468188753,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-24,text,true,,6916,265,17,17,http://localhost:8000/monitoring.html,1,0,1
+1789468188764,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-21,text,true,,10060,265,17,17,http://localhost:8000/advisories.html,1,0,0
+1789468188788,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-18,text,true,,10077,260,17,17,http://localhost:8000/index.html,2,0,1
+1789468188790,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-15,text,true,,6916,265,17,17,http://localhost:8000/monitoring.html,2,0,1
+1789468188820,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-12,text,true,,6916,265,17,17,http://localhost:8000/monitoring.html,1,0,1
+1789468188825,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-9,text,true,,12761,263,17,17,http://localhost:8000/research.html,1,0,0
+1789468188862,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-23,text,true,,6916,265,16,16,http://localhost:8000/monitoring.html,1,0,0
+1789468188876,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-20,text,true,,12761,263,16,16,http://localhost:8000/research.html,2,0,1
+1789468188878,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-17,text,true,,13261,264,16,16,http://localhost:8000/dashboard.html,1,0,1
+1789468188891,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-14,text,true,,6916,265,16,16,http://localhost:8000/monitoring.html,2,0,1
+1789468188913,2,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-11,text,true,,10060,265,16,16,http://localhost:8000/advisories.html,1,0,1
+1789468188954,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-25,text,true,,6916,265,16,16,http://localhost:8000/monitoring.html,2,0,1
+1789468188963,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-22,text,true,,10060,265,16,16,http://localhost:8000/advisories.html,1,0,0
+1789468188980,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-19,text,true,,10077,260,16,16,http://localhost:8000/index.html,2,0,1
+1789468188991,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-16,text,true,,6916,265,16,16,http://localhost:8000/monitoring.html,2,0,1
+1789468189009,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-13,text,true,,6916,265,16,16,http://localhost:8000/monitoring.html,1,0,0
+1789468189025,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-10,text,true,,12761,263,16,16,http://localhost:8000/research.html,1,0,0
+1789468189057,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-24,text,true,,6916,265,15,15,http://localhost:8000/monitoring.html,1,0,0
+1789468189070,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-21,text,true,,12761,263,15,15,http://localhost:8000/research.html,2,0,1
+1789468189096,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-18,text,true,,13261,264,15,15,http://localhost:8000/dashboard.html,1,0,0
+1789468189097,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-15,text,true,,6916,265,15,15,http://localhost:8000/monitoring.html,1,0,1
+1789468189125,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-12,text,true,,10060,265,15,15,http://localhost:8000/advisories.html,1,0,0
+1789468189165,2,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-23,text,true,,10060,265,15,15,http://localhost:8000/advisories.html,2,0,1
+1789468189183,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-20,text,true,,10077,260,15,15,http://localhost:8000/index.html,2,0,1
+1789468189185,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-17,text,true,,6916,265,15,15,http://localhost:8000/monitoring.html,1,0,0
+1789468189198,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-14,text,true,,6916,265,15,15,http://localhost:8000/monitoring.html,2,0,1
+1789468189220,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-11,text,true,,12761,263,15,15,http://localhost:8000/research.html,1,0,0
+1789468189258,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-25,text,true,,6916,265,14,14,http://localhost:8000/monitoring.html,1,0,1
+1789468189270,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-22,text,true,,12761,263,14,14,http://localhost:8000/research.html,1,0,1
+1789468189288,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-19,text,true,,13261,264,14,14,http://localhost:8000/dashboard.html,1,0,0
+1789468189297,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-16,text,true,,6916,265,14,14,http://localhost:8000/monitoring.html,1,0,0
+1789468189315,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-13,text,true,,10060,265,14,14,http://localhost:8000/advisories.html,1,0,1
+1789468189364,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-24,text,true,,10060,265,14,14,http://localhost:8000/advisories.html,1,0,0
+1789468189377,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-21,text,true,,10077,260,14,14,http://localhost:8000/index.html,2,0,1
+1789468189398,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-18,text,true,,6916,265,14,14,http://localhost:8000/monitoring.html,2,0,1
+1789468189401,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-15,text,true,,6916,265,14,14,http://localhost:8000/monitoring.html,1,0,0
+1789468189431,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-12,text,true,,12761,263,14,14,http://localhost:8000/research.html,2,0,1
+1789468189472,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-23,text,true,,12761,263,13,13,http://localhost:8000/research.html,2,0,1
+1789468189489,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-20,text,true,,13261,264,13,13,http://localhost:8000/dashboard.html,2,0,1
+1789468189491,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-17,text,true,,6916,265,13,13,http://localhost:8000/monitoring.html,1,0,0
+1789468189501,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-14,text,true,,10060,265,13,13,http://localhost:8000/advisories.html,1,0,1
+1789468189565,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-25,text,true,,10060,265,13,13,http://localhost:8000/advisories.html,1,0,0
+1789468189574,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-22,text,true,,10077,260,13,13,http://localhost:8000/index.html,2,0,1
+1789468189595,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-19,text,true,,6916,265,13,13,http://localhost:8000/monitoring.html,1,0,0
+1789468189599,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-16,text,true,,6916,265,13,13,http://localhost:8000/monitoring.html,1,0,0
+1789468189621,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-13,text,true,,12761,263,13,13,http://localhost:8000/research.html,1,0,1
+1789468189671,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-24,text,true,,12761,263,12,12,http://localhost:8000/research.html,1,0,1
+1789468189682,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-21,text,true,,13261,264,12,12,http://localhost:8000/dashboard.html,2,0,1
+1789468189703,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-15,text,true,,10060,265,12,12,http://localhost:8000/advisories.html,1,0,1
+1789468189703,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-18,text,true,,6916,265,12,12,http://localhost:8000/monitoring.html,1,0,1
+1789468189780,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-23,text,true,,10077,260,12,12,http://localhost:8000/index.html,2,0,1
+1789468189796,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-20,text,true,,6916,265,12,12,http://localhost:8000/monitoring.html,1,0,1
+1789468189797,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-17,text,true,,6916,265,12,12,http://localhost:8000/monitoring.html,1,0,1
+1789468189806,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-14,text,true,,12761,263,12,12,http://localhost:8000/research.html,1,0,0
+1789468189871,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-25,text,true,,12761,263,11,11,http://localhost:8000/research.html,1,0,1
+1789468189880,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-22,text,true,,13261,264,11,11,http://localhost:8000/dashboard.html,1,0,1
+1789468189900,0,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-19,text,true,,6916,265,11,11,http://localhost:8000/monitoring.html,0,0,0
+1789468189905,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-16,text,true,,10060,265,11,11,http://localhost:8000/advisories.html,1,0,1
+1789468189978,3,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-24,text,true,,10077,260,11,11,http://localhost:8000/index.html,2,0,1
+1789468189989,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-21,text,true,,6916,265,11,11,http://localhost:8000/monitoring.html,2,0,1
+1789468190006,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-15,text,true,,12761,263,11,11,http://localhost:8000/research.html,2,0,1
+1789468190010,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-18,text,true,,6916,265,10,10,http://localhost:8000/monitoring.html,1,0,0
+1789468190088,2,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-23,text,true,,13261,264,10,10,http://localhost:8000/dashboard.html,2,0,1
+1789468190098,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-20,text,true,,6916,265,10,10,http://localhost:8000/monitoring.html,2,0,1
+1789468190104,0,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-17,text,true,,10060,265,10,10,http://localhost:8000/advisories.html,0,0,0
+1789468190178,2,HTTP Request - GET Homepage (/index.html),200,OK,Climate Platform Users - Load Simulation 1-25,text,true,,10077,260,10,10,http://localhost:8000/index.html,2,0,1
+1789468190186,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-22,text,true,,6916,265,10,10,http://localhost:8000/monitoring.html,1,0,1
+1789468190206,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-19,text,true,,6916,265,10,10,http://localhost:8000/monitoring.html,2,0,1
+1789468190211,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-16,text,true,,12761,263,10,10,http://localhost:8000/research.html,1,0,1
+1789468190286,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-24,text,true,,13261,264,9,9,http://localhost:8000/dashboard.html,1,0,1
+1789468190297,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-21,text,true,,6916,265,9,9,http://localhost:8000/monitoring.html,1,0,0
+1789468190316,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-18,text,true,,10060,265,9,9,http://localhost:8000/advisories.html,1,0,0
+1789468190395,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-23,text,true,,6916,265,9,9,http://localhost:8000/monitoring.html,2,0,1
+1789468190405,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-17,text,true,,12761,263,9,9,http://localhost:8000/research.html,1,0,1
+1789468190405,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-20,text,true,,6916,265,9,9,http://localhost:8000/monitoring.html,1,0,0
+1789468190482,1,HTTP Request - GET Dashboard (/dashboard.html),200,OK,Climate Platform Users - Load Simulation 1-25,text,true,,13261,264,8,8,http://localhost:8000/dashboard.html,1,0,0
+1789468190489,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-22,text,true,,6916,265,8,8,http://localhost:8000/monitoring.html,1,0,1
+1789468190513,2,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-19,text,true,,10060,265,8,8,http://localhost:8000/advisories.html,2,0,1
+1789468190593,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-24,text,true,,6916,265,8,8,http://localhost:8000/monitoring.html,2,0,1
+1789468190603,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-21,text,true,,6916,265,8,8,http://localhost:8000/monitoring.html,1,0,1
+1789468190622,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-18,text,true,,12761,263,8,8,http://localhost:8000/research.html,1,0,1
+1789468190702,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-23,text,true,,6916,265,7,7,http://localhost:8000/monitoring.html,2,0,1
+1789468190712,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-20,text,true,,10060,265,7,7,http://localhost:8000/advisories.html,1,0,0
+1789468190789,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-25,text,true,,6916,265,7,7,http://localhost:8000/monitoring.html,2,0,1
+1789468190796,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-22,text,true,,6916,265,7,7,http://localhost:8000/monitoring.html,1,0,0
+1789468190821,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-19,text,true,,12761,263,7,7,http://localhost:8000/research.html,1,0,0
+1789468190901,1,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-24,text,true,,6916,265,6,6,http://localhost:8000/monitoring.html,1,0,0
+1789468190907,0,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-21,text,true,,10060,265,6,6,http://localhost:8000/advisories.html,0,0,0
+1789468191010,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-23,text,true,,6916,265,6,6,http://localhost:8000/monitoring.html,2,0,1
+1789468191015,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-20,text,true,,12761,263,6,6,http://localhost:8000/research.html,1,0,0
+1789468191097,3,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-25,text,true,,6916,265,5,5,http://localhost:8000/monitoring.html,3,0,1
+1789468191102,1,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-22,text,true,,10060,265,5,5,http://localhost:8000/advisories.html,1,0,1
+1789468191208,2,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-24,text,true,,6916,265,5,5,http://localhost:8000/monitoring.html,2,0,1
+1789468191213,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-21,text,true,,12761,263,5,5,http://localhost:8000/research.html,1,0,0
+1789468191315,3,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-23,text,true,,10060,265,4,4,http://localhost:8000/advisories.html,3,0,1
+1789468191406,2,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-22,text,true,,12761,263,4,4,http://localhost:8000/research.html,2,0,0
+1789468191405,3,HTTP Request - GET AWS Monitoring (/monitoring.html),200,OK,Climate Platform Users - Load Simulation 1-25,text,true,,6916,265,4,4,http://localhost:8000/monitoring.html,3,0,1
+1789468191516,2,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-24,text,true,,10060,265,3,3,http://localhost:8000/advisories.html,2,0,1
+1789468191619,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-23,text,true,,12761,263,3,3,http://localhost:8000/research.html,1,0,0
+1789468191714,2,HTTP Request - GET Advisories (/advisories.html),200,OK,Climate Platform Users - Load Simulation 1-25,text,true,,10060,265,2,2,http://localhost:8000/advisories.html,2,0,1
+1789468191823,1,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-24,text,true,,12761,263,2,2,http://localhost:8000/research.html,1,0,1
+1789468192022,3,HTTP Request - GET Research (/research.html),200,OK,Climate Platform Users - Load Simulation 1-25,text,true,,12761,263,1,1,http://localhost:8000/research.html,3,0,1
