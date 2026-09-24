@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heatwave Watch - Google AdWords Campaign (Exp 06)</title>
+  <meta name="description" content="Google AdWords (Google Ads) Campaign Management and SERP simulation for HeatAware AI Climate Intelligence & Early Warning System.">
+  <link rel="canonical" href="https://usecases-pearl.vercel.app/campaign.html">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Analytics GA4 & Google Ads Tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TN6PC8751"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-3TN6PC8751', {
+      'cookie_domain': 'auto',
+      'cookie_flags': 'SameSite=None;Secure'
+    });
+    // Google Ads (AdWords) Account ID
+    gtag('config', 'AW-16010423075');
+    
+    gtag('event', 'page_view', {
+      'page_title': document.title,
+      'page_location': window.location.href,
+      'page_path': window.location.pathname
+    });
+  </script>
+  <style>
+    .campaign-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 25px;
+    }
+    @media (max-width: 1024px) {
+      .campaign-grid { grid-template-columns: 1fr; }
+    }
+    /* Google SERP Simulated Ad Box */
+    .serp-container {
+      background: #ffffff;
+      color: #202124;
+      border-radius: 12px;
+      padding: 24px;
+      font-family: Arial, Roboto, sans-serif;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    }
+    .serp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #e8eaed;
+      padding-bottom: 10px;
+    }
+    .serp-view-toggle button {
+      background: #f1f3f4;
+      border: 1px solid #dadce0;
+      padding: 6px 14px;
+      border-radius: 16px;
+      cursor: pointer;
+      font-size: 13px;
+      color: #3c4043;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .serp-view-toggle button.active {
+      background: #1a73e8;
+      color: #ffffff;
+      border-color: #1a73e8;
+    }
+    .ad-card {
+      transition: all 0.3s ease;
+    }
+    .ad-card.mobile-view {
+      max-width: 375px;
+      margin: 0 auto;
+      border: 1px solid #dadce0;
+      padding: 16px;
+      border-radius: 16px;
+      background: #fafafa;
+    }
+    .ad-badge-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+    .ad-badge {
+      font-size: 11px;
+      font-weight: 700;
+      color: #202124;
+      background: #e8f0fe;
+      border: 1px solid #cce0ff;
+      border-radius: 4px;
+      padding: 1px 5px;
+      letter-spacing: 0.2px;
+    }
+    .ad-display-url {
+      font-size: 13px;
+      color: #202124;
+      word-break: break-all;
+    }
+    .ad-display-url span.green-path {
+      color: #5f6368;
+    }
+    .ad-headline {
+      font-size: 19px;
+      line-height: 1.35;
+      color: #1a0dab;
+      text-decoration: none;
+      font-weight: 400;
+      display: block;
+      margin-top: 4px;
+      margin-bottom: 6px;
+    }
+    .ad-headline:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    .ad-description {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #4d5156;
+      margin-bottom: 12px;
+    }
+    .ad-extensions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px dashed #dadce0;
+    }
+    .sitelink-item {
+      font-size: 13px;
+    }
+    .sitelink-link {
+      color: #1a0dab;
+      text-decoration: none;
+      font-weight: 500;
+      display: block;
+    }
+    .sitelink-link:hover { text-decoration: underline; }
+    .sitelink-desc {
+      color: #5f6368;
+      font-size: 12px;
+    }
+    .ad-callouts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .callout-pill {
+      background: #f8f9fa;
+      border: 1px solid #e8eaed;
+      border-radius: 4px;
+      padding: 3px 8px;
+      font-size: 12px;
+      color: #3c4043;
+    }
+    .call-extension-row {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #1a73e8;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Campaign Setting Cards */
+    .config-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    .config-table th {
+      background: rgba(255, 255, 255, 0.04);
+      text-align: left;
+      padding: 10px 14px;
+      color: var(--accent-orange);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .config-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      color: var(--text-secondary);
+    }
+    .config-table tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .tag-pill {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .tag-exact { background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); }
+    .tag-phrase { background: rgba(250, 204, 21, 0.15); color: #facc15; border: 1px solid rgba(250, 204, 21, 0.3); }
+    .tag-broad { background: rgba(74, 222, 128, 0.15); color: #4ade80; border: 1px solid rgba(74, 222, 128, 0.3); }
+    .tag-neg { background: rgba(248, 113, 113, 0.15); color: #f87171; border: 1px solid rgba(248, 113, 113, 0.3); }
+
+    /* AdSense Calculator Box */
+    .calc-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-glass);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .calc-input-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    .calc-input-group label {
+      display: block;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .calc-input-group input, .calc-input-group select {
+      width: 100%;
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid var(--border-glass);
+      border-radius: 6px;
+      padding: 8px 12px;
+      color: var(--text-primary);
+      font-size: 14px;
+      outline: none;
+    }
+    .calc-stat-display {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+      text-align: center;
+    }
+    .calc-stat-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 8px;
+      padding: 12px;
+    }
+    .calc-stat-num {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--accent-orange);
+      margin-top: 4px;
+    }
+    .calc-stat-lbl {
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <i class="fa-solid fa-temperature-arrow-up"></i>
+        <div class="sidebar-brand-text">HEATAWARE AI</div>
+      </div>
+      <ul class="sidebar-menu">
+        <li class="sidebar-menu-item">
+          <a href="index.html">
+            <i class="fa-solid fa-house-chimney"></i>
+            <span>Overview</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="dashboard.html">
+            <i class="fa-solid fa-chart-column"></i>
+            <span>Forecast Watch</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="monitoring.html">
+            <i class="fa-solid fa-tower-broadcast"></i>
+            <span>Live Monitoring</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="advisories.html">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <span>Alerts & Advisories</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item">
+          <a href="research.html">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Data & Research</span>
+          </a>
+        </li>
+        <li class="sidebar-menu-item active">
+          <a href="campaign.html">
+            <i class="fa-solid fa-rectangle-ad"></i>
+            <span>Google Ads (Exp 06)</span>
+          </a>
+        </li>
+      </ul>
+      <div class="sidebar-footer">
+        <p>Collaborator: <strong>IMD Pune</strong></p>
+        <p>© 2026 Somaiya Vidyavihar</p>
+      </div>
+    </aside>
+
+    <!-- Main Content Container -->
+    <main class="main-content">
+      <!-- Header Bar -->
+      <header class="top-navbar">
+        <div class="page-title-box">
+          <h1 class="page-title">Experiment No. 06: Campaigning through Google AdWords</h1>
+          <p class="page-subtitle">Course: KJSSE/IT/LYBTECH /SEM-VII/DIM/2026-27 | Somaiya Vidyavihar University</p>
+        </div>
+        <div class="user-meta">
+          <span class="meta-tag"><i class="fa-solid fa-graduation-cap"></i> Batch A2 | Roll 16010423075</span>
+          <span class="meta-tag status-live"><i class="fa-solid fa-circle"></i> Ads Tag Configured</span>
+        </div>
+      </header>
+
+      <!-- Key Experiment Metrics Summary -->
+      <section class="overview-metrics-grid" style="margin-bottom: 25px;">
+        <div class="metric-card">
+          <div class="metric-icon" style="color: #4285f4;"><i class="fa-brands fa-google"></i></div>
+          <div class="metric-info">
+            <span class="metric-label">Campaign Type</span>
+            <h3 class="metric-value">Search (Expert Mode)</h3>
+            <span class="metric-trend"><i class="fa-solid fa-check"></i> Display Deselected</span>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon" style="color: #34a853;"><i class="fa-solid fa-indian-rupee-sign"></i></div>
+          <div class="metric-info">
+            <span class="metric-label">Bidding Strategy</span>
+            <h3 class="metric-value">Manual CPC (₹12.00)</h3>
+            <span class="metric-trend"><i class="fa-solid fa-shield-halved"></i> 100% Cost Control</span>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon" style="color: #ea4335;"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="metric-info">
+            <span class="metric-label">Geo-Target Option</span>
+            <h3 class="metric-value">Option #2 (Physically In)</h3>
+            <span class="metric-trend"><i class="fa-solid fa-bullseye"></i> Zero Ad Budget Waste</span>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon" style="color: #fbbc05;"><i class="fa-solid fa-bullhorn"></i></div>
+          <div class="metric-info">
+            <span class="metric-label">Daily Budget</span>
+            <h3 class="metric-value">₹500 / Day</h3>
+            <span class="metric-trend"><i class="fa-solid fa-calendar"></i> ₹15,000 / Month</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 1: Live Simulated Google SERP Ad Preview -->
+      <div class="campaign-grid">
+        <div class="card">
+          <div class="card-header">
+            <h3><i class="fa-brands fa-google" style="color: #4285f4; margin-right: 8px;"></i> Google Search Results Page (SERP) Ad Preview</h3>
+            <div class="serp-view-toggle">
+              <button id="view-desktop-btn" class="active" onclick="switchAdView('desktop')"><i class="fa-solid fa-desktop"></i> Desktop</button>
+              <button id="view-mobile-btn" onclick="switchAdView('mobile')"><i class="fa-solid fa-mobile-screen"></i> Mobile</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="serp-container">
+              <div class="serp-header">
+                <span style="font-size: 12px; color: #5f6368;"><i class="fa-solid fa-magnifying-glass"></i> Query: <strong>heatwave alert today mumbai</strong></span>
+                <span style="font-size: 11px; background: #e6f4ea; color: #137333; padding: 2px 6px; border-radius: 4px; font-weight: 600;">Ad Rank #1</span>
+              </div>
+
+              <!-- The Ad Box -->
+              <div id="serp-ad-card" class="ad-card">
+                <div class="ad-badge-row">
+                  <span class="ad-badge">Sponsored</span>
+                  <span class="ad-display-url">https://usecases-pearl.vercel.app<span class="green-path"> › heatwave-watch › alerts</span></span>
+                </div>
+                <a href="index.html" class="ad-headline" id="ad-headline-text">
+                  Heatwave Early Warning AI | Real-Time Climate Intelligence | IMD & Somaiya Forecast
+                </a>
+                <p class="ad-description" id="ad-desc-text">
+                  Official AI & IoT-driven heatwave early warning system with IMD Pune. Live station telemetry, wet-bulb heat index, and instant emergency advisories for farmers & citizens.
+                </p>
+                
+                <!-- Callout Extensions -->
+                <div class="ad-callouts">
+                  <span class="callout-pill"><i class="fa-solid fa-check"></i> 97% IMD Model Accuracy</span>
+                  <span class="callout-pill"><i class="fa-solid fa-bolt"></i> Real-Time Sensor Telemetry</span>
+                  <span class="callout-pill"><i class="fa-solid fa-shield"></i> Free Public Warning Portal</span>
+                  <span class="callout-pill"><i class="fa-solid fa-bell"></i> SMS Emergency Advisories</span>
+                </div>
+
+                <!-- Sitelink Extensions -->
+                <div class="ad-extensions">
+                  <div class="sitelink-item">
+                    <a href="dashboard.html" class="sitelink-link">Forecast Watch Dashboard</a>
+                    <span class="sitelink-desc">Track heatwave hotspots & maximum temp grids across India.</span>
+                  </div>
+                  <div class="sitelink-item">
+                    <a href="monitoring.html" class="sitelink-link">Live AWS Telemetry Grid</a>
+                    <span class="sitelink-desc">Real-time IoT weather station feeds & heat indices.</span>
+                  </div>
+                  <div class="sitelink-item">
+                    <a href="advisories.html" class="sitelink-link">AI Advisory Simulator</a>
+                    <span class="sitelink-desc">Generate tailored emergency advisories for your region.</span>
+                  </div>
+                  <div class="sitelink-item">
+                    <a href="research.html" class="sitelink-link">Data & Research Portal</a>
+                    <span class="sitelink-desc">Access IMD climate datasets & academic publications.</span>
+                  </div>
+                </div>
+
+                <!-- Call Extension -->
+                <div class="call-extension-row">
+                  <i class="fa-solid fa-phone"></i> Emergency Advisory Desk: <strong>+91 22 6728 3000</strong> (Somaiya Campus)
+                </div>
+              </div>
+            </div>
+
+            <!-- Ad Switcher -->
+            <div style="margin-top: 15px; display: flex; gap: 10px; align-items: center;">
+              <span style="font-size: 12px; color: var(--text-muted);">Switch Ad Group Copy:</span>
+              <button class="btn btn-outline" style="padding: 4px 10px; font-size: 12px;" onclick="loadAdGroup(1)">Ad Group 1 (Alerts & Early Warning)</button>
+              <button class="btn btn-outline" style="padding: 4px 10px; font-size: 12px;" onclick="loadAdGroup(2)">Ad Group 2 (IoT AWS Monitoring)</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 2: Campaign Settings Breakdown (Following Lab Manual Directives) -->
+        <div class="card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-sliders" style="color: var(--accent-orange); margin-right: 8px;"></i> Campaign Parameters & Strategic Decisions</h3>
+          </div>
+          <div class="card-body">
+            <table class="config-table">
+              <thead>
+                <tr>
+                  <th>Lab Manual Step</th>
+                  <th>Configured Parameter</th>
+                  <th>Pedagogical Rationale (Manual Guidelines)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Goal Guidance</strong></td>
+                  <td><span style="color: #4ade80;">Without Goal's Guidance</span></td>
+                  <td>Prevents Google AI from forcing automated bid constraints and broad match overrides.</td>
+                </tr>
+                <tr>
+                  <td><strong>Campaign Type</strong></td>
+                  <td><span style="color: #38bdf8;">Search Campaign</span></td>
+                  <td>Captures high-intent search queries looking for immediate weather and heat warnings.</td>
+                </tr>
+                <tr>
+                  <td><strong>Networks</strong></td>
+                  <td>Search Network: <strong style="color: #4ade80;">YES</strong><br>Display Network: <strong style="color: #f87171;">DESELECTED</strong></td>
+                  <td>Page 5 Rule: Keeps ads strictly on search result pages to prevent budget erosion on junk display sites.</td>
+                </tr>
+                <tr>
+                  <td><strong>Geo-Targeting</strong></td>
+                  <td>Maharashtra, Gujarat, Delhi NCR, Vidarbha (Severe heat zones)</td>
+                  <td>Hones ad delivery exclusively to populations enduring high heatwave vulnerability.</td>
+                </tr>
+                <tr>
+                  <td><strong>Location Option</strong></td>
+                  <td><strong style="color: #facc15;">Option #2: People in or regularly in your targeted locations</strong></td>
+                  <td>Page 6 Critical Directive: Ensures ads show ONLY to people physically present in the danger zone.</td>
+                </tr>
+                <tr>
+                  <td><strong>Bidding Strategy</strong></td>
+                  <td><strong style="color: #38bdf8;">Manual CPC (₹12.00 Max Bid)</strong></td>
+                  <td>Page 8 Rule: Grants full control over keyword bids without giving Google algorithmic autonomy.</td>
+                </tr>
+                <tr>
+                  <td><strong>Budget Strategy</strong></td>
+                  <td>₹500 / Day (₹15,000 / 30)</td>
+                  <td>Page 7 Rule: Monthly investment divided by active broadcast days (30 days/mo).</td>
+                </tr>
+                <tr>
+                  <td><strong>Payment Step</strong></td>
+                  <td><strong style="color: #f87171;">Step 7: Do Not Complete Payment</strong></td>
+                  <td>Academic experiment requirement: Campaign configured completely to review state without billing.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3: Ad Group & Keyword Planner Matrix -->
+      <div class="card" style="margin-bottom: 25px;">
+        <div class="card-header">
+          <h3><i class="fa-solid fa-key" style="color: #facc15; margin-right: 8px;"></i> Keyword Architecture & Match Type Strategy (Google Keyword Planner)</h3>
+        </div>
+        <div class="card-body">
+          <table class="config-table">
+            <thead>
+              <tr>
+                <th>Ad Group</th>
+                <th>Keyword & Match Type</th>
+                <th>Match Type</th>
+                <th>Monthly Volume</th>
+                <th>Est. CPC (₹)</th>
+                <th>Quality Score</th>
+                <th>Target Intent</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Ad Group 1: Heatwave Alerts</strong></td>
+                <td><code>[heatwave alert today]</code></td>
+                <td><span class="tag-pill tag-exact">Exact Match</span></td>
+                <td>49,500</td>
+                <td>₹9.20</td>
+                <td><span style="color: #4ade80;">10 / 10</span></td>
+                <td>Urgent citizen check for active heat advisories</td>
+              </tr>
+              <tr>
+                <td><strong>Ad Group 1: Heatwave Alerts</strong></td>
+                <td><code>"imd heatwave warning mumbai"</code></td>
+                <td><span class="tag-pill tag-phrase">Phrase Match</span></td>
+                <td>27,100</td>
+                <td>₹11.50</td>
+                <td><span style="color: #4ade80;">9 / 10</span></td>
+                <td>Local Maharashtra regional forecast checks</td>
+              </tr>
+              <tr>
+                <td><strong>Ad Group 1: Heatwave Alerts</strong></td>
+                <td><code>"heatstroke symptoms and prevention"</code></td>
+                <td><span class="tag-pill tag-phrase">Phrase Match</span></td>
+                <td>33,800</td>
+                <td>₹7.80</td>
+                <td><span style="color: #4ade80;">9 / 10</span></td>
+                <td>Public health & emergency safety seekers</td>
+              </tr>
+              <tr>
+                <td><strong>Ad Group 1: Heatwave Alerts</strong></td>
+                <td><code>climate early warning system</code></td>
+                <td><span class="tag-pill tag-broad">Broad Match</span></td>
+                <td>14,200</td>
+                <td>₹14.00</td>
+                <td><span style="color: #facc15;">8 / 10</span></td>
+                <td>Academic, governmental, and institutional users</td>
+              </tr>
+              <tr>
+                <td><strong>Ad Group 2: IoT AWS Monitoring</strong></td>
+                <td><code>[somaiya weather station live]</code></td>
+                <td><span class="tag-pill tag-exact">Exact Match</span></td>
+                <td>8,900</td>
+                <td>₹6.50</td>
+                <td><span style="color: #4ade80;">10 / 10</span></td>
+                <td>Hyperlocal Mumbai micro-climate ground truth</td>
+              </tr>
+              <tr>
+                <td><strong>Ad Group 2: IoT AWS Monitoring</strong></td>
+                <td><code>"real time automated weather station telemetry"</code></td>
+                <td><span class="tag-pill tag-phrase">Phrase Match</span></td>
+                <td>12,400</td>
+                <td>₹12.80</td>
+                <td><span style="color: #4ade80;">9 / 10</span></td>
+                <td>Meteorological researchers and data scientists</td>
+              </tr>
+              <tr>
+                <td><strong>Negative Keywords</strong></td>
+                <td><code>-air conditioner repair, -room cooler price, -download song</code></td>
+                <td><span class="tag-pill tag-neg">Negative Match</span></td>
+                <td>N/A</td>
+                <td>₹0.00</td>
+                <td>Prevents Waste</td>
+                <td>Filters irrelevant commercial queries to protect budget</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Section 4: Google AdSense Note & Interactive Publisher Revenue Calculator (Question 1) -->
+      <div class="card" style="margin-bottom: 25px;">
+        <div class="card-header">
+          <div>
+            <h3><i class="fa-solid fa-coins" style="color: #4ade80; margin-right: 8px;"></i> Question 1: Google AdSense Analysis & Publisher Revenue Estimator</h3>
+            <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">
+              Write note on: Google AdSense (Monetization framework for web publishers vs Google AdWords/Ads).
+            </p>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="campaign-grid" style="margin-bottom: 20px;">
+            <div style="font-size: 13px; line-height: 1.6; color: var(--text-secondary);">
+              <h4 style="color: #ffffff; margin-bottom: 8px;">Technical Summary of Google AdSense</h4>
+              <p>
+                <strong>Google AdSense</strong> is an advertising program launched by Google that allows webmasters and website owners (publishers) to monetize their online content by displaying targeted Google advertisements (text, display images, responsive banners, native video ads) on their web pages.
+              </p>
+              <ul style="margin-left: 20px; margin-top: 8px;">
+                <li><strong>AdWords vs AdSense:</strong> AdWords (Google Ads) is for <em>advertisers</em> paying to buy traffic, while AdSense is for <em>publishers</em> earning money by displaying those ads.</li>
+                <li><strong>Revenue Share:</strong> Google passes <strong>68% of the revenue</strong> to the publisher for AdSense for Content, and <strong>51%</strong> for AdSense for Search.</li>
+                <li><strong>Monetization Models:</strong> Publishers earn via <strong>CPC</strong> (Cost Per Click) and <strong>CPM / vCPM</strong> (Cost Per Thousand Active Viewable Impressions).</li>
+                <li><strong>Ad Delivery Mechanism:</strong> Automatically matches ads based on page keywords, user browsing cookies, and demographic context via an instant programmatic auction.</li>
+              </ul>
+            </div>
+
+            <!-- Interactive AdSense Revenue Calculator -->
+            <div class="calc-box">
+              <h4 style="color: #ffffff; margin-bottom: 12px;"><i class="fa-solid fa-calculator" style="color: var(--accent-cyan);"></i> Publisher Revenue Estimator</h4>
+              <div class="calc-input-row">
+                <div class="calc-input-group">
+                  <label for="monthly-views">Monthly Pageviews</label>
+                  <input type="number" id="monthly-views" value="50000" min="1000" step="5000" oninput="calculateAdSense()">
+                </div>
+                <div class="calc-input-group">
+                  <label for="category-select">Content Category</label>
+                  <select id="category-select" onchange="calculateAdSense()">
+                    <option value="18">Climate & Science / Tech (₹18.00 RPM)</option>
+                    <option value="25">Finance & Insurance (₹25.00 RPM)</option>
+                    <option value="12">News & Weather (₹12.00 RPM)</option>
+                    <option value="8">General Entertainment (₹8.00 RPM)</option>
+                  </select>
+                </div>
+                <div class="calc-input-group">
+                  <label for="ctr-select">Expected CTR (%)</label>
+                  <input type="number" id="ctr-select" value="2.5" min="0.5" max="10" step="0.5" oninput="calculateAdSense()">
+                </div>
+              </div>
+
+              <!-- Output Display -->
+              <div class="calc-stat-display">
+                <div class="calc-stat-card">
+                  <div class="calc-stat-lbl">Estimated Clicks</div>
+                  <div class="calc-stat-num" id="calc-clicks">1,250</div>
+                </div>
+                <div class="calc-stat-card">
+                  <div class="calc-stat-lbl">Est. Monthly Revenue</div>
+                  <div class="calc-stat-num" id="calc-rev" style="color: #4ade80;">₹9,000</div>
+                </div>
+                <div class="calc-stat-card">
+                  <div class="calc-stat-lbl">Annual Earnings</div>
+                  <div class="calc-stat-num" id="calc-annual">₹1,08,000</div>
+                </div>
+                <div class="calc-stat-card">
+                  <div class="calc-stat-lbl">Publisher Cut (68%)</div>
+                  <div class="calc-stat-num" id="calc-share" style="color: #38bdf8;">₹73,440</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <script>
+    // Ad Group Toggle Logic
+    const adGroupData = {
+      1: {
+        headline: "Heatwave Early Warning AI | Real-Time Climate Intelligence | IMD & Somaiya Forecast",
+        path: " › heatwave-watch › alerts",
+        desc: "Official AI & IoT-driven heatwave early warning system with IMD Pune. Live station telemetry, wet-bulb heat index, and instant emergency advisories for farmers & citizens."
+      },
+      2: {
+        headline: "Live IoT Weather Stations | Automated Sensor Telemetry | Somaiya Campus AWS",
+        path: " › heatwave-watch › monitoring",
+        desc: "Access real-time temperature, humidity, solar radiation and ground-truth validation. 97% predictive correlation with official IMD meteorological models."
+      }
+    };
+
+    function loadAdGroup(groupId) {
+      const data = adGroupData[groupId];
+      document.getElementById('ad-headline-text').textContent = data.headline;
+      document.querySelector('.ad-display-url .green-path').textContent = data.path;
+      document.getElementById('ad-desc-text').textContent = data.desc;
+    }
+
+    function switchAdView(view) {
+      const card = document.getElementById('serp-ad-card');
+      const deskBtn = document.getElementById('view-desktop-btn');
+      const mobBtn = document.getElementById('view-mobile-btn');
+      if (view === 'mobile') {
+        card.classList.add('mobile-view');
+        deskBtn.classList.remove('active');
+        mobBtn.classList.add('active');
+      } else {
+        card.classList.remove('mobile-view');
+        deskBtn.classList.add('active');
+        mobBtn.classList.remove('active');
+      }
+    }
+
+    function calculateAdSense() {
+      const views = parseFloat(document.getElementById('monthly-views').value) || 0;
+      const rpm = parseFloat(document.getElementById('category-select').value) || 15;
+      const ctr = parseFloat(document.getElementById('ctr-select').value) || 2.0;
+
+      const clicks = Math.round(views * (ctr / 100));
+      const monthlyGross = Math.round((views / 1000) * (rpm * 10));
+      const annualGross = monthlyGross * 12;
+      const publisherShare = Math.round(annualGross * 0.68);
+
+      document.getElementById('calc-clicks').textContent = clicks.toLocaleString();
+      document.getElementById('calc-rev').textContent = '₹' + monthlyGross.toLocaleString();
+      document.getElementById('calc-annual').textContent = '₹' + annualGross.toLocaleString();
+      document.getElementById('calc-share').textContent = '₹' + publisherShare.toLocaleString();
+    }
+
+    // Initialize Calculator on load
+    window.addEventListener('DOMContentLoaded', calculateAdSense);
+  </script>
+</body>
+</html>

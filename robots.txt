@@ -11,6 +11,7 @@ Allow: /dashboard.html
 Allow: /monitoring.html
 Allow: /advisories.html
 Allow: /research.html
+Allow: /campaign.html
 Allow: /css/
 Allow: /js/
 

@@ -64,6 +64,7 @@ The application is built as a responsive, modern glassmorphic dashboard with the
 *   **Live AWS Monitoring (`monitoring.html`):** A portal displaying real-time telemetry from deployed weather stations (e.g., Somaiya Campus Station, KJSAC Station). It displays the real-time heat index and system validation scores.
 *   **Alerts & Advisories (`advisories.html`):** Features an **AI Advisory Simulator** that mimics LLM translation. Users can configure the target stakeholder (e.g., Agricultural Workers, Disaster Teams, High-Risk Citizens) and heat parameters to instantly generate contextual, actionable safety guidelines.
 *   **Data & Research Portal (`research.html`):** Repository for research documentation, scholarly articles, sensor schematics, and CSV datasets.
+*   **Google AdWords Campaign & AdSense Portal (`campaign.html`):** Digital Marketing (DiM) Experiment 06 portal showcasing the complete Google Ads search campaign design, interactive SERP ad preview (desktop/mobile), keyword planner match matrices, Manual CPC budget calculator, and Google AdSense revenue simulator.
 
 ---
 
@@ -72,6 +73,7 @@ The application is built as a responsive, modern glassmorphic dashboard with the
 *   **Markup:** HTML5 (Semantic and accessible structure)
 *   **Styling:** Custom Vanilla CSS (Modern CSS variables, Flexbox/Grid layouts, glassmorphism, responsive queries, and animations)
 *   **Logic & Interactivity:** Modern ES6+ JavaScript (Dynamic DOM manipulation, form simulators, active page highlights, and live clock synchronizations)
+*   **Analytics & SEM:** Google Analytics 4 (`G-3TN6PC8751`), Google AdWords / Google Ads (`AW-16010423075`), Google Tag (`gtag.js`)
 *   **Icons:** [FontAwesome 6.4](https://fontawesome.com/)
 *   **Typography:** [Google Fonts](https://fonts.google.com/) (Outfit and Plus Jakarta Sans)
 
@@ -86,6 +88,10 @@ usecases/
 ├── monitoring.html       # Real-time IoT Weather Station Telemetry
 ├── advisories.html       # AI LLM Advisory Generator Portal
 ├── research.html         # Data repositories & Research publications
+├── campaign.html         # Google Ads (AdWords) Experiment 06 Campaign Portal
+├── EXPERIMENT_06_REPORT.md      # Digital Marketing Exp 06 Lab Report (Google Ads)
+├── EXPERIMENT_06_DIM_REPORT.md  # DiM Exp 06 Lab Report copy
+├── EXPERIMENT_06_STQA_REPORT.md # STQA Exp 06 Lab Report backup
 ├── css/
 │   └── style.css         # Main stylesheet with styling variables & styles
 └── js/

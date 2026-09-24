@@ -203,6 +203,16 @@ function handleFormSubmit(e) {
       outputContainer.classList.remove('typing');
       generateBtn.disabled = false;
       generateBtn.querySelector('span').textContent = 'Generate LLM Advisory';
+
+      // Fire Google Ads Conversion Event (AdWords AW-16010423075)
+      if (typeof gtag === 'function') {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-16010423075/gen_advisory_lead',
+          'value': 1.0,
+          'currency': 'INR',
+          'transaction_id': 'ADV-' + Date.now()
+        });
+      }
     }
   }
 

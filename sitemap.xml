@@ -42,6 +42,10 @@
        <loc>https://usecases-pearl.vercel.app/advisories.html?region=northwest&amp;severity=extreme</loc>
        <lastmod>2026-08-12T11:41:45+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
+  <url>
+       <loc>https://usecases-pearl.vercel.app/campaign.html</loc>
+       <lastmod>2026-09-16T16:30:00+00:00</lastmod>
+       <changefreq>weekly</changefreq>
+       <priority>0.8000</priority>
   </url>
 </urlset>

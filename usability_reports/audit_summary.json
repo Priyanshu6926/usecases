@@ -1,0 +1,50 @@
+{
+  "index_desktop": {
+    "preset": "desktop",
+    "performance": 99,
+    "accessibility": 91,
+    "best_practices": 96,
+    "seo": 100,
+    "fcp": "0.7\u00a0s",
+    "lcp": "0.7\u00a0s",
+    "cls": "0.002",
+    "tbt": "0\u00a0ms",
+    "speed_index": "0.7\u00a0s"
+  },
+  "index_mobile": {
+    "preset": "mobile",
+    "performance": 69,
+    "accessibility": 100,
+    "best_practices": 96,
+    "seo": 100,
+    "fcp": "3.3\u00a0s",
+    "lcp": "6.6\u00a0s",
+    "cls": "0",
+    "tbt": "140\u00a0ms",
+    "speed_index": "3.3\u00a0s"
+  },
+  "dashboard_desktop": {
+    "preset": "desktop",
+    "performance": 100,
+    "accessibility": 88,
+    "best_practices": 96,
+    "seo": 100,
+    "fcp": "0.7\u00a0s",
+    "lcp": "0.7\u00a0s",
+    "cls": "0",
+    "tbt": "0\u00a0ms",
+    "speed_index": "0.7\u00a0s"
+  },
+  "monitoring_desktop": {
+    "preset": "desktop",
+    "performance": 100,
+    "accessibility": 88,
+    "best_practices": 96,
+    "seo": 100,
+    "fcp": "0.6\u00a0s",
+    "lcp": "0.6\u00a0s",
+    "cls": "0.001",
+    "tbt": "0\u00a0ms",
+    "speed_index": "0.6\u00a0s"
+  }
+}
