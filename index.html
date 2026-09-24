@@ -7,36 +7,41 @@
   <meta name="description" content="AI and IoT-driven climate intelligence system for heatwave forecasting, monitoring, and early warning in collaboration with IMD and Somaiya Vidyavihar University.">
   <link rel="canonical" href="https://priyanshu.github.io/usecases/index.html">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
-  <!-- Google Fonts -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☀️</text></svg>">
+  <!-- Preconnect & Optimize Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus Jakarta Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <!-- FontAwesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <!-- Google Analytics GA4 Tracking Tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TN6PC8751"></script>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+  </noscript>
+  <!-- Non-render-blocking FontAwesome Icons -->
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </noscript>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Analytics GA4 & Ads (Deferred to avoid render blocking) -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-3TN6PC8751', {
-      'cookie_domain': 'auto',
-      'cookie_flags': 'SameSite=None;Secure'
-    });
-    
-    // Google Ads (AdWords) Conversion & Campaign Tracking Tag
-    gtag('config', 'AW-16010423075');
-    
-    // Send explicit page_view event (supports file:// & localhost)
-    gtag('event', 'page_view', {
-      'page_title': document.title,
-      'page_location': window.location.href,
-      'page_path': window.location.pathname
+    window.addEventListener('DOMContentLoaded', function() {
+      const s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-3TN6PC8751';
+      document.head.appendChild(s);
+      gtag('js', new Date());
+      gtag('config', 'G-3TN6PC8751', { 'cookie_domain': 'auto', 'cookie_flags': 'SameSite=None;Secure' });
+      gtag('config', 'AW-16010423075');
+      gtag('event', 'page_view', {
+        'page_title': document.title,
+        'page_location': window.location.href,
+        'page_path': window.location.pathname
+      });
     });
   </script>
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="app-container">
