@@ -21,7 +21,6 @@ Beyond operational climate monitoring, this repository serves as a verified engi
 - **Primary Domain Route:** [`index.html`](file:///Users/priyanshu/Desktop/Projects/usecases/index.html)
 - **Microservice Demo Portal:** [`microservices.html`](file:///Users/priyanshu/Desktop/Projects/usecases/microservices.html)
 - **Analytics Property:** Google Analytics 4 (`G-3TN6PC8751`)
-- **AdWords Tracking ID:** Google Ads (`AW-16010423075`)
 
 ---
 
@@ -42,7 +41,7 @@ Beyond operational climate monitoring, this repository serves as a verified engi
 7. [Digital Marketing & Search Engine Optimization (DiM)](#-digital-marketing--search-engine-optimization-dim)
    - [Google Analytics 4 (GA4) Telemetry & Events](#1-google-analytics-4-ga4-telemetry--events)
    - [Robots Exclusion Protocol & XML Sitemap Architecture](#2-robots-exclusion-protocol--xml-sitemap-architecture)
-   - [Google AdWords Campaign Design & AdSense Simulation](#3-google-adwords-campaign-design--adsense-simulation)
+   - [AI-Based Customer Persona Generation (K-Means)](#3-ai-based-customer-persona-generation-k-means)
 8. [Academic Experiment Reports Matrix](#-academic-experiment-reports-matrix)
 9. [Repository Directory Structure](#-repository-directory-structure)
 10. [Local Setup & Verification Guide](#-local-setup--verification-guide)
@@ -101,8 +100,8 @@ The platform follows a resilient, decoupled three-tier architectural topology:
 │  │   (dashboard.html)    │ │  (monitoring.html)   │ │ (advisories.html)  │  │
 │  └───────────────────────┘ └──────────────────────┘ └────────────────────┘  │
 │  ┌───────────────────────┐ ┌──────────────────────┐ ┌────────────────────┐  │
-│  │ Research Data Portal  │ │ Google Ads & SEM Hub │ │ Microservice Demo  │  │
-│  │ (research.html)       │ │ (campaign.html)      │ │ (microservices.html│  │
+│  │ Research Data Portal  │ │ Customer Personas Hub│ │ Microservice Demo  │  │
+│  │ (research.html)       │ │ (personas.html)      │ │ (microservices.html│  │
 │  └───────────────────────┘ └──────────────────────┘ └────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -118,7 +117,7 @@ The platform follows a resilient, decoupled three-tier architectural topology:
 | **Live AWS Monitoring** | [`monitoring.html`](file:///Users/priyanshu/Desktop/Projects/usecases/monitoring.html) | IoT Automated Weather Station telemetry | Real-time sensor telemetry (Air Temp, Relative Humidity, Solar Radiation, Wind Speed, Pressure), 5-second polling loop simulation, ground-truth correlation graphs ($\sim 97.4\%$). |
 | **Alerts & AI Advisories** | [`advisories.html`](file:///Users/priyanshu/Desktop/Projects/usecases/advisories.html) | AI-powered decision support & guidelines | Dynamic LLM text streaming simulation, persona selection (Agriculture, Urban Health, Disaster Teams, Municipal), severity filters, multi-lingual output (English, Hindi, Marathi). |
 | **Research & Open Data** | [`research.html`](file:///Users/priyanshu/Desktop/Projects/usecases/research.html) | Scientific archives & open datasets | Downloadable sample CSV telemetry datasets, IMD methodology papers, hardware sensor circuit schematics, calibration protocols. |
-| **Google Ads & SEM Hub** | [`campaign.html`](file:///Users/priyanshu/Desktop/Projects/usecases/campaign.html) | Digital marketing & search monetization | Interactive Google SERP ad preview (desktop/mobile toggle), keyword match matrices, Manual CPC budget calculator, and Google AdSense revenue simulator. |
+| **Customer Personas & AI Clustering** | [`personas.html`](file:///Users/priyanshu/Desktop/Projects/usecases/personas.html) | AI Customer Segmentation & K-Means Portal | Interactive KPI metrics, 2D PCA cluster scatter plots, silhouette analysis, and multi-attribute persona radar charts. |
 | **Architecture & Microservice Demo** | [`microservices.html`](file:///Users/priyanshu/Desktop/Projects/usecases/microservices.html) | Monolithic vs 3-Tier vs Microservices comparison | Interactive sandbox, real-time FastAPI REST API calls (port 8001), JSON telemetry inspection, latency metrics, and circuit-breaker fault tolerance. |
 
 ---
@@ -366,25 +365,19 @@ The platform incorporates production-grade Digital Marketing and Search Engine M
 ### 2. Robots Exclusion Protocol & XML Sitemap Architecture
 *(DiM Experiment 04)*
 - **Robots Directives ([`robots.txt`](file:///Users/priyanshu/Desktop/Projects/usecases/robots.txt)):**
-  - Whitelists public-facing pages (`/index.html`, `/dashboard.html`, `/monitoring.html`, `/advisories.html`, `/research.html`, `/campaign.html`, `/css/`, `/js/`).
+  - Whitelists public-facing pages (`/index.html`, `/dashboard.html`, `/monitoring.html`, `/advisories.html`, `/research.html`, `/personas.html`, `/microservices.html`, `/css/`, `/js/`).
   - Explicitly blocks search spiders from indexing test suites, AST mutants, and backend caches (`/tests/`, `/mutants/`, `/.pytest_cache/`, `/__pycache__/`, `/weather_analytics.py`).
   - Configures rate limiting (`Crawl-delay: 10`) for aggressive crawlers (AhrefsBot) and blocks known scrapers (`BadBot`).
   - Declares canonical XML sitemap location.
 - **XML Sitemap ([`sitemap.xml`](file:///Users/priyanshu/Desktop/Projects/usecases/sitemap.xml)):**
   - Full RFC-compliant schema declaring priorities (`1.0` for home, `0.8` for subportals), change frequencies, and parameter URLs.
 
-### 3. Google AdWords Campaign Design & AdSense Simulation
-*(DiM Experiment 06)*
-- **Interactive Campaign Portal:** Built directly into [`campaign.html`](file:///Users/priyanshu/Desktop/Projects/usecases/campaign.html).
-- **Campaign Specifications:**
-  - **Account & Tag ID:** `AW-16010423075`
-  - **Campaign Type:** Google Ads Search Network with Responsive Search Ads (RSA).
-  - **Target Geographies:** High-vulnerability Indian heat belts (Northwest India, Gangetic Plain, Maharashtra).
-- **Interactive SERP Preview:** Real-time visual toggle showcasing how Google Search displays desktop vs. mobile text ads with site links and callout extensions.
-- **Keyword Match Type Matrix:** Demonstrates Broad Match (`heatwave alert`), Phrase Match (`"real time heatwave monitoring"`), and Exact Match (`[heatwave early warning system]`).
-- **Interactive Calculators:**
-  - **Manual CPC Budget Estimator:** Live calculation of estimated impressions, clicks, click-through rate (CTR), and daily ad spend.
-  - **Google AdSense Revenue Simulator:** Models potential ad publisher earnings based on monthly pageviews, page CTR, and average CPC.
+### 3. AI-Based Customer Persona Generation (K-Means)
+*(DiM Experiment 08)*
+- **Interactive Persona Portal:** Built directly into [`personas.html`](file:///Users/priyanshu/Desktop/Projects/usecases/personas.html).
+- **Machine Learning Pipeline:** [`customer_persona_clustering.py`](file:///Users/priyanshu/Desktop/Projects/usecases/customer_persona_clustering.py) evaluates 250 profiles across 5 quantitative dimensions.
+- **Normalization & Clustering:** `StandardScaler` + `KMeans(K=5, n_init=15)` achieving an optimal silhouette score of **0.464**.
+- **Visual Analytics:** Outputs high-resolution cluster distribution scatter plots, elbow curves, and spider radar charts under [`persona_assets/`](file:///Users/priyanshu/Desktop/Projects/usecases/persona_assets/).
 
 ---
 
@@ -415,7 +408,6 @@ usecases/
 ├── monitoring.html                  # IoT weather station telemetry & correlation graphs
 ├── advisories.html                  # AI LLM advisory generation portal
 ├── research.html                    # Academic papers, sensor schematics & CSV data downloads
-├── campaign.html                    # Google AdWords search campaign & AdSense simulator
 ├── personas.html                    # Interactive AI Customer Persona Generation & K-Means Portal (Exp 08)
 ├── microservices.html               # Architecture & Microservice demonstration sandbox
 ├── customer_persona_clustering.py   # Machine Learning pipeline: StandardScaler, K-Means (K=5), Silhouette
