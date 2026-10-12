@@ -1,0 +1,189 @@
+[
+  {
+    "persona_id": 0,
+    "name": "Trendsetting Impulse Buyer",
+    "archetype": "The Trend Chaser",
+    "tagline": "Young, socially connected, trendy, fast purchasing cycles",
+    "color": "#ec4899",
+    "size": 50,
+    "percentage": 20.0,
+    "details": {
+      "demographics": {
+        "age_range": "18 - 29 yrs (Avg: 24.3)",
+        "income_level": "$27.1k/yr (Entry/Junior level)",
+        "gender_split": "{'Male': 0.52, 'Female': 0.48}"
+      },
+      "behavior": {
+        "avg_spending_score": "84.3/100",
+        "purchase_frequency": "22.0 orders/year",
+        "avg_order_value": "$47.3"
+      },
+      "psychographics": {
+        "interests": "Trending viral lifestyle, social media aesthetics, fast fashion, tech gadgets",
+        "goals": "Social validation, instant gratification, staying ahead of trends",
+        "pain_points": "FOMO (Fear Of Missing Out), limited disposable savings, shipping delays"
+      },
+      "channels": [
+        "Instagram Reels / Stories",
+        "TikTok",
+        "Mobile Push Notifications",
+        "Influencer Collabs"
+      ],
+      "marketing_strategy": {
+        "ad_format": "Short-form video ads, time-limited flash sale carousels, dynamic discount codes",
+        "value_prop": "'Get it before it sells out \u2014 limited drop available now!'",
+        "retargeting": "Automated abandoned cart push alerts within 3 hours offering 10% instant promo",
+        "budget_allocation": "25% of digital ad spend (High ROAS on high impulse conversion)"
+      }
+    }
+  },
+  {
+    "persona_id": 1,
+    "name": "Budget-Conscious Bargain Hunter",
+    "archetype": "The Practical Saver",
+    "tagline": "Price-sensitive, deliberate decision-maker, deal seeker",
+    "color": "#eab308",
+    "size": 51,
+    "percentage": 20.4,
+    "details": {
+      "demographics": {
+        "age_range": "35 - 64 yrs (Avg: 50.7)",
+        "income_level": "$28.9k/yr (Low to Mid bracket)",
+        "gender_split": "{'Male': 0.5882352941176471, 'Female': 0.4117647058823529}"
+      },
+      "behavior": {
+        "avg_spending_score": "24.5/100",
+        "purchase_frequency": "4.7 orders/year",
+        "avg_order_value": "$35.4"
+      },
+      "psychographics": {
+        "interests": "Coupon clipping, price comparison sites, discount portals, thrifty householding",
+        "goals": "Maximizing utility per dollar, stretching monthly budget, zero wasteful expenditure",
+        "pain_points": "Hidden charges, high delivery fees, price increases without value justification"
+      },
+      "channels": [
+        "Email Newsletters (Clearance/Discounts)",
+        "Google Search (Discount query terms)",
+        "SMS Deal Alerts"
+      ],
+      "marketing_strategy": {
+        "ad_format": "Bundle discount promotions, BOGO (Buy One Get One Free), clearance blowout banners",
+        "value_prop": "'Guaranteed lowest price or price-match guarantee + Free Shipping'",
+        "retargeting": "Weekly digest emails highlighting top price drops and threshold coupon vouchers",
+        "budget_allocation": "15% of digital ad spend (Focus on high-volume discount events like Black Friday/Diwali)"
+      }
+    }
+  },
+  {
+    "persona_id": 2,
+    "name": "Elite VIP High-Roller",
+    "archetype": "The Premium Enthusiast",
+    "tagline": "Affluent, high purchasing power, brand conscious, frequent buyer",
+    "color": "#8b5cf6",
+    "size": 50,
+    "percentage": 20.0,
+    "details": {
+      "demographics": {
+        "age_range": "28 - 47 yrs (Avg: 37.9)",
+        "income_level": "$106.3k/yr (Top 10% Earner)",
+        "gender_split": "{'Female': 0.54, 'Male': 0.46}"
+      },
+      "behavior": {
+        "avg_spending_score": "82.6/100",
+        "purchase_frequency": "30.7 orders/year",
+        "avg_order_value": "$307.8"
+      },
+      "psychographics": {
+        "interests": "Luxury lifestyle, premium hospitality, bespoke services, executive technology",
+        "goals": "Exclusive access, superior craftsmanship, personalized concierge experiences",
+        "pain_points": "Poor customer service, commoditized generic products, lengthy checkout processes"
+      },
+      "channels": [
+        "Exclusive VIP Email",
+        "Instagram Curated Showcase",
+        "Google Search (High-intent luxury terms)"
+      ],
+      "marketing_strategy": {
+        "ad_format": "High-production video ads, invitation-only VIP preview drops, white-glove onboarding",
+        "value_prop": "'Engineered for perfection: Experience unmatched luxury and concierge service'",
+        "retargeting": "Dedicated relationship manager outreach, early access to new releases",
+        "budget_allocation": "35% of digital ad spend (Highest Customer Lifetime Value / LTV contributor)"
+      }
+    }
+  },
+  {
+    "persona_id": 3,
+    "name": "Cautious Affluent Saver",
+    "archetype": "The Discerning Investor",
+    "tagline": "High earning capacity, conservative spending, high scrutiny",
+    "color": "#06b6d4",
+    "size": 50,
+    "percentage": 20.0,
+    "details": {
+      "demographics": {
+        "age_range": "38 - 67 yrs (Avg: 52.1)",
+        "income_level": "$103.9k/yr (High Earner, High Net Worth)",
+        "gender_split": "{'Female': 0.6122448979591837, 'Male': 0.3877551020408163}"
+      },
+      "behavior": {
+        "avg_spending_score": "25.1/100",
+        "purchase_frequency": "6.3 orders/year",
+        "avg_order_value": "$150.0"
+      },
+      "psychographics": {
+        "interests": "Wealth management, long-term durability, functional design, investment assets",
+        "goals": "Long-term reliability, proven track record, ROI and warranty assurance",
+        "pain_points": "Gimmicky marketing, unverified product claims, aggressive high-pressure sales"
+      },
+      "channels": [
+        "Google Search (In-depth review queries)",
+        "LinkedIn Sponsored Articles",
+        "Editorial Newsletters"
+      ],
+      "marketing_strategy": {
+        "ad_format": "Data-driven case studies, third-party laboratory certifications, 10-year durability guarantees",
+        "value_prop": "'Invest in lasting reliability: Built to outperform and backed by a comprehensive warranty'",
+        "retargeting": "Educational nurturing drip emails detailing product longevity and technical specifications",
+        "budget_allocation": "15% of digital ad spend (High conversion value upon extensive evaluation)"
+      }
+    }
+  },
+  {
+    "persona_id": 4,
+    "name": "Mainstream Pragmatist",
+    "archetype": "The Everyday Core",
+    "tagline": "Moderate income and spending, consistent regular buyer",
+    "color": "#10b981",
+    "size": 49,
+    "percentage": 19.6,
+    "details": {
+      "demographics": {
+        "age_range": "25 - 54 yrs (Avg: 39.8)",
+        "income_level": "$60.8k/yr (Solid Middle Class)",
+        "gender_split": "{'Female': 0.62, 'Male': 0.38}"
+      },
+      "behavior": {
+        "avg_spending_score": "52.7/100",
+        "purchase_frequency": "12.2 orders/year",
+        "avg_order_value": "$88.4"
+      },
+      "psychographics": {
+        "interests": "Family lifestyle, home improvement, dependable consumer goods, community forums",
+        "goals": "Fair price-to-performance ratio, trustworthy daily solutions, dependable warranty",
+        "pain_points": "Misleading product reviews, difficult returns, sudden subscription lock-ins"
+      },
+      "channels": [
+        "Google Search",
+        "Facebook Community Feeds",
+        "Customer Review Portals",
+        "Weekly Emails"
+      ],
+      "marketing_strategy": {
+        "ad_format": "Social proof carousels with 5-star customer ratings, user-generated review testimonials",
+        "value_prop": "'Trusted by over 100,000 satisfied customers \u2014 reliability you can count on'",
+        "retargeting": "Seasonal promotional triggers (Back to School, Holiday gift guides, Loyalty points)",
+        "budget_allocation": "10% of digital ad spend (Consistent recurring baseline sales)"
+      }
+    }
+  }
+]

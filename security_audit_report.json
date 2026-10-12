@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-01T15:14:54.391394",
+  "timestamp": "2026-10-02T22:34:43.686119",
   "target": "HeatAware AI Web Application",
   "scanner": "Open-Source Web Security & DAST/SAST Testing Engine (ZAP / Bandit / OWASP compliant)",
   "summary": {
-    "total_checks": 17,
-    "passed": 12,
+    "total_checks": 21,
+    "passed": 16,
     "failed": 5,
     "warnings": 0,
     "risk_score": "HIGH"
@@ -63,6 +63,24 @@
       "status": "FAILED",
       "details": "Detected pattern: Direct innerHTML Assignment (XSS Sink) -> Line 202: `outputContainer.innerHTML = parseMarkdownSimple(advisoryText...`",
       "remediation": "Ensure user-supplied variables are sanitized with DOMPurify or use textContent / document.createElement for dynamic content."
+    },
+    {
+      "category": "Security Headers & Meta",
+      "test_id": "SEC-HDR-01",
+      "title": "Explicit Charset Declaration (2026-09-03-ZAP-Report-.html)",
+      "severity": "LOW",
+      "status": "PASSED",
+      "details": "2026-09-03-ZAP-Report-.html enforces explicit UTF-8 character encoding preventing UTF-7 XSS bypasses.",
+      "remediation": "Maintain UTF-8 encoding across all templates."
+    },
+    {
+      "category": "Client-side Security",
+      "test_id": "SEC-CLI-01",
+      "title": "Viewport Protection (2026-09-03-ZAP-Report-.html)",
+      "severity": "LOW",
+      "status": "PASSED",
+      "details": "2026-09-03-ZAP-Report-.html includes standard responsive viewport configuration.",
+      "remediation": "N/A"
     },
     {
       "category": "Security Headers & Meta",
@@ -152,6 +170,24 @@
       "severity": "LOW",
       "status": "PASSED",
       "details": "advisories.html includes standard responsive viewport configuration.",
+      "remediation": "N/A"
+    },
+    {
+      "category": "Security Headers & Meta",
+      "test_id": "SEC-HDR-01",
+      "title": "Explicit Charset Declaration (campaign.html)",
+      "severity": "LOW",
+      "status": "PASSED",
+      "details": "campaign.html enforces explicit UTF-8 character encoding preventing UTF-7 XSS bypasses.",
+      "remediation": "Maintain UTF-8 encoding across all templates."
+    },
+    {
+      "category": "Client-side Security",
+      "test_id": "SEC-CLI-01",
+      "title": "Viewport Protection (campaign.html)",
+      "severity": "LOW",
+      "status": "PASSED",
+      "details": "campaign.html includes standard responsive viewport configuration.",
       "remediation": "N/A"
     },
     {

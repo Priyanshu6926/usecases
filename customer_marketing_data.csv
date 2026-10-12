@@ -1,0 +1,251 @@
+CustomerID,Gender,Age,Annual_Income_k,Spending_Score,Purchase_Frequency,Avg_Order_Value,Preferred_Channel
+1001,Male,40,80,88,34,313,Instagram
+1002,Male,25,26,81,15,57,Instagram
+1003,Female,61,38,22,5,30,SMS Alert
+1004,Male,39,26,36,3,43,SMS Alert
+1005,Female,32,99,88,22,336,Google Search
+1006,Female,49,115,24,4,195,Email Newsletter
+1007,Female,54,108,24,4,198,Google Search
+1008,Female,42,123,13,5,114,Google Search
+1009,Female,26,41,95,26,32,Instagram
+1010,Male,31,102,77,33,313,Exclusive Email VIP
+1011,Female,41,64,59,13,115,Email Newsletter
+1012,Male,26,58,54,15,57,Google Search
+1013,Female,25,55,53,11,91,Facebook
+1014,Male,51,74,46,9,82,Google Search
+1015,Female,41,26,21,7,32,Email Newsletter
+1016,Female,28,51,47,13,99,Facebook
+1017,Female,59,80,17,8,98,LinkedIn
+1018,Male,27,28,70,19,49,TikTok
+1019,Female,39,114,26,5,141,Email Newsletter
+1020,Female,26,23,75,30,60,Mobile App Push
+1021,Male,28,60,55,17,85,Facebook
+1022,Male,29,40,89,30,42,Instagram
+1023,Female,37,92,86,27,276,Instagram
+1024,Male,38,43,24,4,32,SMS Alert
+1025,Male,47,79,31,9,192,Google Search
+1026,Female,26,33,76,26,58,Instagram
+1027,Female,51,15,39,7,49,Email Newsletter
+1028,Male,25,17,92,20,60,Mobile App Push
+1029,Female,28,33,88,15,44,Instagram
+1030,Female,41,80,82,33,302,Instagram
+1031,Female,33,73,45,12,60,Facebook
+1032,Female,25,34,93,22,27,Mobile App Push
+1033,Male,29,98,80,42,217,Instagram
+1034,Female,39,48,47,15,68,Email Newsletter
+1035,Female,25,29,77,17,57,Mobile App Push
+1036,Female,46,87,91,22,410,Instagram
+1037,Male,29,19,94,25,53,Instagram
+1038,Female,61,128,14,7,114,Email Newsletter
+1039,Female,60,131,28,7,192,Email Newsletter
+1040,Male,38,98,33,5,203,Email Newsletter
+1041,Male,36,116,77,28,189,Google Search
+1042,Male,62,43,15,5,44,Direct Mail
+1043,Male,30,118,90,28,194,Instagram
+1044,Male,43,134,15,4,109,Google Search
+1045,Female,53,57,56,16,67,Facebook
+1046,Male,26,17,94,16,59,Mobile App Push
+1047,Female,30,136,95,20,320,Instagram
+1048,Male,35,27,29,6,48,SMS Alert
+1049,Male,42,109,17,9,177,Google Search
+1050,Female,22,27,78,21,46,Instagram
+1051,Female,28,136,81,37,352,Exclusive Email VIP
+1052,Female,44,59,54,11,73,Google Search
+1053,Male,50,47,64,13,113,Google Search
+1054,Male,39,115,76,24,184,Instagram
+1055,Female,47,83,79,27,422,Instagram
+1056,Male,55,25,34,6,31,Direct Mail
+1057,Male,52,46,51,13,95,Google Search
+1058,Male,53,94,27,8,183,Google Search
+1059,Female,65,94,37,9,130,Google Search
+1060,Female,51,55,46,9,107,Facebook
+1061,Female,41,58,63,8,98,Facebook
+1062,Male,44,73,24,7,118,LinkedIn
+1063,Male,32,114,85,30,265,Instagram
+1064,Male,60,40,39,4,34,SMS Alert
+1065,Male,36,130,72,38,363,Instagram
+1066,Female,66,106,10,6,123,Email Newsletter
+1067,Female,53,65,48,9,61,Google Search
+1068,Female,45,99,91,21,290,Instagram
+1069,Male,52,75,24,4,197,LinkedIn
+1070,Female,34,64,42,16,72,Facebook
+1071,Female,57,43,16,2,41,Email Newsletter
+1072,Female,44,127,16,3,207,Email Newsletter
+1073,Female,33,108,72,41,433,Instagram
+1074,Male,44,32,16,6,30,SMS Alert
+1075,Female,46,71,54,17,110,Google Search
+1076,Male,60,40,20,5,44,Direct Mail
+1077,Male,25,27,70,23,45,Instagram
+1078,Male,42,133,77,33,194,Exclusive Email VIP
+1079,Male,36,40,18,5,22,SMS Alert
+1080,Male,58,16,29,3,36,SMS Alert
+1081,Male,21,17,81,19,48,TikTok
+1082,Female,64,43,22,7,44,Email Newsletter
+1083,Male,67,120,32,9,187,Email Newsletter
+1084,Female,36,46,51,9,86,Facebook
+1085,Male,39,126,19,4,113,LinkedIn
+1086,Female,50,24,39,6,45,SMS Alert
+1087,Female,41,110,76,20,433,Instagram
+1088,Male,40,133,74,24,395,Exclusive Email VIP
+1089,Female,31,67,63,8,112,Facebook
+1090,Male,41,82,94,42,389,Google Search
+1091,Male,20,21,79,22,32,Instagram
+1092,Female,19,17,94,25,64,Mobile App Push
+1093,Female,20,19,96,25,57,TikTok
+1094,Female,25,24,74,21,38,TikTok
+1095,Male,26,27,95,16,32,Instagram
+1096,Female,52,73,55,10,114,Facebook
+1097,Male,26,21,72,23,59,Instagram
+1098,Female,57,32,39,5,22,SMS Alert
+1099,Male,54,70,64,16,60,Email Newsletter
+1100,Male,38,112,84,24,283,Exclusive Email VIP
+1101,Male,48,32,14,3,20,SMS Alert
+1102,Female,51,25,33,3,42,Direct Mail
+1103,Female,41,78,80,20,379,Exclusive Email VIP
+1104,Female,67,124,33,7,102,Email Newsletter
+1105,Male,56,17,13,5,47,Email Newsletter
+1106,Female,27,18,86,31,62,Instagram
+1107,Female,45,84,83,20,217,Google Search
+1108,Female,51,78,12,4,150,Google Search
+1109,Female,38,31,32,7,23,Email Newsletter
+1110,Male,42,131,77,34,283,Exclusive Email VIP
+1111,Male,18,29,96,18,28,Instagram
+1112,Male,42,56,56,13,89,Facebook
+1113,Female,66,107,8,4,180,LinkedIn
+1114,Male,38,72,59,17,108,Google Search
+1115,Female,42,77,73,33,248,Google Search
+1116,Male,19,30,94,31,59,TikTok
+1117,Female,29,37,75,31,40,Instagram
+1118,Male,39,37,11,5,24,Email Newsletter
+1119,Male,25,36,71,19,45,Instagram
+1120,Male,43,92,90,36,283,Exclusive Email VIP
+1121,Female,42,107,89,23,336,Exclusive Email VIP
+1122,Female,59,128,31,7,126,Google Search
+1123,Male,51,49,64,14,112,Google Search
+1124,Female,50,18,18,6,40,Email Newsletter
+1125,Female,35,44,16,3,28,SMS Alert
+1126,Female,48,122,23,8,201,Google Search
+1127,Female,49,105,23,3,204,Google Search
+1128,Male,54,18,16,6,31,SMS Alert
+1129,Male,18,37,91,24,36,TikTok
+1130,Female,46,17,16,4,20,SMS Alert
+1131,Male,56,111,16,9,102,Email Newsletter
+1132,Female,41,114,72,25,190,Exclusive Email VIP
+1133,Female,22,15,97,18,62,TikTok
+1134,Female,39,73,43,17,117,Google Search
+1135,Female,47,123,30,3,152,Google Search
+1136,Female,29,40,78,17,57,Instagram
+1137,Male,55,91,26,9,126,Google Search
+1138,Male,27,19,97,16,44,TikTok
+1139,Female,44,100,84,40,338,Exclusive Email VIP
+1140,Male,18,31,81,21,31,Instagram
+1141,Female,46,80,82,44,202,Instagram
+1142,Female,40,86,15,6,100,Google Search
+1143,Male,42,105,91,38,327,Instagram
+1144,Male,50,15,17,3,25,Direct Mail
+1145,Female,30,129,84,26,294,Exclusive Email VIP
+1146,Male,38,127,95,44,315,Instagram
+1147,Female,28,67,53,8,109,Facebook
+1148,Male,52,55,42,15,95,Facebook
+1149,Female,64,26,26,2,34,SMS Alert
+1150,Female,57,80,33,6,87,LinkedIn
+1151,Male,60,22,29,6,25,Email Newsletter
+1152,Male,24,41,81,30,51,Instagram
+1153,Male,56,103,32,9,183,LinkedIn
+1154,Male,24,25,86,30,62,TikTok
+1155,Male,41,138,82,24,407,Instagram
+1156,Male,60,109,40,9,139,Email Newsletter
+1157,Male,24,41,76,20,40,Instagram
+1158,Male,43,55,56,13,58,Facebook
+1159,Male,42,71,23,7,94,Email Newsletter
+1160,Male,44,43,23,6,39,Email Newsletter
+1161,Male,27,29,89,30,54,Instagram
+1162,Female,40,59,41,9,116,Google Search
+1163,Female,29,16,72,19,54,Instagram
+1164,Male,36,27,27,7,35,SMS Alert
+1165,Female,49,98,22,9,178,Google Search
+1166,Female,58,87,16,5,97,Google Search
+1167,Female,29,21,89,15,51,TikTok
+1168,Male,34,125,86,36,397,Instagram
+1169,Female,57,133,30,5,205,Email Newsletter
+1170,Female,19,38,97,16,27,Instagram
+1171,Female,35,113,97,40,246,Instagram
+1172,Male,39,42,28,2,32,Direct Mail
+1173,Female,35,136,83,27,309,Exclusive Email VIP
+1174,Female,42,73,57,17,99,Facebook
+1175,Female,63,109,39,7,129,LinkedIn
+1176,Female,46,59,60,8,105,Facebook
+1177,Male,18,27,74,23,52,Instagram
+1178,Female,53,110,24,7,116,Email Newsletter
+1179,Male,54,22,35,4,38,SMS Alert
+1180,Female,20,18,84,15,41,Instagram
+1181,Male,48,45,40,8,62,Facebook
+1182,Female,24,22,89,15,48,Mobile App Push
+1183,Female,38,100,26,5,146,LinkedIn
+1184,Female,46,91,72,31,336,Instagram
+1185,Female,58,40,35,6,41,SMS Alert
+1186,Female,53,24,9,7,37,Email Newsletter
+1187,Male,46,53,60,13,79,Facebook
+1188,Female,28,73,59,15,62,Google Search
+1189,Male,38,21,20,4,20,Email Newsletter
+1190,Female,29,36,80,16,35,Instagram
+1191,Male,22,19,76,31,44,Instagram
+1192,Male,54,19,27,2,44,Email Newsletter
+1193,Female,33,46,57,16,80,Google Search
+1194,Male,31,78,94,44,226,Google Search
+1195,Female,29,15,96,20,49,Instagram
+1196,Female,41,86,32,8,207,Google Search
+1197,Male,39,16,23,5,35,Direct Mail
+1198,Male,54,61,53,16,66,Google Search
+1199,Male,44,98,73,27,274,Google Search
+1200,Female,26,73,44,15,86,Facebook
+1201,Female,41,64,42,8,109,Google Search
+1202,Female,60,15,27,3,40,Direct Mail
+1203,Male,49,15,39,6,47,Email Newsletter
+1204,Male,30,91,75,30,221,Exclusive Email VIP
+1205,Female,63,26,25,3,26,SMS Alert
+1206,Female,48,61,53,14,57,Email Newsletter
+1207,Male,57,81,19,3,146,Google Search
+1208,Male,27,59,54,12,116,Google Search
+1209,Male,58,95,19,9,149,Email Newsletter
+1210,Female,36,59,45,9,103,Email Newsletter
+1211,Male,37,50,45,15,104,Facebook
+1212,Female,29,47,64,8,66,Email Newsletter
+1213,Male,55,96,41,5,200,Email Newsletter
+1214,Male,64,25,28,3,36,Direct Mail
+1215,Female,19,24,86,23,57,Mobile App Push
+1216,Male,47,23,27,7,34,Email Newsletter
+1217,Male,18,28,78,15,26,Instagram
+1218,Female,48,33,36,6,47,Email Newsletter
+1219,Female,32,51,64,9,60,Email Newsletter
+1220,Male,60,106,9,4,97,Google Search
+1221,Female,42,68,51,14,115,Facebook
+1222,Male,46,122,25,9,168,LinkedIn
+1223,Female,40,90,33,3,133,Google Search
+1224,Male,43,96,81,32,440,Exclusive Email VIP
+1225,Male,28,21,93,17,46,Instagram
+1226,Male,47,95,41,9,114,Google Search
+1227,Male,46,66,59,8,76,Google Search
+1228,Female,27,37,90,31,43,Mobile App Push
+1229,Female,62,17,13,5,22,Email Newsletter
+1230,Male,38,100,74,21,290,Exclusive Email VIP
+1231,Female,44,95,76,29,336,Google Search
+1232,Female,58,83,29,8,192,Google Search
+1233,Female,35,138,76,37,377,Google Search
+1234,Male,58,39,13,2,29,Email Newsletter
+1235,Female,28,82,97,27,375,Instagram
+1236,Male,39,33,25,4,33,Email Newsletter
+1237,Female,41,56,58,12,63,Facebook
+1238,Female,60,33,23,2,40,SMS Alert
+1239,Male,34,70,51,13,76,Email Newsletter
+1240,Male,30,63,42,9,61,Facebook
+1241,Female,29,126,75,22,297,Instagram
+1242,Female,27,71,61,8,115,Facebook
+1243,Female,26,37,82,30,42,Instagram
+1244,Female,39,105,32,6,89,Google Search
+1245,Male,64,28,17,7,40,Direct Mail
+1246,Female,31,131,93,43,358,Exclusive Email VIP
+1247,Male,25,29,70,20,59,TikTok
+1248,Female,50,35,9,3,41,SMS Alert
+1249,Female,60,95,38,6,140,Google Search
+1250,Female,43,89,83,31,218,Instagram

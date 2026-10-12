@@ -12,10 +12,12 @@ Allow: /monitoring.html
 Allow: /advisories.html
 Allow: /research.html
 Allow: /campaign.html
+Allow: /microservices.html
 Allow: /css/
 Allow: /js/
 
 # Disallow Internal Directories, Build Artifacts, and Test Suites
+Disallow: /microservices/
 Disallow: /mutants/
 Disallow: /tests/
 Disallow: /.pytest_cache/
