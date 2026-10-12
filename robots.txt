@@ -11,8 +11,6 @@ Allow: /dashboard.html
 Allow: /monitoring.html
 Allow: /advisories.html
 Allow: /research.html
-Allow: /personas.html
-Allow: /microservices.html
 Allow: /css/
 Allow: /js/
 

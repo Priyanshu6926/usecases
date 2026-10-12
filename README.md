@@ -19,7 +19,6 @@ Beyond operational climate monitoring, this repository serves as a verified engi
 - **Production Application URL:** [https://usecases-pearl.vercel.app/](https://usecases-pearl.vercel.app/)
 - **GitHub Repository:** [https://github.com/Priyanshu6926/usecases](https://github.com/Priyanshu6926/usecases)
 - **Primary Domain Route:** [`index.html`](file:///Users/priyanshu/Desktop/Projects/usecases/index.html)
-- **Microservice Demo Portal:** [`microservices.html`](file:///Users/priyanshu/Desktop/Projects/usecases/microservices.html)
 - **Analytics Property:** Google Analytics 4 (`G-3TN6PC8751`)
 
 ---
@@ -99,10 +98,10 @@ The platform follows a resilient, decoupled three-tier architectural topology:
 │  │   Forecast Dashboard  │ │  Live AWS Telemetry  │ │ LLM Advisory Engine│  │
 │  │   (dashboard.html)    │ │  (monitoring.html)   │ │ (advisories.html)  │  │
 │  └───────────────────────┘ └──────────────────────┘ └────────────────────┘  │
-│  ┌───────────────────────┐ ┌──────────────────────┐ ┌────────────────────┐  │
-│  │ Research Data Portal  │ │ Customer Personas Hub│ │ Microservice Demo  │  │
-│  │ (research.html)       │ │ (personas.html)      │ │ (microservices.html│  │
-│  └───────────────────────┘ └──────────────────────┘ └────────────────────┘  │
+│  ┌───────────────────────┐ ┌──────────────────────┐                          │
+│  │   Platform Overview   │ │ Research Data Portal │                          │
+│  │   (index.html)        │ │ (research.html)      │                          │
+│  └───────────────────────┘ └──────────────────────┘                          │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -117,8 +116,6 @@ The platform follows a resilient, decoupled three-tier architectural topology:
 | **Live AWS Monitoring** | [`monitoring.html`](file:///Users/priyanshu/Desktop/Projects/usecases/monitoring.html) | IoT Automated Weather Station telemetry | Real-time sensor telemetry (Air Temp, Relative Humidity, Solar Radiation, Wind Speed, Pressure), 5-second polling loop simulation, ground-truth correlation graphs ($\sim 97.4\%$). |
 | **Alerts & AI Advisories** | [`advisories.html`](file:///Users/priyanshu/Desktop/Projects/usecases/advisories.html) | AI-powered decision support & guidelines | Dynamic LLM text streaming simulation, persona selection (Agriculture, Urban Health, Disaster Teams, Municipal), severity filters, multi-lingual output (English, Hindi, Marathi). |
 | **Research & Open Data** | [`research.html`](file:///Users/priyanshu/Desktop/Projects/usecases/research.html) | Scientific archives & open datasets | Downloadable sample CSV telemetry datasets, IMD methodology papers, hardware sensor circuit schematics, calibration protocols. |
-| **Customer Personas & AI Clustering** | [`personas.html`](file:///Users/priyanshu/Desktop/Projects/usecases/personas.html) | AI Customer Segmentation & K-Means Portal | Interactive KPI metrics, 2D PCA cluster scatter plots, silhouette analysis, and multi-attribute persona radar charts. |
-| **Architecture & Microservice Demo** | [`microservices.html`](file:///Users/priyanshu/Desktop/Projects/usecases/microservices.html) | Monolithic vs 3-Tier vs Microservices comparison | Interactive sandbox, real-time FastAPI REST API calls (port 8001), JSON telemetry inspection, latency metrics, and circuit-breaker fault tolerance. |
 
 ---
 
@@ -408,8 +405,6 @@ usecases/
 ├── monitoring.html                  # IoT weather station telemetry & correlation graphs
 ├── advisories.html                  # AI LLM advisory generation portal
 ├── research.html                    # Academic papers, sensor schematics & CSV data downloads
-├── personas.html                    # Interactive AI Customer Persona Generation & K-Means Portal (Exp 08)
-├── microservices.html               # Architecture & Microservice demonstration sandbox
 ├── customer_persona_clustering.py   # Machine Learning pipeline: StandardScaler, K-Means (K=5), Silhouette
 ├── experiment_08_customer_persona.ipynb # Interactive Jupyter Notebook for Experiment 08
 ├── customer_marketing_data.csv      # Customer marketing tabular dataset (250 profiles)
@@ -447,8 +442,7 @@ usecases/
 │   ├── app.js                       # Navigation, live time clock & common utilities
 │   ├── dashboard.js                 # Regional temperature anomaly and forecast simulations
 │   ├── monitoring.js                # AWS 5-second telemetry polling & correlation calculations
-│   ├── advisories.js                # AI advisory generation simulator with streaming output
-│   └── microservices.js             # Architecture comparison & live FastAPI integration controller
+│   └── advisories.js                # AI advisory generation simulator with streaming output
 │
 ├── tests/
 │   ├── test_weather_analytics.py    # 36 comprehensive BVA, ECP & parameterized unit tests
